@@ -7,7 +7,15 @@ load_dotenv()
 
 class PredictionPage:
     def __init__(self):
-        self.api = PredictionAPI(os.getenv("IAM_TOKEN"), os.getenv("DEPLOYMENT_ID"))
+        # 確保環境變量存在
+        api_key = os.getenv("API_KEY")
+        deployment_id = os.getenv("DEPLOYMENT_ID")
+        
+        if not api_key or not deployment_id:
+            st.error("Missing required environment variables. Please check .env file.")
+            st.stop()
+            
+        self.api = PredictionAPI(api_key, deployment_id)
 
     def render(self):
         st.title("Customer Churn Prediction")
@@ -26,42 +34,48 @@ class PredictionPage:
             with col2:
                 payment_delay = st.number_input("Payment Delay (days)", min_value=0)
                 subscription = st.selectbox("Subscription Type", ["Basic", "Standard", "Premium"])
-                contract_length = st.selectbox("Contract Length", ["Monthly","Quarterly", "Yearly"])
+                contract_length = st.selectbox("Contract Length", ["Monthly", "Quarterly", "Yearly"])
                 total_spend = st.number_input("Total Spend ($)", min_value=0)
                 last_interaction = st.number_input("Last Interaction (days)", min_value=0)
 
             submitted = st.form_submit_button("Predict")
 
             if submitted:
-                input_data = [
-                    "0",  # Customer ID
-                    age,
-                    gender,
-                    tenure,
-                    usage_freq,
-                    support_calls,
-                    payment_delay,
-                    subscription,
-                    contract_length,
-                    total_spend,
-                    last_interaction
-                ]
+                try:
+                    input_data = [
+                        "0",  # Customer ID
+                        age,
+                        gender,
+                        tenure,
+                        usage_freq,
+                        support_calls,
+                        payment_delay,
+                        subscription,
+                        contract_length,
+                        total_spend,
+                        last_interaction
+                    ]
 
-                with st.spinner("Predicting..."):
-                    result = self.api.predict(input_data)
-                    
-                    if result and 'predictions' in result:
-                        prediction = result['predictions'][0]['values'][0][0]
-                        probability = result['predictions'][0]['values'][0][1][1]
+                    with st.spinner("Predicting..."):
+                        result = self.api.predict(input_data)
                         
-                        # Display prediction results
-                        st.success("Prediction Complete!")
-                        
-                        col1, col2 = st.columns(2)
-                        with col1:
-                            st.metric(
-                                "Prediction Result", 
-                                "Likely to Churn" if prediction == 1 else "Unlikely to Churn"
-                            )
-                        with col2:
-                            st.metric("Churn Probability", f"{probability:.2%}")
+                        if result and 'predictions' in result:
+                            prediction = result['predictions'][0]['values'][0][0]
+                            probability = result['predictions'][0]['values'][0][1][1]
+                            
+                            # Display prediction results
+                            st.success("Prediction Complete!")
+                            
+                            col1, col2 = st.columns(2)
+                            with col1:
+                                st.metric(
+                                    "Prediction Result", 
+                                    "Likely to Churn" if prediction == 1 else "Unlikely to Churn"
+                                )
+                            with col2:
+                                st.metric("Churn Probability", f"{probability:.2%}")
+                        else:
+                            st.error("Failed to get prediction results")
+                            
+                except Exception as e:
+                    st.error(f"An error occurred: {str(e)}")
