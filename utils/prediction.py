@@ -4,7 +4,7 @@ from typing import List, Dict, Any
 
 class PredictionAPI:
     def __init__(self, api_key: str, deployment_id: str):
-        # 獲取 IBM Cloud token
+
         token_response = requests.post(
             'https://iam.cloud.ibm.com/identity/token', 
             data={
@@ -24,17 +24,16 @@ class PredictionAPI:
         payload = {
             "input_data": [{
                 "fields": [
-                    "CustomerID",
-                    "Age",
-                    "Gender",
-                    "Tenure",
-                    "Usage Frequency",
-                    "Support Calls",
-                    "Payment Delay",
-                    "Subscription Type",
-                    "Contract Length",
-                    "Total Spend",
-                    "Last Interaction"
+                    "credit_score",
+                    "country",
+                    "gender",
+                    "age",
+                    "tenure",
+                    "balance",
+                    "products_number",
+                    "credit_card",
+                    "active_member",
+                    "estimated_salary"
                 ],
                 "values": [input_data]
             }]

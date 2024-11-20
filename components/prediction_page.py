@@ -7,7 +7,7 @@ load_dotenv()
 
 class PredictionPage:
     def __init__(self):
-        # 確保環境變量存在
+
         api_key = os.getenv("API_KEY")
         deployment_id = os.getenv("DEPLOYMENT_ID")
         
@@ -25,35 +25,35 @@ class PredictionPage:
             col1, col2 = st.columns(2)
             
             with col1:
-                age = st.number_input("Age", min_value=0, max_value=120)
-                gender = st.selectbox("Gender", ["Male", "Female"])
-                tenure = st.number_input("Tenure (months)", min_value=0)
-                usage_freq = st.number_input("Usage Frequency", min_value=0)
-                support_calls = st.number_input("Support Calls", min_value=0)
+                credit_score = st.number_input("Credit Score", value=600)
+                country = st.selectbox("Country", ["Spain", "Germany", "France"])
+                gender = st.selectbox("Gender", ["Female", "Male"])
+                age = st.number_input("Age", min_value=18, max_value=100, value=44)
+                tenure = st.number_input("Tenure", min_value=0, max_value=20, value=4)
+
 
             with col2:
-                payment_delay = st.number_input("Payment Delay (days)", min_value=0)
-                subscription = st.selectbox("Subscription Type", ["Basic", "Standard", "Premium"])
-                contract_length = st.selectbox("Contract Length", ["Monthly", "Quarterly", "Yearly"])
-                total_spend = st.number_input("Total Spend ($)", min_value=0)
-                last_interaction = st.number_input("Last Interaction (days)", min_value=0)
+                balance = st.number_input("Balance", value=0)
+                products_number = st.number_input("Number of Products", value=2)
+                credit_card = st.selectbox("Has Credit Card", [0, 1])
+                active_member = st.selectbox("Is Active Member", [0, 1])
+                estimated_salary = st.number_input("Estimated Salary", value=58560)
 
             submitted = st.form_submit_button("Predict")
 
             if submitted:
                 try:
                     input_data = [
-                        "0",  # Customer ID
-                        age,
-                        gender,
-                        tenure,
-                        usage_freq,
-                        support_calls,
-                        payment_delay,
-                        subscription,
-                        contract_length,
-                        total_spend,
-                        last_interaction
+                        credit_score,    
+                        country,     
+                        gender,           
+                        age,            
+                        tenure,        
+                        balance,         
+                        products_number, 
+                        credit_card, 
+                        active_member,
+                        estimated_salary 
                     ]
 
                     with st.spinner("Predicting..."):

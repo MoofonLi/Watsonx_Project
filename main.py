@@ -2,10 +2,11 @@ import streamlit as st
 from components.prediction_page import PredictionPage
 from components.dashboard_page import DashboardPage
 from components.chatbot_page import ChatbotPage
+from components.model_page import ModelPage
 
 def main():
     st.set_page_config(
-        page_title="Customer Churn Analysis",
+        page_title="Churn Analysis",
         page_icon="📊",
         layout="wide"
     )
@@ -85,7 +86,7 @@ def main():
     # Navigation sidebar
     with st.sidebar:
         # Centered title
-        st.markdown('<p class="sidebar-title">Pages</p>', unsafe_allow_html=True)
+        st.markdown('<p class="sidebar-title">台新銀行</p>', unsafe_allow_html=True)
         
         # Navigation buttons
         if st.button('Prediction Page', use_container_width=True):
@@ -94,6 +95,10 @@ def main():
             
         if st.button('Dashboard Page', use_container_width=True):
             st.session_state.current_page = 'Dashboard Page'
+            st.rerun()
+
+        if st.button('Model Page', use_container_width=True):
+            st.session_state.current_page = 'Model Page'
             st.rerun()
             
         if st.button('Chatbot Page', use_container_width=True):
@@ -104,6 +109,7 @@ def main():
     pages = {
         'Prediction Page': PredictionPage,
         'Dashboard Page': DashboardPage,
+        'Model Page': ModelPage,
         'Chatbot Page': ChatbotPage
     }
 
