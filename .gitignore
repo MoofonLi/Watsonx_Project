@@ -1,4 +1,5 @@
 .env
+.venv/
 wp
 config.py
 apikey.json

@@ -19,10 +19,11 @@ class ChatbotPage:
 
     def _render_input_area(self):
         if prompt := st.chat_input("Enter your question"):
+            # Add message to chat history
             self.chat_manager.add_message("user", prompt)
             response = self._get_bot_response(prompt)
             self.chat_manager.add_message("assistant", response)
+            st.rerun()  # Refresh page to show new messages
 
     def _get_bot_response(self, prompt: str) -> str:
-
-        return f"Your question is: {prompt}\n"
+        return prompt

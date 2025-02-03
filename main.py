@@ -81,7 +81,7 @@ def main():
 
     # Initialize session state for navigation if not exists
     if 'current_page' not in st.session_state:
-        st.session_state.current_page = 'Prediction Page'
+        st.session_state.current_page = 'Chatbot Page'
 
     # Navigation sidebar
     with st.sidebar:
