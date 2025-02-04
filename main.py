@@ -1,121 +1,86 @@
 import streamlit as st
-from components.prediction_page import PredictionPage
-from components.dashboard_page import DashboardPage
-from components.chatbot_page import ChatbotPage
-from components.model_page import ModelPage
+from utils.chatpage import ChatPage
 
-def main():
+def set_page_config():
     st.set_page_config(
-        page_title="Churn Analysis",
-        page_icon="📊",
+        page_title="台新房貸專員系統",
+        page_icon="🏦",
         layout="wide"
     )
 
-    # Custom CSS for the sidebar
+def main():
+    set_page_config()
+
     st.markdown("""
-        <style>
-        #MainMenu {visibility: hidden;}
-        footer {visibility: hidden;}
-        
-        /* Reduce sidebar width */
-        [data-testid="stSidebar"][aria-expanded="true"] {
-            min-width: 200px;
-            max-width: 200px;
-        }
-        
-        /* Centered sidebar title */
-        .sidebar-title {
-            font-size: 2rem !important;
-            font-weight: 700;
-            padding: 1rem 0.5rem 1.5rem 0.5rem;
-            margin: 0;
-            color: #0F52BA;
-            text-align: center;
-            border-bottom: 2px solid #f0f2f6;
-            margin-bottom: 1rem;
-        }
-        
-        /* Remove padding from sidebar */
-        section[data-testid="stSidebar"] > div {
-            padding-top: 1rem;
-        }
-        
-        /* Navigation button styling */
-        .stButton > button {
-            width: 100%;
-            border: none;
-            padding: 15px 15px;
-            font-weight: 500;
-            text-align: left;
-            background-color: transparent;
-            color: #1E1E1E;
-        }
-        
-        .stButton > button:hover {
-            color: #0F52BA;
-            background-color: #f8f9fb;
-        }
-        
-        .stButton > button:active, .stButton > button:focus {
-            color: #0F52BA;
-            background-color: #f0f2f6;
-            border-right: 3px solid #0F52BA;
-        }
-        
-        /* Hide hamburger menu */
-        button[data-testid="StyledFullScreenButton"] {
-            display: none;
-        }
-        
-        /* White background for sidebar */
-        [data-testid="stSidebar"] {
-            background-color: white;
-        }
-        
-        /* Add some spacing between buttons */
-        .stButton {
-            margin-bottom: 0.5rem;
-        }
-        </style>
+    <style>
+    .stApp {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .simple-header {
+        color: white;
+        font-size: 2.5em;
+        font-weight: 500;
+        text-align: center;
+        margin: 2rem 0;
+    }
+    .stButton > button {
+        background-color: #1f487e;
+        color: white;
+    }
+    .upload-text {
+        display: none;
+    }
+    .block-container {
+        padding: 0 !important;
+    }
+    .css-1544g2n {
+        padding: 0 1rem !important;
+    }
+    </style>
     """, unsafe_allow_html=True)
 
-    # Initialize session state for navigation if not exists
-    if 'current_page' not in st.session_state:
-        st.session_state.current_page = 'Chatbot Page'
+    # Initialize chat page
+    if 'chat_page' not in st.session_state:
+        st.session_state.chat_page = ChatPage()
 
-    # Navigation sidebar
-    with st.sidebar:
-        # Centered title
-        st.markdown('<p class="sidebar-title">台新銀行</p>', unsafe_allow_html=True)
-        
-        # Navigation buttons
-        if st.button('Prediction Page', use_container_width=True):
-            st.session_state.current_page = 'Prediction Page'
-            st.rerun()
-            
-        if st.button('Dashboard Page', use_container_width=True):
-            st.session_state.current_page = 'Dashboard Page'
-            st.rerun()
+    st.markdown("<h1 class='simple-header'>台新銀行房貸專員系統</h1>", unsafe_allow_html=True)
 
-        if st.button('Model Page', use_container_width=True):
-            st.session_state.current_page = 'Model Page'
-            st.rerun()
-            
-        if st.button('Chatbot Page', use_container_width=True):
-            st.session_state.current_page = 'Chatbot Page'
-            st.rerun()
+    api_token = st.text_input("WatsonX API Token", type="password", key="api_token")
+    if api_token:
+        st.session_state.chat_page.init_watsonx(api_token)
 
-    # Page routing
-    pages = {
-        'Prediction Page': PredictionPage,
-        'Dashboard Page': DashboardPage,
-        'Model Page': ModelPage,
-        'Chatbot Page': ChatbotPage
-    }
+    uploaded_file = st.file_uploader(
+        "上傳知識庫文件",
+        type=['txt', 'pdf', 'doc', 'docx', 'pptx'],
+        help="支援的文件格式：PPTX (300MB)、PDF (50MB)、DOCX (10MB)、TXT (5MB)"
+    )
+    
+    if uploaded_file:
+        st.session_state.chat_page.handle_file_upload(uploaded_file)
 
-    # Render the selected page
-    page = pages[st.session_state.current_page]()
-    page.render()
+    col1, col2 = st.columns(2)
+    with col1:
+        if 'watsonx' in st.session_state and st.session_state.watsonx:
+            st.success("API 已連接")
+        else:
+            st.error("需要 API Token")
+    with col2:
+        if hasattr(st.session_state, 'current_file') and st.session_state.current_file:
+            st.success("知識庫已載入")
+        else:
+            st.error("需要上傳知識庫")
+
+    st.session_state.chat_page.render_chat()
+
+    col1, col2 = st.columns(2)
+    with col1:
+        if st.button("清除對話", use_container_width=True):
+            st.session_state.chat_page.clear_chat()
+    with col2:
+        if st.button("清除文件", use_container_width=True):
+            st.session_state.chat_page.clear_file()
 
 if __name__ == "__main__":
     main()
