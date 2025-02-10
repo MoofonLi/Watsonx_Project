@@ -6,6 +6,12 @@ import numpy as np
 import faiss
 import re
 from dataclasses import dataclass
+import dotenv
+import os
+
+
+dotenv.load_dotenv()
+
 
 @dataclass
 class Document:
@@ -13,8 +19,12 @@ class Document:
     metadata: Dict[str, Any]
 
 class WatsonX:
-    def __init__(self, api_key: str):
+    def __init__(self, api_key: str = None):
         """初始化 WatsonX API 和向量存儲"""
+        # 如果沒有提供API金鑰，使用預設值
+        if api_key is None:
+            api_key = os.getenv("WATSONX_API_TOKEN")
+            
         # IBM Cloud API 初始化
         token_response = requests.post(
             'https://iam.cloud.ibm.com/identity/token',

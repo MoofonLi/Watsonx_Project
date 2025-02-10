@@ -2,8 +2,8 @@ import streamlit as st
 from .watsonx import WatsonX
 import docx
 import PyPDF2
+import pandas as pd
 import io
-from pptx import Presentation
 from typing import Optional, Tuple
 
 class ChatPage:
@@ -14,10 +14,20 @@ class ChatPage:
             st.session_state.current_file = None
         if 'watsonx' not in st.session_state:
             st.session_state.watsonx = None
-            
-    def init_watsonx(self, api_token):
-        if not st.session_state.watsonx:
-            st.session_state.watsonx = WatsonX(api_token)
+        
+    def init_watsonx(self, api_key=None):
+        """初始化 WatsonX 實例"""
+        try:
+            if not st.session_state.watsonx:
+                st.session_state.watsonx = WatsonX(api_key)
+        except Exception as e:
+            st.error(f"WatsonX 初始化失敗: {str(e)}")
+            st.session_state.watsonx = None
+
+    @property
+    def watsonx(self):
+        """獲取 WatsonX 實例"""
+        return st.session_state.watsonx
 
     def read_docx(self, file_bytes) -> str:
         """讀取 DOCX 文件"""
@@ -33,15 +43,40 @@ class ChatPage:
             text += page.extract_text() + '\n'
         return text
         
-    def read_pptx(self, file_bytes) -> str:
-        """讀取 PPTX 文件"""
-        prs = Presentation(io.BytesIO(file_bytes))
-        text = []
-        for slide in prs.slides:
-            for shape in slide.shapes:
-                if hasattr(shape, "text"):
-                    text.append(shape.text)
-        return '\n'.join(text)
+    def read_csv(self, file_bytes) -> str:
+        """讀取 CSV 文件"""
+        try:
+            csv_file = io.BytesIO(file_bytes)
+            
+            encodings = ['utf-8', 'big5', 'gb18030']
+            df = None
+            
+            for encoding in encodings:
+                try:
+                    df = pd.read_csv(csv_file, encoding=encoding)
+                    csv_file.seek(0)
+                    break
+                except UnicodeDecodeError:
+                    continue
+                except Exception as e:
+                    st.error(f"CSV讀取錯誤: {str(e)}")
+                    return None
+            
+            if df is None:
+                st.error("無法識別CSV文件編碼")
+                return None
+                
+            text_content = []
+            text_content.append(",".join(df.columns.astype(str)))
+            
+            for _, row in df.iterrows():
+                text_content.append(",".join(row.astype(str)))
+            
+            return '\n'.join(text_content)
+            
+        except Exception as e:
+            st.error(f"CSV處理錯誤: {str(e)}")
+            return None
 
     def handle_file_upload(self, uploaded_file) -> Optional[Tuple[str, str]]:
         """處理上傳的文件"""
@@ -49,28 +84,27 @@ class ChatPage:
             file_content = None
             file_type = uploaded_file.name.split('.')[-1].lower()
             
-            # 檢查文件大小
-            file_size = len(uploaded_file.getvalue()) / (1024 * 1024)  # Convert to MB
+            file_size = len(uploaded_file.getvalue()) / (1024 * 1024)
             size_limits = {
                 'pptx': 300,
                 'pdf': 50,
                 'docx': 10,
-                'txt': 5
+                'txt': 5,
+                'csv': 10
             }
             
             if file_size > size_limits.get(file_type, 5):
                 st.error(f"文件大小超過限制 ({size_limits.get(file_type, 5)}MB)")
                 return None
             
-            # 根據文件類型讀取內容
             if file_type == 'txt':
                 file_content = uploaded_file.read().decode('utf-8')
             elif file_type in ['doc', 'docx']:
                 file_content = self.read_docx(uploaded_file.read())
             elif file_type == 'pdf':
                 file_content = self.read_pdf(uploaded_file.read())
-            elif file_type == 'pptx':
-                file_content = self.read_pptx(uploaded_file.read())
+            elif file_type == 'csv':
+                file_content = self.read_csv(uploaded_file.read())
             else:
                 st.error("不支援的文件類型")
                 return None
@@ -80,13 +114,11 @@ class ChatPage:
                 'content': file_content
             }
             
-            # 處理文檔生成向量
-            if st.session_state.watsonx:
-                num_chunks = st.session_state.watsonx.process_document(
+            if self.watsonx:
+                num_chunks = self.watsonx.process_document(
                     file_content,
                     {'filename': uploaded_file.name}
                 )
-                #st.success(f"文件已處理完成，共分為 {num_chunks} 個片段")
             
         except Exception as e:
             st.error(f"文件處理錯誤: {str(e)}")
@@ -107,16 +139,24 @@ class ChatPage:
             with st.chat_message("user"):
                 st.markdown(prompt)
             
-            if st.session_state.watsonx and st.session_state.current_file:
-                context = st.session_state.watsonx.find_relevant_context(prompt)
-                response = st.session_state.watsonx.generate_response(context, prompt)
+            try:
+                # Initialize WatsonX if not already initialized
+                if not self.watsonx:
+                    self.init_watsonx()
+                    
+                context = self.watsonx.find_relevant_context(prompt)
+                response = self.watsonx.generate_response(context, prompt)
                 
                 if response:
                     st.session_state.messages.append({"role": "assistant", "content": response})
                     with st.chat_message("assistant"):
                         st.markdown(response)
-            else:
-                st.error("請先輸入 API token 並上傳知識庫文件")
+            except Exception as e:
+                # Add default response in case of error
+                default_response = "抱歉，我暫時無法處理您的請求。請稍後再試。"
+                st.session_state.messages.append({"role": "assistant", "content": default_response})
+                with st.chat_message("assistant"):
+                    st.markdown(default_response)
 
     def clear_chat(self):
         st.session_state.messages = []
@@ -124,7 +164,7 @@ class ChatPage:
 
     def clear_file(self):
         st.session_state.current_file = None
-        if st.session_state.watsonx:
-            st.session_state.watsonx.vector_store = None
-            st.session_state.watsonx.chunks = []
+        if self.watsonx:
+            self.watsonx.vector_store = None
+            self.watsonx.chunks = []
         st.rerun()

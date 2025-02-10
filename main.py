@@ -44,33 +44,18 @@ def main():
     # Initialize chat page
     if 'chat_page' not in st.session_state:
         st.session_state.chat_page = ChatPage()
+        st.session_state.chat_page.init_watsonx()
 
     st.markdown("<h1 class='simple-header'>台新銀行房貸專員系統</h1>", unsafe_allow_html=True)
 
-    api_token = st.text_input("WatsonX API Token", type="password", key="api_token")
-    if api_token:
-        st.session_state.chat_page.init_watsonx(api_token)
-
     uploaded_file = st.file_uploader(
         "上傳知識庫文件",
-        type=['txt', 'pdf', 'doc', 'docx', 'pptx'],
+        type=['txt', 'pdf', 'doc', 'docx', 'csv'],
         help="支援的文件格式：PPTX (300MB)、PDF (50MB)、DOCX (10MB)、TXT (5MB)"
     )
     
     if uploaded_file:
         st.session_state.chat_page.handle_file_upload(uploaded_file)
-
-    col1, col2 = st.columns(2)
-    with col1:
-        if 'watsonx' in st.session_state and st.session_state.watsonx:
-            st.success("API 已連接")
-        else:
-            st.error("需要 API Token")
-    with col2:
-        if hasattr(st.session_state, 'current_file') and st.session_state.current_file:
-            st.success("知識庫已載入")
-        else:
-            st.error("需要上傳知識庫")
 
     st.session_state.chat_page.render_chat()
 
