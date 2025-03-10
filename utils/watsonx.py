@@ -6,11 +6,7 @@ import numpy as np
 import faiss
 import re
 from dataclasses import dataclass
-import dotenv
 import os
-
-
-dotenv.load_dotenv()
 
 
 @dataclass
@@ -19,64 +15,93 @@ class Document:
     metadata: Dict[str, Any]
 
 class WatsonX:
-    def __init__(self, api_key: str = None):
-        """初始化 WatsonX API 和向量存儲"""
-        # 如果沒有提供API金鑰，使用預設值
-        if api_key is None:
-            api_key = os.getenv("WATSONX_API_TOKEN")
-            
-        # IBM Cloud API 初始化
-        token_response = requests.post(
-            'https://iam.cloud.ibm.com/identity/token',
-            data={
-                "apikey": api_key,
-                "grant_type": 'urn:ibm:params:oauth:grant-type:apikey'
-            }
-        )
-        mltoken = token_response.json()["access_token"]
+    def __init__(self, token_manager=None):
+        # Initialize WatsonX API and vector storage
+        self.token_manager = token_manager
         
+        # API settings
         self.url = "https://us-south.ml.cloud.ibm.com/ml/v1/text/generation?version=2023-05-29"
-        self.headers = {
-            "Accept": "application/json",
-            "Content-Type": "application/json",
-            "Authorization": f"Bearer {mltoken}"
-        }
         
-        # 向量存儲初始化
+        # Vector storage initialization
         self.embedding_model = SentenceTransformer('paraphrase-multilingual-mpnet-base-v2')
         self.vector_store = None
         self.chunks = []
         self.chunk_size = 500
         self.chunk_overlap = 50
+    
+    def _get_headers(self):
+        # Get headers with fresh token
+        token = self.token_manager.get_token() if self.token_manager else None
+        
+        if not token:
+            st.error("Unable to get WatsonX API Token")
+            return None
+            
+        return {
+            "Accept": "application/json",
+            "Content-Type": "application/json",
+            "Authorization": f"Bearer {token}"
+        }
         
     def process_document(self, content: str, metadata: Dict[str, Any] = None):
-        """處理文檔並建立向量索引"""
-        # 文檔分塊
+        # Process document and build vector index
         self.chunks = self._create_chunks(content)
         
-        # 生成嵌入向量
+        # Generate embeddings
         embeddings = self.embedding_model.encode(self.chunks)
         
-        # 初始化 FAISS 索引
+        # Initialize FAISS index
         dimension = embeddings.shape[1]
         self.vector_store = faiss.IndexFlatL2(dimension)
         
-        # 添加向量到索引
+        # Add vectors to index
         self.vector_store.add(np.array(embeddings).astype('float32'))
         
         return len(self.chunks)
+    
+    def process_multiple_documents(self, documents: List[Document]):
+        # Process multiple documents and build unified vector index
+        all_chunks = []
+        chunk_metadata = []
+        
+        # Create chunks for each document
+        for doc in documents:
+            doc_chunks = self._create_chunks(doc.content)
+            all_chunks.extend(doc_chunks)
+            
+            # Add metadata for each chunk
+            for _ in doc_chunks:
+                chunk_metadata.append(doc.metadata)
+        
+        if not all_chunks:
+            return 0
+            
+        # Generate embeddings
+        embeddings = self.embedding_model.encode(all_chunks)
+        
+        # Initialize FAISS index
+        dimension = embeddings.shape[1]
+        self.vector_store = faiss.IndexFlatL2(dimension)
+        
+        # Add vectors to index
+        self.vector_store.add(np.array(embeddings).astype('float32'))
+        
+        # Save chunks and metadata
+        self.chunks = all_chunks
+        self.chunks_metadata = chunk_metadata
+        
+        return len(all_chunks)
         
     def _create_chunks(self, text: str) -> List[str]:
-        """智能文檔分塊"""
-        # 清理文本
+        # Smart document chunking
         text = re.sub(r'\s+', ' ', text).strip()
         
-        # 先嘗試用【房貸】分割
+        # Try to split by 【房貸】 marker
         if '【房貸】' in text:
             sections = text.split('【房貸】')
             base_chunks = ['【房貸】' + s.strip() for s in sections if s.strip()]
         else:
-            # 如果沒有特定標記，使用滑動窗口分塊
+            # Use sliding window chunking
             base_chunks = []
             start = 0
             while start < len(text):
@@ -91,31 +116,35 @@ class WatsonX:
         return base_chunks
 
     def find_relevant_context(self, query: str, top_k: int = 3) -> str:
-        """基於語義相似度搜索相關上下文"""
+        # Search for relevant context based on semantic similarity
         if not self.vector_store or not self.chunks:
             return ""
             
         try:
-            # 生成查詢向量
+            # Generate query vector
             query_vector = self.embedding_model.encode([query])
             
-            # 執行向量搜索
+            # Perform vector search
             distances, indices = self.vector_store.search(
                 np.array(query_vector).astype('float32'), 
                 top_k
             )
             
-            # 獲取最相關的文本片段
+            # Get most relevant text chunks
             relevant_chunks = [self.chunks[i] for i in indices[0]]
             
             return '\n\n'.join(relevant_chunks)
             
         except Exception as e:
-            st.error(f"搜索錯誤: {str(e)}")
+            st.error(f"Search error: {str(e)}")
             return ""
 
     def generate_response(self, context: str, user_input: str) -> Optional[str]:
-        """生成回應"""
+        # Generate response
+        headers = self._get_headers()
+        if not headers:
+            return "System cannot connect to WatsonX service."
+            
         prompt = f"""<|start_of_role|>system<|end_of_role|>您是台新銀行的專業房貸助理，專門協助房貸業務人員處理客戶諮詢。\
 您具備豐富的房貸產品知識、流程經驗和銀行內部規定的了解。您應該：
 1. 使用專業但易懂的語言
@@ -146,7 +175,7 @@ class WatsonX:
             response = requests.post(
                 self.url,
                 json=payload,
-                headers=self.headers
+                headers=headers
             )
             response.raise_for_status()
             
@@ -156,5 +185,5 @@ class WatsonX:
             )
             
         except requests.exceptions.RequestException as e:
-            st.error(f"API 請求失敗: {str(e)}")
-            return None
+            st.error(f"API request failed: {str(e)}")
+            return "API request failed. Please try again later."
