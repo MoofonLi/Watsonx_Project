@@ -163,11 +163,11 @@ class WatsonX:
             "input": prompt,
             "parameters": {
                 "decoding_method": "greedy",
-                "max_new_tokens": 500,
+                "max_new_tokens": 1000,
                 "min_new_tokens": 0,
                 "repetition_penalty": 1
             },
-            "model_id": "ibm/granite-3-8b-instruct",
+            "model_id": "ibm/",
             "project_id": "d91fb3ca-54ec-462a-9a26-491104a1d49d"
         }
 

@@ -1,107 +1,143 @@
+import pandas as pd
 import requests
 import streamlit as st
-import json
-from typing import Dict, Any
+import os
+from typing import List, Dict, Any
+from dotenv import load_dotenv
 
-class MortgagePredictor:
+class LoanPredictor:
     def __init__(self, token_manager=None):
+        # 載入環境變數
+        load_dotenv()
+        
+        # 從環境變數獲取認證
+        self.api_key = os.getenv("WATSONX_API_KEY")
+        self.url = os.getenv("WATSONX_URL", "https://us-south.ml.cloud.ibm.com")
+        self.deployment_id = os.getenv("WATSONX_DEPLOYMENT_ID")
+        self.space_id = os.getenv("WATSONX_SPACE_ID")
         self.token_manager = token_manager
-        self.url = "https://us-south.ml.cloud.ibm.com/ml/v1/text/generation?version=2023-05-29"
-    
-    def _get_headers(self):
-        # Get token from manager
-        token = self.token_manager.get_token() if self.token_manager else None
         
-        if not token:
-            st.error("Unable to get WatsonX API Token")
-            return None
-            
-        return {
-            "Accept": "application/json",
-            "Content-Type": "application/json",
-            "Authorization": f"Bearer {token}"
-        }
-    
-    def predict(self, data: Dict[str, Any]) -> Dict[str, Any]:
-        # Get headers with fresh token
-        headers = self._get_headers()
-        if not headers:
-            return {"error": "API connection failed"}
-        
-        # Build prompt for prediction
-        prompt = f"""<|start_of_role|>system<|end_of_role|>You are a mortgage approval assistant for Taishin Bank. Based on customer data, predict:
-1. Approval result (approve/reject)
-2. Loan-to-value ratio
-3. Interest rate
-4. Detailed explanation
-5. Risk assessment
-
-Return results in JSON format.
-<|end_of_text|>
-<|start_of_role|>user<|end_of_role|>
-Predict mortgage approval for:
-
-Age: {data.get('age', 'N/A')}
-Annual Income: {data.get('income', 'N/A')}
-Credit Score: {data.get('credit_score', 'N/A')}
-Occupation: {data.get('occupation', 'N/A')}
-Work Experience: {data.get('work_years', 'N/A')}
-Loan Amount: {data.get('loan_amount', 'N/A')}
-Property Value: {data.get('property_value', 'N/A')}
-Loan Term: {data.get('loan_term', 'N/A')}
-Other Loans: {data.get('has_other_loans', 'N/A')}
-Guarantor: {data.get('has_guarantor', 'N/A')}
-<|end_of_text|>
-<|start_of_role|>assistant<|end_of_role|>"""
-
-        payload = {
-            "input": prompt,
-            "parameters": {
-                "decoding_method": "greedy",
-                "max_new_tokens": 500,
-                "min_new_tokens": 0,
-                "repetition_penalty": 1
-            },
-            "model_id": "ibm/granite-3-8b-instruct",
-            "project_id": "d91fb3ca-54ec-462a-9a26-491104a1d49d"
-        }
-
+        # 初始化API端點
         try:
-            response = requests.post(
-                self.url,
-                json=payload,
-                headers=headers
-            )
-            response.raise_for_status()
+            # 設定API端點
+            self.base_url = f"{self.url}/ml/v4/deployments/{self.deployment_id}/predictions?version=2021-05-01"
             
-            result_text = response.json().get('results', [{}])[0].get('generated_text', "")
+            if self.space_id:
+                self.base_url += f"&space_id={self.space_id}"
             
-            # Try to parse JSON from response
-            try:
-                json_start = result_text.find('{')
-                json_end = result_text.rfind('}') + 1
-                
-                if json_start >= 0 and json_end > json_start:
-                    json_text = result_text[json_start:json_end]
-                    result_json = json.loads(json_text)
-                    return result_json
-                else:
-                    return {"result": result_text}
-                    
-            except json.JSONDecodeError:
-                return {"result": result_text}
+            # 標頭會在每次請求前設置，確保使用最新令牌
+            self.headers = {
+                'Content-Type': 'application/json',
+                'Accept': 'application/json'
+            }
             
-        except requests.exceptions.RequestException as e:
-            st.error(f"API request failed: {str(e)}")
-            return {"error": "API request failed"}
-            
-    def calculate_monthly_payment(self, loan_amount, interest_rate, loan_term_years):
-        # Calculate estimated monthly payment
-        monthly_rate = interest_rate / 12 / 100
-        num_payments = loan_term_years * 12
+        except Exception as e:
+            st.error(f"API連接初始化錯誤: {str(e)}")
+            if hasattr(e, 'response') and e.response:
+                st.error(f"回應內容: {e.response.text}")
+            raise
+    
+    def predict(self, df: pd.DataFrame, target_column: str) -> pd.DataFrame:
+        """預測貸款核准金額"""
+        if not self.token_manager:
+            raise Exception("令牌管理器未初始化，無法進行預測")
         
-        if monthly_rate == 0:
-            return loan_amount / num_payments
+        result_df = df.copy()
+        
+        # 準備API請求
+        try:
+            # 在發送請求前獲取最新令牌
+            token = self.token_manager.get_token()
+            if not token:
+                raise Exception("無法獲取有效的API令牌")
             
-        monthly_payment = loan_amount * (monthly_rate * (1 + monthly_rate) ** num_payments) / ((1 + monthly_rate) ** num_payments - 1)
-        return monthly_payment
+            # 更新標頭中的授權令牌
+            self.headers['Authorization'] = f'Bearer {token}'
+            
+            # API所需的固定欄位，根據您提供的API範例
+            required_fields = [
+                "Gender", "Age", "Income (USD)", "Income Stability", 
+                "Profession", "Type of Employment", "Location", 
+                "Loan Amount Request (USD)", "Current Loan Expenses (USD)", 
+                "Expense Type 1", "Expense Type 2", "Dependents", 
+                "Credit Score", "No. of Defaults", "Has Active Credit Card", 
+                "Property ID", "Property Age", "Property Type", 
+                "Property Location", "Co-Applicant", "Property Price"
+            ]
+            
+            # 檢查必要欄位是否存在於輸入數據
+            missing_fields = [field for field in required_fields if field not in df.columns]
+            if missing_fields:
+                st.warning(f"注意：上傳數據缺少以下API需要的欄位: {', '.join(missing_fields)}")
+                st.info("將嘗試使用可用欄位進行預測")
+            
+            # 準備API請求的欄位
+            available_fields = [field for field in required_fields if field in df.columns]
+            
+            # 準備輸入數據
+            values = []
+            for _, row in df.iterrows():
+                row_values = [
+                    row[field] if field in df.columns and pd.notna(row[field]) else None 
+                    for field in required_fields
+                ]
+                values.append(row_values)
+            
+            
+            
+            # 創建請求payload
+            payload = {
+                "input_data": [{
+                    "fields": required_fields,
+                    "values": values
+                }]
+            }
+            
+            
+            # 發送API請求
+            with st.spinner("發送預測請求至IBM Cloud..."):
+                response = requests.post(
+                    self.base_url,
+                    json=payload,
+                    headers=self.headers,
+                    timeout=60
+                )
+            
+            # 處理授權錯誤的特殊情況
+            if response.status_code == 401:
+                st.warning("授權令牌可能已過期，正在嘗試重新獲取...")
+                token = self.token_manager.refresh_token()
+                if not token:
+                    raise Exception("無法重新獲取有效的API令牌")
+                
+                self.headers['Authorization'] = f'Bearer {token}'
+                with st.spinner("使用新令牌重新發送預測請求..."):
+                    response = requests.post(
+                        self.base_url,
+                        json=payload,
+                        headers=self.headers,
+                        timeout=60
+                    )
+            
+            
+            # 如果回應失敗，抛出例外
+            if response.status_code != 200:
+                raise Exception(f"API請求失敗，狀態碼: {response.status_code}, 回應內容: {response.text}")
+            
+            # 處理預測結果
+            predictions = response.json()
+            
+            if 'predictions' in predictions and len(predictions['predictions']) > 0:
+                prediction_values = predictions['predictions'][0]['values']
+                result_df[f"Predicted_{target_column}"] = [
+                    row[0] if row and len(row) > 0 else None 
+                    for row in prediction_values
+                ]
+                st.success("預測結果如下")
+                return result_df
+            else:
+                raise Exception(f"API回應不包含預測結果: {predictions}")
+                    
+        except Exception as e:
+            st.error(f"API預測錯誤: {str(e)}")
+            raise

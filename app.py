@@ -13,92 +13,94 @@ def main():
     )
     # Custom CSS for the sidebar
     st.markdown("""
-        <style>
-        #MainMenu {visibility: hidden;}
-        footer {visibility: hidden;}
-        
-        /* Reduce sidebar width */
-        [data-testid="stSidebar"][aria-expanded="true"] {
-            min-width: 200px;
-            max-width: 200px;
-        }
-        
-        /* Centered sidebar title */
-        .sidebar-title {
-            font-size: 2rem !important;
-            font-weight: 700;
-            padding: 1rem 0.5rem 1.5rem 0.5rem;
-            margin: 0;
-            color: #0F52BA;
-            text-align: center;
-            border-bottom: 2px solid #f0f2f6;
-            margin-bottom: 1rem;
-        }
-        
-        /* Remove padding from sidebar */
-        section[data-testid="stSidebar"] > div {
-            padding-top: 1rem;
-        }
-        
-        /* Navigation button styling */
-        .stButton > button {
-            width: 100%;
-            border: none;
-            padding: 15px 15px;
-            font-weight: 500;
-            text-align: left;
-            background-color: transparent;
-            color: #1E1E1E;
-        }
-        
-        .stButton > button:hover {
-            color: #0F52BA;
-            background-color: #f8f9fb;
-        }
-        
-        .stButton > button:active, .stButton > button:focus {
-            color: #0F52BA;
-            background-color: #f0f2f6;
-            border-right: 3px solid #0F52BA;
-        }
-        
-        /* Hide hamburger menu */
-        button[data-testid="StyledFullScreenButton"] {
-            display: none;
-        }
-        
-        /* White background for sidebar */
-        [data-testid="stSidebar"] {
-            background-color: white;
-        }
-        
-        /* Add some spacing between buttons */
-        .stButton {
-            margin-bottom: 0.5rem;
-        }
-        
-        /* Status indicator for token */
-        .token-status {
-            font-size: 0.8rem;
-            margin-top: 0.5rem;
-            padding: 0.5rem;
-            border-radius: 0.3rem;
-            text-align: center;
-        }
-        .token-valid {
-            background-color: #d4edda;
-            color: #155724;
-        }
-        .token-invalid {
-            background-color: #f8d7da;
-            color: #721c24;
-        }
-        </style>
-    """, unsafe_allow_html=True)
+    <style>
+    #MainMenu {visibility: hidden;}
+    footer {visibility: hidden;}
+    
+    /* Reduce sidebar width */
+    [data-testid="stSidebar"][aria-expanded="true"] {
+        min-width: 200px;
+        max-width: 200px;
+    }
+    
+    /* Centered sidebar title */
+    .sidebar-title {
+        font-size: 2rem !important;
+        font-weight: 700;
+        padding: 1rem 0.5rem 1.5rem 0.5rem;
+        margin: 0;
+        color: #0F52BA;
+        text-align: center;
+        border-bottom: 2px solid #f0f2f6;
+        margin-bottom: 1rem;
+    }
+    
+    /* Remove padding from sidebar */
+    section[data-testid="stSidebar"] > div {
+        padding-top: 1rem;
+    }
+    
+    /* Navigation button styling - ONLY FOR SIDEBAR */
+    [data-testid="stSidebar"] .stButton > button {
+        width: 100%;
+        border: none;
+        padding: 15px 15px;
+        font-weight: 500;
+        text-align: left;
+        background-color: transparent;
+        color: #1E1E1E;
+    }
+    
+    [data-testid="stSidebar"] .stButton > button:hover {
+        color: #0F52BA;
+        background-color: #f8f9fb;
+    }
+    
+    [data-testid="stSidebar"] .stButton > button:active, [data-testid="stSidebar"] .stButton > button:focus {
+        color: #0F52BA;
+        background-color: #f0f2f6;
+        border-right: 3px solid #0F52BA;
+    }
+    
+    /* Hide hamburger menu */
+    button[data-testid="StyledFullScreenButton"] {
+        display: none;
+    }
+    
+    /* White background for sidebar */
+    [data-testid="stSidebar"] {
+        background-color: white;
+    }
+    
+    /* Add some spacing between buttons IN SIDEBAR */
+    [data-testid="stSidebar"] .stButton {
+        margin-bottom: 0.5rem;
+    }
+    
+    /* Status indicator for token */
+    .token-status {
+        font-size: 0.8rem;
+        margin-top: 0.5rem;
+        padding: 0.5rem;
+        border-radius: 0.3rem;
+        text-align: center;
+    }
+    .token-valid {
+        background-color: #d4edda;
+        color: #155724;
+    }
+    .token-invalid {
+        background-color: #f8d7da;
+        color: #721c24;
+    }
+    </style>
+""", unsafe_allow_html=True)
     
     # Initialize token manager
     if 'token_manager' not in st.session_state:
         st.session_state.token_manager = TokenManager()
+        if not st.session_state.token_manager.get_token():
+            st.error("Can't init token manager")
     
     # Initialize session state for navigation if not exists
     if 'current_page' not in st.session_state:
