@@ -46,7 +46,7 @@ def main():
         border: none;
         padding: 15px 15px;
         font-weight: 500;
-        text-align: left;
+        text-align: center !important;
         background-color: transparent;
         color: #1E1E1E;
     }
@@ -108,21 +108,22 @@ def main():
     
     # Navigation sidebar
     with st.sidebar:
-        # Centered title
         st.markdown('<p class="sidebar-title">台新銀行</p>', unsafe_allow_html=True)
         
-        # Navigation buttons
-        if st.button('預測頁面', use_container_width=True):
-            st.session_state.current_page = 'prediction_page'
-            st.rerun()
+        # 使用 container 來包裹按鈕
+        button_container = st.container()
+        with button_container:
+            if st.button('預測頁面', use_container_width=True):
+                st.session_state.current_page = 'prediction_page'
+                st.rerun()
             
-        if st.button('文件頁面', use_container_width=True):
-            st.session_state.current_page = 'documents_page'
-            st.rerun()
+            if st.button('文件頁面', use_container_width=True):
+                st.session_state.current_page = 'documents_page'
+                st.rerun()
             
-        if st.button('聊天頁面', use_container_width=True):
-            st.session_state.current_page = 'chat_page'
-            st.rerun()
+            if st.button('聊天頁面', use_container_width=True):
+                st.session_state.current_page = 'chat_page'
+                st.rerun()
         
         
     

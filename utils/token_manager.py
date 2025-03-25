@@ -10,25 +10,21 @@ dotenv.load_dotenv()
 
 class TokenManager:
     def __init__(self):
-        # 初始化令牌管理器
+        # initialize token manager
         self.api_key = os.getenv("WATSONX_API_KEY")
         self.token = None
         self.token_expiry = None
         self.token_lock = threading.Lock()
         self.refresh_token()
         
-        # 啟動背景線程進行令牌自動刷新
+        # start token refresh thread
         self._start_token_refresh_thread()
     
     def refresh_token(self):
         try:
             with self.token_lock:
-                # 檢查API金鑰是否存在
-                if not self.api_key:
-                    st.error("WATSONX_API_KEY 環境變數未設置")
-                    return None
                     
-                # 請求新令牌
+                # request new token
                 token_response = requests.post(
                     'https://iam.cloud.ibm.com/identity/token',
                     data={
@@ -40,21 +36,21 @@ class TokenManager:
                 if token_response.status_code == 200:
                     token_data = token_response.json()
                     self.token = token_data["access_token"]
-                    # 設置過期時間為55分鐘（而非1小時）
+                    # set token expiry to 55 minutes
                     self.token_expiry = datetime.datetime.now() + datetime.timedelta(minutes=55)
                     return self.token
                 else:
-                    st.error(f"令牌刷新失敗: 狀態碼 {token_response.status_code} - {token_response.text}")
+                    st.error(f"Token refresh failed: {token_response.status_code} - {token_response.text}")
                     return None
         except Exception as e:
-            st.error(f"令牌刷新過程中發生錯誤: {str(e)}")
+            st.error(f"Error during refresh Token: {str(e)}")
             return None
     
     def get_token(self):
         with self.token_lock:
             current_time = datetime.datetime.now()
             
-            # 如果令牌將在5分鐘內過期，則刷新
+            # refresh token if it is not available or expired
             if not self.token or not self.token_expiry or \
                (self.token_expiry - current_time).total_seconds() < 300:
                 return self.refresh_token()
@@ -84,17 +80,16 @@ class TokenManager:
                 try:
                     status = self.get_token_status()
                     
-                    # 當令牌即將過期時刷新
+                    # Refresh token if it is about to expire
                     if status["is_valid"] and status["remaining_time"] < 5:
                         self.refresh_token()
                     
-                    # 每60秒檢查一次
+                    # Check every 60 seconds
                     time.sleep(60)
                 except Exception as e:
-                    # 捕獲線程中的異常以防止線程意外終止
-                    print(f"令牌刷新線程發生錯誤: {str(e)}")
-                    time.sleep(60)  # 發生錯誤時等待後重試
+                    print(f"Refresh Token Failed: {str(e)}")
+                    time.sleep(60)
         
-        # 啟動背景線程
+        # Start token refresh thread
         refresh_thread = threading.Thread(target=auto_refresh, daemon=True)
         refresh_thread.start()
