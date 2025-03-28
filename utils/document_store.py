@@ -10,12 +10,15 @@ from typing import Optional, List, Dict, Any
 
 class DocumentStore:
     def __init__(self, storage_dir: str = "QA_files"):
-        # Initialize document store
+        # Initialize document store with unique session state key based on storage directory
         self.storage_dir = storage_dir
         self._create_storage_dir()
         
-        if 'doc_index' not in st.session_state:
-            st.session_state.doc_index = self._load_document_index()
+        # Use storage_dir as part of the session state key to avoid conflicts
+        self.session_key = f"doc_index_{storage_dir}"
+        
+        if self.session_key not in st.session_state:
+            st.session_state[self.session_key] = self._load_document_index()
     
     def _create_storage_dir(self):
         # Create storage directory if needed
@@ -38,7 +41,7 @@ class DocumentStore:
         # Save document index
         index_file = Path(self.storage_dir) / "document_index.json"
         with open(index_file, 'w', encoding='utf-8') as f:
-            json.dump(st.session_state.doc_index, f, ensure_ascii=False)
+            json.dump(st.session_state[self.session_key], f, ensure_ascii=False)
     
     def read_csv(self, file_bytes) -> Optional[str]:
         try:
@@ -96,13 +99,13 @@ class DocumentStore:
             "size_kb": round(len(file_content) / 1024, 2)
         }
         
-        st.session_state.doc_index.append(doc_info)
+        st.session_state[self.session_key].append(doc_info)
         self._save_document_index()
         
         return doc_id
     
     def get_all_documents(self) -> List[Dict[str, Any]]:
-        return st.session_state.doc_index
+        return st.session_state[self.session_key]
     
     def get_document_content(self, doc_id: str) -> Optional[str]:
         content_path = Path(self.storage_dir) / f"{doc_id}.txt"
@@ -121,8 +124,8 @@ class DocumentStore:
                 os.remove(content_path)
             
             # Remove from index
-            st.session_state.doc_index = [
-                doc for doc in st.session_state.doc_index if doc["id"] != doc_id
+            st.session_state[self.session_key] = [
+                doc for doc in st.session_state[self.session_key] if doc["id"] != doc_id
             ]
             self._save_document_index()
             
@@ -134,7 +137,7 @@ class DocumentStore:
     def get_all_document_contents(self) -> str:
         all_contents = []
         
-        for doc in st.session_state.doc_index:
+        for doc in st.session_state[self.session_key]:
             content = self.get_document_content(doc["id"])
             if content:
                 all_contents.append(f"--- File: {doc['name']} ---\n{content}")

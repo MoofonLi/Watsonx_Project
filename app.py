@@ -7,7 +7,7 @@ import time
 
 def main():
     st.set_page_config(
-        page_title="台新房貸專員系統",
+        page_title="XX房貸專員系統",
         page_icon="🏦",
         layout="wide"
     )
@@ -108,7 +108,7 @@ def main():
     
     # Navigation sidebar
     with st.sidebar:
-        st.markdown('<p class="sidebar-title">台新銀行</p>', unsafe_allow_html=True)
+        st.markdown('<p class="sidebar-title">XX銀行</p>', unsafe_allow_html=True)
         
         # 使用 container 來包裹按鈕
         button_container = st.container()

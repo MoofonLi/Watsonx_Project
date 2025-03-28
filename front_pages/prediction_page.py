@@ -26,7 +26,8 @@ def prediction_page():
             
             prediction_col = st.selectbox(
                 "選擇預測欄位",
-                options=columns
+                options=columns,
+                index=len(columns) - 1
             )
             
 

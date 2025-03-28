@@ -1,0 +1,1001 @@
+Gender,Age,Income (USD),Income Stability,Profession,Type of Employment,Location,Loan Amount Request (USD),Current Loan Expenses (USD),Expense Type 1,Expense Type 2,Dependents,Credit Score,No. of Defaults,Has Active Credit Card,Property ID,Property Age,Property Type,Property Location,Co-Applicant,Property Price,Loan Sanction Amount (USD)
+F,23,1637.58,Low,Working,Sales staff,Semi-Urban,39624.47,195.0,N,N,4.0,659.1,0,Unpossessed,296,1637.58,2,Semi-Urban,1,60394.3,0.0
+F,21,2009.31,Low,Working,Laborers,Semi-Urban,28141.1,130.33,Y,Y,1.0,613.32,0,Active,134,2009.31,3,Rural,0,31144.18,0.0
+F,45,1544.96,Low,Working,Drivers,Semi-Urban,77515.06,403.07,N,N,2.0,790.95,0,Active,707,1544.96,3,Semi-Urban,1,134946.43,-999.0
+M,48,3113.49,Low,Working,Laborers,Semi-Urban,74861.71,268.17,N,Y,4.0,658.99,0,Active,878,3113.49,3,Urban,1,120768.17,48660.11
+M,20,1413.44,Low,Working,Cooking staff,Semi-Urban,24508.9,182.66,Y,Y,1.0,743.84,0,Unpossessed,134,1413.44,3,Rural,1,35673.14,17156.23
+M,18,2460.06,Low,Working,High skill tech staff,Semi-Urban,148730.76,414.83,N,Y,1.0,651.1,0,Inactive,60,2460.06,4,Urban,1,238121.18,0.0
+M,50,3982.92,Low,Working,Accountants,Urban,116958.1,561.52,Y,Y,2.0,791.13,0,Inactive,110,3982.92,2,Semi-Urban,1,206608.96,87718.58
+M,34,1551.05,Low,Working,Sales staff,Semi-Urban,185652.6,585.01,N,N,4.0,693.77,0,Inactive,759,1551.05,1,Semi-Urban,0,212035.17,0.0
+M,31,7440.79,Low,Working,Accountants,Semi-Urban,257854.62,657.81,Y,Y,2.0,793.19,0,Unpossessed,943,7440.79,1,Semi-Urban,0,370599.64,0.0
+F,57,3439.34,Low,Working,Managers,Semi-Urban,95372.91,537.59,Y,Y,2.0,784.02,1,Active,397,3439.34,1,Urban,1,168422.98,71529.68
+F,21,2883.2,Low,Commercial associate,Medicine staff,Semi-Urban,72521.75,363.67,N,Y,2.0,689.72,0,Inactive,45,2883.2,3,Urban,1,104031.64,47139.14
+M,18,2449.85,Low,State servant,Core staff,Semi-Urban,25999.27,248.72,Y,Y,2.0,641.1,0,Active,658,2449.85,3,Rural,0,44728.62,0.0
+M,62,2287.77,Low,Working,Medicine staff,Semi-Urban,42109.34,214.94,Y,Y,1.0,721.94,0,Inactive,701,2287.77,1,Rural,1,63782.23,29476.54
+F,30,932.66,Low,Commercial associate,Core staff,Semi-Urban,38768.74,208.89,Y,N,2.0,645.85,0,Active,958,932.66,4,Semi-Urban,0,59789.34,0.0
+M,24,1580.38,Low,Working,Core staff,Semi-Urban,66041.19,325.89,N,N,4.0,717.92,0,Active,305,1580.38,2,Semi-Urban,1,100265.3,46228.83
+F,43,1898.3,Low,Working,Sales staff,Urban,56846.27,264.93,N,N,3.0,760.38,0,Inactive,786,1898.3,1,Rural,1,69897.45,45477.02
+F,18,3297.34,Low,Commercial associate,Laborers,Semi-Urban,42734.31,155.53,Y,Y,2.0,705.62,1,Active,561,3297.34,3,Rural,1,65589.63,27777.3
+F,35,1226.99,Low,State servant,Core staff,Semi-Urban,175099.2,679.14,N,N,3.0,725.27,0,Active,179,1226.99,1,Rural,1,327410.03,113814.48
+M,27,808.99,Low,Working,Cleaning staff,Semi-Urban,69900.5,360.05,N,N,3.0,621.46,0,Inactive,205,808.99,3,Semi-Urban,1,81536.25,0.0
+F,48,3749.93,Low,Working,Managers,Urban,243070.76,926.68,Y,Y,2.0,823.3,0,Unpossessed,951,3749.93,1,Semi-Urban,1,401539.89,170149.53
+F,48,1988.7,Low,Working,Laborers,Semi-Urban,10288.91,82.87,Y,Y,2.0,760.83,1,Inactive,597,1988.7,4,Urban,0,15578.82,0.0
+F,28,2897.88,Low,Working,Laborers,Rural,45549.57,254.02,Y,Y,4.0,648.32,0,Unpossessed,411,2897.88,2,Rural,1,56272.16,0.0
+M,38,2056.73,Low,Working,Laborers,Semi-Urban,105478.19,554.39,N,Y,2.0,801.17,0,Active,922,2056.73,2,Semi-Urban,0,188377.48,0.0
+F,50,3174.77,Low,Commercial associate,High skill tech staff,Semi-Urban,108773.16,1017.62,N,Y,1.0,806.07,0,Unpossessed,950,3174.77,2,Urban,1,169358.42,81579.87
+M,60,2598.44,Low,Commercial associate,Managers,Semi-Urban,65460.12,331.61,N,N,4.0,674.24,0,Active,115,2598.44,3,Urban,1,87822.4,0.0
+F,33,1755.54,Low,State servant,Core staff,Semi-Urban,88693.3,338.64,N,Y,3.0,853.77,0,Unpossessed,237,1755.54,2,Semi-Urban,1,123934.6,79823.97
+F,29,5303.2,Low,Commercial associate,Private service staff,Urban,267691.8,750.94,N,Y,2.0,867.36,0,Active,817,5303.2,1,Urban,1,495561.75,200768.85
+M,41,5165.61,Low,Working,Managers,Semi-Urban,202917.09,875.51,Y,N,1.0,786.95,0,Inactive,741,5165.61,2,Urban,1,344587.01,162333.67
+F,52,2179.02,Low,Working,Core staff,Semi-Urban,140342.57,359.92,Y,N,2.0,735.28,0,Active,852,2179.02,1,Urban,1,198841.28,91222.67
+M,21,2393.7,Low,Working,Laborers,Semi-Urban,41605.6,192.81,N,N,2.0,694.54,1,Unpossessed,610,2393.7,1,Rural,0,69251.45,0.0
+M,57,3563.55,Low,State servant,Core staff,Rural,51600.43,420.77,N,Y,2.0,864.76,0,Inactive,89,3563.55,4,Semi-Urban,1,60832.07,38700.32
+F,18,4031.91,Low,Working,Accountants,Semi-Urban,129053.41,503.35,Y,Y,4.0,823.69,1,Inactive,626,4031.91,2,Rural,1,238074.44,103242.73
+F,29,3918.95,Low,Working,High skill tech staff,Semi-Urban,228152.54,661.0,Y,Y,2.0,678.07,0,Active,724,3918.95,3,Urban,1,365906.51,148299.15
+F,27,1832.43,Low,Working,Sales staff,Semi-Urban,67874.96,377.43,N,Y,1.0,604.83,0,Active,551,1832.43,1,Semi-Urban,1,97865.97,-999.0
+M,62,2240.48,Low,State servant,Core staff,Semi-Urban,78459.01,339.96,N,N,1.0,698.46,1,Inactive,101,2240.48,1,Urban,1,117576.81,54921.31
+F,39,2446.34,Low,Working,High skill tech staff,Semi-Urban,49719.39,252.34,N,N,3.0,738.68,0,Active,815,2446.34,3,Urban,1,86368.08,0.0
+M,52,3231.69,Low,Working,Drivers,Urban,138331.38,716.68,Y,Y,2.0,711.53,0,Active,89,3231.69,4,Semi-Urban,1,240555.25,96831.97
+F,57,4001.1,Low,Commercial associate,Sales staff,Semi-Urban,163649.8,832.33,Y,Y,2.0,716.55,0,Inactive,760,4001.1,4,Semi-Urban,1,184231.03,114554.86
+F,61,2372.57,Low,Working,Managers,Semi-Urban,103946.73,1063.6,N,Y,3.0,765.84,0,Unpossessed,307,2372.57,1,Semi-Urban,0,175193.11,0.0
+F,18,1785.04,Low,Commercial associate,Sales staff,Semi-Urban,54821.55,144.19,N,Y,3.0,681.42,0,Active,979,1785.04,2,Semi-Urban,1,102125.75,38375.08
+F,22,2489.9,Low,Working,Low-skill Laborers,Semi-Urban,39179.74,397.44,N,Y,2.0,619.08,0,Unpossessed,927,2489.9,4,Rural,0,62377.87,0.0
+F,43,1574.86,Low,Commercial associate,Medicine staff,Semi-Urban,64828.11,545.74,N,Y,2.0,710.2,0,Inactive,545,1574.86,2,Rural,1,111216.08,45379.68
+F,47,2006.65,Low,Working,Private service staff,Semi-Urban,65084.7,636.48,N,Y,1.0,780.8,0,Active,72,2006.65,2,Semi-Urban,1,89484.92,45559.29
+F,62,1979.41,Low,Working,Laborers,Rural,93120.49,321.36,Y,Y,2.0,816.24,0,Active,916,1979.41,4,Semi-Urban,1,115075.24,69840.37
+F,18,2328.65,Low,Working,Private service staff,Semi-Urban,38824.94,220.59,N,N,3.0,666.41,0,Unpossessed,891,2328.65,3,Semi-Urban,1,59340.74,25236.21
+F,50,6111.32,Low,State servant,Managers,Semi-Urban,221555.26,843.01,N,N,2.0,887.44,0,Inactive,22,6111.32,1,Rural,0,284799.69,188321.97
+F,44,2773.5,Low,Commercial associate,Laborers,Semi-Urban,128213.29,650.53,N,Y,3.0,645.29,1,Active,723,2773.5,2,Rural,1,193734.11,0.0
+M,56,2565.33,Low,Working,Accountants,Semi-Urban,39618.89,329.27,N,N,2.0,738.81,0,Inactive,173,2565.33,1,Urban,0,48096.41,0.0
+F,42,3527.75,Low,Commercial associate,Accountants,Urban,200609.69,610.32,N,Y,1.0,824.71,0,Inactive,675,3527.75,2,Urban,1,361543.16,150457.27
+M,59,1222.92,Low,Commercial associate,High skill tech staff,Semi-Urban,21802.72,208.41,N,Y,2.0,839.68,0,Inactive,139,1222.92,2,Rural,1,33114.69,17442.18
+M,21,1968.25,Low,State servant,Core staff,Semi-Urban,124557.22,593.28,Y,Y,3.0,759.47,0,Inactive,759,1968.25,1,Semi-Urban,0,165277.29,0.0
+M,63,2506.53,Low,Commercial associate,Core staff,Urban,74886.58,603.98,Y,Y,2.0,792.8,1,Active,880,2506.53,4,Semi-Urban,1,97921.06,59909.26
+F,37,1918.47,Low,State servant,Accountants,Semi-Urban,27133.88,133.97,N,Y,2.0,742.25,1,Active,413,1918.47,2,Urban,1,40898.92,18993.72
+F,24,2914.41,Low,Working,Core staff,Semi-Urban,128350.71,480.69,Y,Y,4.0,694.69,0,Inactive,132,2914.41,1,Semi-Urban,1,235077.43,89845.5
+M,53,1436.02,Low,Working,Sales staff,Semi-Urban,31061.05,380.85,N,Y,3.0,628.21,0,Active,609,1436.02,1,Urban,1,49345.2,0.0
+F,39,2100.78,Low,Working,Laborers,Semi-Urban,210569.27,537.7,Y,N,1.0,699.5,0,Active,936,2100.78,1,Semi-Urban,1,391691.7,147398.49
+F,48,2009.69,Low,Commercial associate,Laborers,Rural,77936.24,364.3,N,N,2.0,674.24,0,Inactive,312,2009.69,2,Rural,1,137987.89,54555.37
+M,58,2474.46,Low,Working,High skill tech staff,Rural,123033.32,702.78,N,Y,3.0,662.98,0,Active,318,2474.46,4,Semi-Urban,1,204391.73,0.0
+M,50,2269.57,Low,Working,Sales staff,Semi-Urban,31496.56,161.63,N,Y,1.0,869.53,0,Active,882,2269.57,3,Semi-Urban,1,36177.03,23622.42
+M,37,1217.96,Low,Working,Laborers,Semi-Urban,35383.54,193.87,Y,Y,4.0,680.22,0,Unpossessed,488,1217.96,4,Urban,1,44979.51,22999.3
+M,18,2471.43,Low,Working,Sales staff,Semi-Urban,51539.54,430.8,N,Y,3.0,660.69,0,Active,432,2471.43,2,Semi-Urban,1,76839.63,0.0
+F,47,1935.34,Low,Working,Core staff,Semi-Urban,75096.04,472.18,N,N,1.0,754.14,0,Active,613,1935.34,3,Urban,1,133221.0,56322.03
+M,47,3059.72,Low,Working,Laborers,Urban,36804.9,253.34,N,Y,2.0,736.05,0,Unpossessed,50,3059.72,1,Rural,1,43694.02,23923.18
+F,54,3496.84,Low,Working,Drivers,Semi-Urban,80433.21,476.15,Y,N,4.0,691.41,0,Inactive,140,3496.84,1,Rural,1,136536.16,52281.59
+F,38,2470.92,Low,Working,Laborers,Semi-Urban,67035.28,471.49,Y,Y,3.0,654.72,0,Unpossessed,685,2470.92,3,Urban,1,89973.33,43572.93
+F,18,2284.96,Low,Commercial associate,Core staff,Urban,77848.93,531.7,Y,N,3.0,779.6,0,Unpossessed,558,2284.96,2,Rural,1,142637.15,62279.14
+M,37,3039.35,Low,Working,Managers,Semi-Urban,108285.75,726.35,N,Y,3.0,832.81,0,Unpossessed,549,3039.35,4,Rural,0,198716.3,0.0
+F,45,3182.75,Low,Working,Managers,Semi-Urban,86532.58,400.39,Y,Y,2.0,760.36,1,Active,889,3182.75,2,Semi-Urban,1,124006.95,60572.81
+M,52,1301.39,Low,Working,Laborers,Rural,55058.63,294.25,N,Y,2.0,609.58,0,Unpossessed,543,1301.39,2,Semi-Urban,0,65999.95,0.0
+F,54,2829.92,Low,Working,Core staff,Semi-Urban,81833.68,411.94,N,N,2.0,605.72,0,Unpossessed,507,2829.92,4,Rural,1,137634.26,0.0
+M,25,2677.74,Low,Commercial associate,Laborers,Urban,58654.1,305.06,N,N,1.0,668.92,1,Unpossessed,169,2677.74,2,Urban,0,94190.04,0.0
+M,26,2448.92,Low,Working,Drivers,Semi-Urban,106053.1,293.51,N,Y,1.0,767.06,1,Inactive,695,2448.92,1,Urban,1,152697.58,79539.83
+M,36,2463.38,Low,Commercial associate,Sales staff,Semi-Urban,184691.61,472.35,N,N,3.0,742.1,1,Inactive,147,2463.38,2,Rural,0,222690.41,0.0
+M,18,2070.05,Low,Working,Laborers,Semi-Urban,97552.93,423.33,N,N,1.0,688.22,1,Unpossessed,706,2070.05,2,Urban,1,180011.26,68287.05
+M,40,2290.23,Low,Working,Sales staff,Semi-Urban,187549.77,520.96,N,N,2.0,818.57,0,Active,505,2290.23,1,Semi-Urban,1,225383.69,140662.33
+F,35,2441.55,Low,Working,Laborers,Semi-Urban,109977.26,457.87,N,N,2.0,611.05,0,Inactive,87,2441.55,1,Semi-Urban,1,187010.09,0.0
+M,18,16445.89,Low,Working,Laborers,Semi-Urban,165244.19,662.65,N,Y,3.0,807.25,0,Active,133,16445.89,2,Semi-Urban,1,183029.3,115670.93
+M,39,3065.58,Low,Commercial associate,Managers,Rural,53560.4,588.88,Y,Y,3.0,737.91,0,Unpossessed,380,3065.58,3,Semi-Urban,1,97834.03,34814.26
+F,31,2117.34,Low,Working,Drivers,Semi-Urban,44412.92,202.42,N,N,3.0,648.75,0,Active,403,2117.34,3,Semi-Urban,1,66170.52,0.0
+F,37,3263.92,Low,Working,Sales staff,Semi-Urban,71787.03,665.3,N,Y,2.0,795.68,0,Active,630,3263.92,2,Semi-Urban,1,106971.2,53840.27
+F,38,1386.66,Low,Working,Security staff,Semi-Urban,23681.91,248.3,N,Y,3.0,698.06,0,Inactive,602,1386.66,4,Semi-Urban,1,29480.02,15393.24
+F,34,2729.38,Low,Working,Sales staff,Semi-Urban,239032.67,839.91,N,N,2.0,758.45,0,Active,62,2729.38,2,Urban,1,290585.66,191226.14
+M,58,3679.94,Low,Working,Laborers,Semi-Urban,149698.0,882.7,Y,N,3.0,675.83,0,Unpossessed,342,3679.94,1,Urban,1,257606.82,104788.6
+F,18,3523.54,Low,State servant,Core staff,Semi-Urban,101594.29,377.74,Y,N,2.0,818.77,0,Inactive,577,3523.54,3,Semi-Urban,0,167505.49,0.0
+F,39,8376.15,Low,Commercial associate,Managers,Rural,308878.22,733.21,Y,Y,3.0,814.83,0,Inactive,422,8376.15,2,Rural,1,373459.71,216214.75
+M,63,1657.62,Low,Working,Sales staff,Semi-Urban,14208.28,163.43,N,N,2.0,602.23,0,Unpossessed,787,1657.62,2,Semi-Urban,0,21355.18,0.0
+M,18,2655.82,Low,Commercial associate,Accountants,Semi-Urban,90336.14,475.57,N,N,1.0,828.46,0,Active,786,2655.82,1,Rural,1,144702.71,-999.0
+M,52,2065.72,Low,Commercial associate,Medicine staff,Rural,43087.43,142.85,Y,N,2.0,663.26,0,Active,184,2065.72,4,Rural,1,59542.36,30161.2
+M,19,1359.93,Low,Working,Drivers,Rural,28303.85,344.01,N,N,2.0,704.78,0,Inactive,613,1359.93,3,Urban,1,51119.14,0.0
+F,52,2766.89,Low,Working,Drivers,Urban,129602.27,403.55,Y,Y,2.0,799.78,0,Inactive,808,2766.89,2,Rural,1,155296.32,0.0
+F,37,1725.24,Low,Working,Laborers,Semi-Urban,97289.75,320.13,N,Y,2.0,767.46,0,Unpossessed,257,1725.24,4,Urban,0,138471.69,0.0
+F,18,1680.98,Low,Working,Private service staff,Semi-Urban,56910.92,595.62,Y,Y,2.0,703.71,0,Active,913,1680.98,4,Rural,0,77343.49,0.0
+F,53,4222.52,Low,Commercial associate,Drivers,Semi-Urban,43987.04,494.48,Y,Y,1.0,598.12,1,Inactive,271,4222.52,2,Urban,0,79590.1,0.0
+M,34,3653.11,Low,Working,Core staff,Semi-Urban,106100.61,474.79,Y,Y,2.0,869.73,1,Inactive,406,3653.11,2,Rural,1,117924.59,79575.46
+F,25,2123.85,Low,Commercial associate,Sales staff,Semi-Urban,116828.18,556.02,N,Y,2.0,714.2,0,Inactive,266,2123.85,4,Urban,0,148822.31,0.0
+F,58,6551.6,Low,Working,Managers,Semi-Urban,174204.23,496.31,N,Y,2.0,808.27,0,Active,770,6551.6,4,Urban,1,297945.94,130653.17
+M,23,1343.22,Low,State servant,Core staff,Semi-Urban,42083.87,216.17,Y,N,1.0,663.19,0,Inactive,365,1343.22,3,Semi-Urban,1,57067.48,27354.52
+M,18,1587.07,Low,State servant,Accountants,Semi-Urban,32175.64,208.95,N,Y,4.0,792.33,0,Unpossessed,771,1587.07,3,Rural,1,57805.63,25740.51
+F,51,4852.59,Low,Commercial associate,Managers,Urban,180843.98,569.15,N,Y,2.0,778.61,0,Active,513,4852.59,4,Urban,1,279980.49,126590.79
+F,18,984.31,Low,Working,Security staff,Semi-Urban,58723.38,305.47,N,Y,1.0,649.3,0,Unpossessed,870,984.31,4,Semi-Urban,0,92449.99,0.0
+M,27,1350.45,Low,Working,Core staff,Semi-Urban,19248.77,204.97,N,Y,1.0,870.78,0,Active,966,1350.45,3,Rural,1,32731.93,17323.89
+M,26,1604.46,Low,Working,Sales staff,Semi-Urban,62112.32,273.34,N,N,2.0,736.54,0,Inactive,341,1604.46,1,Urban,1,101228.23,0.0
+M,53,1415.05,Low,Working,Sales staff,Rural,171348.32,788.73,N,Y,2.0,762.11,0,Active,174,1415.05,4,Urban,1,314203.34,137078.66
+F,19,1941.62,Low,State servant,Core staff,Semi-Urban,63501.53,178.4,N,N,2.0,712.48,0,Unpossessed,200,1941.62,1,Urban,1,114192.79,41275.99
+M,32,4266.57,Low,Working,Sales staff,Semi-Urban,181909.9,595.12,Y,Y,2.0,725.15,0,Inactive,114,4266.57,3,Urban,1,281257.19,127336.93
+M,21,1984.32,Low,Working,Drivers,Semi-Urban,90857.67,479.49,Y,Y,2.0,775.57,0,Inactive,161,1984.32,2,Semi-Urban,1,119869.89,0.0
+F,43,1758.0,Low,State servant,Drivers,Semi-Urban,10170.77,105.26,N,Y,1.0,674.02,1,Unpossessed,230,1758.0,1,Rural,1,-999.0,7119.54
+M,43,2383.07,Low,Working,Sales staff,Rural,89092.42,203.88,Y,Y,2.0,671.07,1,Unpossessed,753,2383.07,3,Rural,0,124152.86,0.0
+M,59,2023.66,Low,Working,Sales staff,Semi-Urban,67710.62,241.78,Y,Y,1.0,654.89,1,Active,839,2023.66,2,Rural,1,88052.94,47397.43
+F,18,1512.29,Low,Working,Laborers,Semi-Urban,40052.62,271.06,Y,Y,4.0,710.75,0,Unpossessed,744,1512.29,4,Semi-Urban,0,51143.34,0.0
+M,39,2660.33,Low,Working,Accountants,Semi-Urban,82848.48,472.65,Y,N,3.0,798.21,0,Inactive,916,2660.33,4,Semi-Urban,1,143010.43,66278.78
+F,38,1071.59,Low,Working,Sales staff,Semi-Urban,29134.67,168.01,N,N,3.0,790.79,0,Active,746,1071.59,4,Rural,1,34090.72,20394.27
+M,64,1844.17,Low,Commercial associate,High skill tech staff,Urban,35226.52,415.33,N,N,3.0,615.06,0,Inactive,294,1844.17,1,Semi-Urban,0,55308.14,0.0
+M,21,3412.77,Low,Working,Laborers,Rural,81412.6,381.43,N,N,2.0,772.83,0,Unpossessed,475,3412.77,2,Urban,1,125042.71,0.0
+F,58,1252.88,Low,Commercial associate,Drivers,Rural,14631.8,159.34,Y,N,1.0,633.57,1,Active,458,1252.88,1,Urban,1,22191.25,0.0
+M,64,2123.18,Low,Working,Waiters/barmen staff,Semi-Urban,38256.24,285.63,N,Y,4.0,680.85,0,Unpossessed,416,2123.18,3,Urban,1,49544.97,24866.56
+F,55,4691.11,Low,Commercial associate,Managers,Semi-Urban,187576.22,738.08,N,N,2.0,848.38,0,Active,677,4691.11,3,Urban,1,226095.71,150060.98
+M,61,1841.86,Low,Working,Laborers,Semi-Urban,74262.89,432.25,Y,Y,1.0,850.6,1,Unpossessed,417,1841.86,3,Rural,1,139779.55,51984.02
+F,18,1684.38,Low,Working,Laborers,Semi-Urban,41655.6,202.29,Y,Y,4.0,733.69,1,Unpossessed,920,1684.38,2,Semi-Urban,1,51738.59,27076.14
+M,54,2135.61,Low,Working,Laborers,Semi-Urban,134300.15,525.99,N,Y,2.0,685.46,1,Inactive,221,2135.61,2,Rural,1,212886.87,0.0
+F,57,2233.95,Low,Commercial associate,Sales staff,Urban,58691.34,297.32,Y,N,2.0,667.57,0,Unpossessed,276,2233.95,4,Rural,1,105318.57,41083.94
+F,38,2421.57,Low,State servant,Core staff,Rural,117466.58,391.89,Y,Y,1.0,711.43,0,Unpossessed,640,2421.57,1,Rural,1,148654.39,76353.28
+M,24,2738.25,Low,Commercial associate,Sales staff,Semi-Urban,98400.19,423.41,Y,N,4.0,771.52,0,Unpossessed,913,2738.25,4,Rural,1,185006.86,73800.14
+F,24,2221.28,Low,Commercial associate,Private service staff,Urban,83493.62,407.84,N,Y,2.0,783.81,0,Unpossessed,812,2221.28,3,Semi-Urban,1,106984.89,62620.22
+F,30,1097.18,Low,Working,Cooking staff,Semi-Urban,58080.89,309.39,N,Y,2.0,655.89,0,Active,381,1097.18,4,Semi-Urban,1,76938.58,40656.62
+M,20,1546.17,Low,State servant,Secretaries,Semi-Urban,16333.71,146.94,N,Y,2.0,798.24,0,Unpossessed,472,1546.17,3,Rural,1,27999.61,0.0
+F,18,1554.17,Low,Working,High skill tech staff,Semi-Urban,37475.05,297.61,Y,N,2.0,734.87,0,Active,735,1554.17,2,Semi-Urban,1,61465.1,26232.54
+M,18,3468.65,Low,Working,Security staff,Semi-Urban,96957.03,596.14,Y,Y,3.0,654.56,0,Active,528,3468.65,3,Urban,1,159179.52,63022.07
+F,48,1025.11,Low,Working,Laborers,Semi-Urban,23653.36,166.01,N,N,2.0,705.91,1,Active,520,1025.11,2,Semi-Urban,1,41318.97,15374.68
+F,60,5731.85,Low,Working,Laborers,Urban,94284.09,422.64,Y,Y,3.0,657.15,0,Unpossessed,467,5731.85,2,Urban,1,163042.92,61284.66
+F,19,2034.07,Low,Working,Laborers,Rural,207823.19,649.2,N,N,2.0,726.9,0,Active,634,2034.07,2,Rural,1,338697.53,145476.23
+M,31,1265.9,Low,Working,Laborers,Semi-Urban,22284.65,250.92,N,N,3.0,678.85,0,Inactive,456,1265.9,3,Rural,1,25315.54,14485.02
+M,64,1475.54,Low,Working,Sales staff,Rural,67428.73,341.12,N,N,4.0,678.65,0,Active,698,1475.54,4,Urban,1,93505.7,47200.11
+M,38,1675.67,Low,Working,Laborers,Semi-Urban,80629.28,266.28,Y,N,2.0,636.74,1,Inactive,473,1675.67,3,Urban,1,113277.14,0.0
+M,18,1553.98,Low,Commercial associate,Laborers,Rural,21982.38,117.13,N,N,2.0,814.37,1,Active,679,1553.98,3,Urban,1,33469.21,16486.78
+F,18,869.13,Low,Working,High skill tech staff,Semi-Urban,12985.83,136.33,N,N,3.0,671.39,0,Active,170,869.13,4,Rural,1,23311.56,9090.08
+M,40,2926.4,Low,Commercial associate,High skill tech staff,Semi-Urban,80447.85,405.03,Y,Y,4.0,660.13,0,Inactive,933,2926.4,2,Rural,1,137557.98,56313.5
+F,18,2533.56,Low,State servant,Core staff,Semi-Urban,67352.69,332.47,Y,Y,2.0,719.85,1,Unpossessed,711,2533.56,3,Urban,0,97539.42,0.0
+F,41,2094.25,Low,Working,Core staff,Semi-Urban,48297.48,403.73,N,Y,2.0,752.22,1,Unpossessed,723,2094.25,2,Rural,1,63885.55,38637.98
+M,28,1031.12,Low,Working,Cleaning staff,Semi-Urban,15770.88,104.96,N,Y,2.0,801.86,0,Inactive,264,1031.12,3,Semi-Urban,0,18897.59,0.0
+F,51,1838.33,Low,Working,Private service staff,Semi-Urban,19530.89,222.99,N,Y,3.0,767.42,0,Unpossessed,870,1838.33,4,Semi-Urban,1,30308.79,14648.17
+M,50,1961.48,Low,Working,Laborers,Semi-Urban,126936.41,345.55,Y,N,3.0,688.75,0,Unpossessed,772,1961.48,4,Rural,1,199457.72,88855.49
+M,47,2499.12,Low,Working,Laborers,Semi-Urban,108197.89,635.12,Y,Y,4.0,766.97,0,Inactive,446,2499.12,4,Semi-Urban,1,202732.09,81148.42
+F,41,1018.9,Low,Working,Core staff,Rural,16121.55,69.36,N,Y,4.0,691.23,0,Active,994,1018.9,2,Urban,1,26341.0,10479.01
+F,43,1865.35,Low,Working,Sales staff,Semi-Urban,167330.97,936.61,N,Y,3.0,816.37,1,Active,963,1865.35,1,Rural,1,275577.5,117131.68
+M,32,1814.94,Low,Working,Laborers,Semi-Urban,37846.46,403.03,N,Y,2.0,753.17,0,Inactive,418,1814.94,1,Rural,1,42032.12,0.0
+F,53,2128.66,Low,Commercial associate,Realty agents,Semi-Urban,81808.17,420.67,N,N,1.0,815.62,0,Unpossessed,363,2128.66,2,Urban,0,153796.53,0.0
+F,36,2273.9,Low,Commercial associate,Security staff,Semi-Urban,181027.24,507.94,N,Y,3.0,750.4,0,Unpossessed,22,2273.9,1,Rural,1,280914.35,126719.07
+F,57,4344.68,Low,Commercial associate,Managers,Urban,286587.05,824.96,Y,Y,2.0,803.81,0,Active,791,4344.68,1,Rural,1,518676.65,214940.29
+M,51,1235.22,Low,Working,Laborers,Urban,34071.79,130.3,N,N,2.0,746.88,1,Unpossessed,319,1235.22,1,Semi-Urban,1,46177.21,22146.66
+F,18,1771.91,Low,Working,Drivers,Semi-Urban,37664.07,195.45,Y,Y,2.0,843.35,0,Active,224,1771.91,3,Semi-Urban,1,67159.88,30131.26
+M,28,1911.45,Low,Working,Secretaries,Semi-Urban,40867.61,205.87,Y,N,1.0,746.51,0,Inactive,388,1911.45,3,Rural,1,75091.46,28607.33
+F,18,1735.45,Low,Working,Waiters/barmen staff,Semi-Urban,43735.34,299.16,N,Y,2.0,626.74,0,Unpossessed,542,1735.45,4,Rural,1,59645.65,0.0
+F,20,1883.31,Low,Commercial associate,Private service staff,Semi-Urban,157827.03,523.41,Y,N,4.0,771.76,0,Inactive,161,1883.31,2,Semi-Urban,1,274518.17,126261.62
+M,48,2174.0,Low,Working,Accountants,Semi-Urban,58004.68,316.52,Y,Y,2.0,832.0,0,Active,791,2174.0,1,Rural,1,78978.78,0.0
+M,32,8308.27,Low,Commercial associate,Managers,Urban,75696.52,418.6,Y,Y,3.0,784.91,0,Inactive,816,8308.27,3,Semi-Urban,1,106908.58,52987.56
+M,57,3837.24,Low,Commercial associate,Core staff,Semi-Urban,172498.59,483.8,N,Y,2.0,810.51,0,Active,731,3837.24,1,Urban,1,244775.89,120749.01
+M,58,2086.25,Low,Commercial associate,Security staff,Rural,102581.46,317.51,N,N,2.0,767.89,1,Inactive,525,2086.25,1,Rural,1,163584.59,76936.1
+M,53,2142.61,Low,Working,Core staff,Semi-Urban,169125.31,744.51,N,N,2.0,707.32,0,Active,484,2142.61,1,Semi-Urban,1,233467.88,118387.72
+F,57,3040.46,Low,Working,Laborers,Semi-Urban,67524.57,307.96,Y,N,2.0,599.62,1,Inactive,841,3040.46,2,Rural,1,112792.47,0.0
+M,55,1649.42,Low,Working,Core staff,Semi-Urban,86246.62,262.87,Y,Y,2.0,816.98,0,Inactive,363,1649.42,2,Urban,1,120126.84,64684.96
+M,22,2356.56,Low,Working,Sales staff,Semi-Urban,7034.73,48.6,N,Y,2.0,645.17,0,Unpossessed,782,2356.56,3,Semi-Urban,0,9008.29,0.0
+M,43,1244.35,Low,Working,Laborers,Semi-Urban,54326.84,254.27,N,Y,2.0,788.27,0,Active,354,1244.35,3,Rural,1,77783.82,43461.47
+M,18,3390.14,Low,Working,Laborers,Rural,177547.79,515.38,N,N,3.0,808.75,1,Inactive,314,3390.14,2,Urban,1,249825.71,124283.45
+F,47,1265.93,Low,Working,Laborers,Semi-Urban,95087.32,446.44,N,Y,4.0,743.18,0,Unpossessed,26,1265.93,2,Rural,1,115366.3,61806.76
+M,56,3022.38,Low,Working,Laborers,Semi-Urban,98264.43,840.68,Y,Y,2.0,800.34,0,Active,397,3022.38,1,Urban,1,183787.23,0.0
+M,18,3904.02,Low,Working,Laborers,Rural,152309.27,478.71,N,Y,3.0,654.54,0,Active,418,3904.02,1,Rural,1,217191.17,106616.49
+M,29,1564.41,Low,Commercial associate,Sales staff,Semi-Urban,15408.92,160.9,N,Y,3.0,681.32,0,Inactive,688,1564.41,1,Rural,1,25817.55,0.0
+F,31,1546.71,Low,Working,Sales staff,Rural,91339.39,318.38,Y,Y,2.0,720.4,0,Unpossessed,724,1546.71,3,Urban,1,105670.95,63937.57
+M,45,5450.15,Low,Working,Managers,Semi-Urban,90135.08,394.08,N,N,3.0,726.12,0,Active,318,5450.15,4,Semi-Urban,1,148450.67,58587.8
+M,55,1771.28,Low,Working,Sales staff,Semi-Urban,94623.16,544.7,N,Y,2.0,746.22,0,Unpossessed,649,1771.28,2,Semi-Urban,1,141086.76,61505.05
+F,24,4792.41,Low,Commercial associate,Core staff,Semi-Urban,101029.98,759.74,N,N,3.0,672.84,0,Unpossessed,775,4792.41,2,Urban,1,190673.25,70720.99
+F,38,4893.7,Low,Commercial associate,Laborers,Semi-Urban,118114.1,549.12,Y,Y,3.0,677.68,0,Active,664,4893.7,4,Semi-Urban,1,146822.51,76774.17
+F,44,3521.79,Low,Commercial associate,Core staff,Semi-Urban,39015.7,191.14,Y,Y,2.0,792.88,1,Inactive,298,3521.79,1,Semi-Urban,1,64059.84,0.0
+F,47,2617.85,Low,Working,Managers,Semi-Urban,111261.67,565.04,Y,Y,2.0,765.12,0,Unpossessed,972,2617.85,3,Rural,1,169588.14,83446.25
+F,43,2489.3,Low,Working,Laborers,Semi-Urban,27096.81,125.28,N,Y,2.0,783.1,0,Inactive,855,2489.3,4,Rural,1,49191.41,21677.45
+F,18,2521.32,Low,Working,High skill tech staff,Semi-Urban,74350.91,341.25,N,N,3.0,738.82,1,Inactive,935,2521.32,3,Rural,1,84642.36,48328.09
+F,57,2985.08,Low,Working,Sales staff,Semi-Urban,350422.15,974.96,Y,Y,2.0,862.02,0,Unpossessed,694,2985.08,1,Semi-Urban,1,453851.09,262816.61
+M,35,1319.87,Low,Working,Accountants,Semi-Urban,93188.67,539.94,N,N,3.0,738.89,0,Unpossessed,25,1319.87,3,Urban,1,118102.23,65232.07
+F,26,1994.25,Low,Working,Laborers,Semi-Urban,82683.06,409.02,N,N,3.0,687.23,0,Unpossessed,865,1994.25,1,Semi-Urban,0,133924.02,0.0
+F,21,3309.35,Low,State servant,Managers,Semi-Urban,14091.99,150.34,Y,Y,2.0,672.17,0,Unpossessed,368,3309.35,4,Semi-Urban,1,21794.36,9864.39
+F,21,4292.11,Low,Working,Laborers,Urban,126396.46,685.85,Y,N,2.0,809.91,0,Unpossessed,787,4292.11,2,Semi-Urban,1,152091.83,88477.52
+M,26,1739.39,Low,Working,Laborers,Semi-Urban,41548.24,192.51,Y,Y,2.0,709.75,0,Active,909,1739.39,4,Rural,0,49238.78,0.0
+M,39,2379.89,Low,Working,Drivers,Semi-Urban,8292.7,99.19,N,Y,2.0,637.72,0,Unpossessed,398,2379.89,1,Urban,1,12107.13,0.0
+F,58,1565.69,Low,Working,Laborers,Rural,20284.94,179.39,N,N,1.0,660.75,1,Unpossessed,955,1565.69,4,Semi-Urban,1,37516.71,13185.21
+M,37,1365.07,Low,Working,Drivers,Semi-Urban,86565.29,258.75,Y,Y,2.0,738.03,0,Active,518,1365.07,1,Semi-Urban,1,106744.01,0.0
+F,34,1157.85,Low,Working,Cleaning staff,Rural,9458.35,103.3,N,N,2.0,761.43,0,Inactive,880,1157.85,4,Semi-Urban,1,17653.62,6620.84
+M,18,1428.62,Low,Working,Core staff,Semi-Urban,16988.66,114.42,N,Y,1.0,647.83,1,Inactive,280,1428.62,1,Rural,0,27357.94,0.0
+F,56,2150.9,Low,Commercial associate,Core staff,Semi-Urban,162177.92,466.9,N,N,2.0,718.15,0,Unpossessed,6,2150.9,2,Rural,0,276148.29,0.0
+F,18,1856.92,Low,Working,Sales staff,Semi-Urban,195826.46,560.97,Y,N,3.0,742.09,1,Inactive,654,1856.92,3,Rural,0,279725.63,0.0
+F,48,1695.09,Low,Working,Sales staff,Semi-Urban,35060.59,141.24,N,N,1.0,768.27,0,Unpossessed,737,1695.09,2,Semi-Urban,0,59975.09,0.0
+F,26,3494.91,Low,Working,Managers,Urban,126313.07,547.29,N,Y,1.0,869.67,0,Active,88,3494.91,1,Semi-Urban,1,181415.58,88419.15
+M,18,3028.32,Low,Working,Accountants,Rural,80942.9,400.31,N,Y,2.0,687.49,0,Active,710,3028.32,1,Rural,0,141616.77,0.0
+F,61,2322.9,Low,State servant,Core staff,Semi-Urban,82564.64,627.37,N,Y,2.0,717.71,0,Inactive,910,2322.9,4,Semi-Urban,1,97456.49,53667.02
+M,45,2317.95,Low,Working,Laborers,Semi-Urban,92549.84,512.87,N,Y,2.0,831.06,0,Unpossessed,433,2317.95,4,Urban,1,136758.7,64784.89
+F,36,2464.22,Low,Working,Laborers,Semi-Urban,65108.17,329.89,N,Y,2.0,731.89,0,Active,587,2464.22,3,Rural,1,87793.02,45575.72
+M,53,3479.24,Low,Working,Managers,Semi-Urban,192307.99,791.84,Y,N,3.0,684.45,0,Active,766,3479.24,3,Semi-Urban,0,235913.95,0.0
+M,38,2009.73,Low,Working,Laborers,Semi-Urban,65554.07,425.86,N,N,1.0,616.05,0,Inactive,98,2009.73,3,Urban,1,107815.09,0.0
+M,40,1551.3,Low,Working,Private service staff,Semi-Urban,113429.34,455.17,N,Y,2.0,731.53,0,Active,204,1551.3,3,Rural,1,136035.89,79400.54
+M,18,2328.84,Low,Working,Medicine staff,Rural,50296.06,285.04,N,Y,2.0,635.28,0,Inactive,883,2328.84,2,Urban,0,76400.5,0.0
+M,43,2348.66,Low,Commercial associate,Drivers,Urban,112804.23,414.57,N,Y,3.0,712.5,0,Inactive,698,2348.66,4,Urban,1,197232.49,0.0
+F,18,4132.94,Low,Working,Laborers,Semi-Urban,41650.56,167.0,Y,Y,1.0,824.36,0,Active,744,4132.94,4,Semi-Urban,1,61651.83,31237.92
+M,32,2740.04,Low,Working,Sales staff,Semi-Urban,85663.7,384.52,N,N,3.0,700.79,0,Inactive,82,2740.04,2,Urban,1,129817.54,55681.4
+F,53,3150.66,Low,Commercial associate,High skill tech staff,Semi-Urban,172969.58,462.31,N,Y,1.0,680.47,0,Unpossessed,220,3150.66,3,Semi-Urban,1,242398.0,112430.23
+M,23,1796.29,Low,Working,Core staff,Semi-Urban,211177.18,561.44,N,N,5.0,662.28,0,Inactive,234,1796.29,3,Urban,1,315166.72,137265.17
+F,49,1269.87,Low,Working,Sales staff,Semi-Urban,23427.55,204.48,Y,Y,1.0,674.08,0,Inactive,100,1269.87,2,Semi-Urban,1,26743.45,15227.91
+M,23,1874.51,Low,Working,Sales staff,Semi-Urban,58601.27,315.96,N,N,3.0,827.01,0,Unpossessed,332,1874.51,3,Semi-Urban,1,85125.5,41020.89
+F,47,3605.48,Low,Working,Drivers,Semi-Urban,104271.49,626.53,Y,Y,2.0,683.01,0,Active,848,3605.48,2,Semi-Urban,1,141480.68,67776.47
+F,41,2007.84,Low,Working,High skill tech staff,Semi-Urban,153107.31,656.19,N,Y,2.0,818.69,0,Inactive,428,2007.84,3,Urban,1,251117.33,122485.85
+F,18,2058.58,Low,State servant,Managers,Semi-Urban,218108.47,602.34,Y,Y,3.0,791.17,0,Unpossessed,98,2058.58,3,Urban,1,355348.51,174486.78
+F,60,1564.03,Low,Working,Sales staff,Semi-Urban,67491.22,356.9,N,Y,2.0,756.62,0,Inactive,108,1564.03,3,Semi-Urban,1,121665.44,0.0
+F,30,1617.32,Low,Working,Laborers,Semi-Urban,42594.32,319.15,N,Y,3.0,863.34,0,Inactive,797,1617.32,2,Semi-Urban,1,63853.33,31945.74
+M,62,2876.1,Low,Working,Sales staff,Semi-Urban,99169.45,608.68,N,N,1.0,777.09,0,Inactive,87,2876.1,1,Semi-Urban,1,127811.87,74377.09
+M,18,4411.4,Low,Working,Drivers,Urban,204944.19,849.67,Y,Y,3.0,737.36,0,Inactive,567,4411.4,3,Rural,1,276716.2,0.0
+M,43,1300.18,Low,Working,Laborers,Semi-Urban,20484.41,125.76,N,N,2.0,615.65,1,Inactive,14,1300.18,4,Rural,0,24473.45,0.0
+M,18,1300.67,Low,Working,Core staff,Semi-Urban,62610.25,493.24,Y,Y,4.0,599.65,0,Unpossessed,503,1300.67,3,Rural,1,86949.55,0.0
+F,58,1844.36,Low,Working,Sales staff,Semi-Urban,42481.85,350.96,N,Y,3.0,817.62,1,Unpossessed,531,1844.36,4,Semi-Urban,0,47805.93,0.0
+M,25,1852.48,Low,Working,Drivers,Semi-Urban,77451.21,398.27,Y,N,1.0,615.14,0,Unpossessed,81,1852.48,2,Rural,1,125846.05,0.0
+M,30,2880.59,Low,Commercial associate,Drivers,Semi-Urban,102820.09,485.86,Y,Y,2.0,653.61,0,Active,700,2880.59,3,Urban,1,152817.61,66833.06
+F,18,4530.06,Low,Commercial associate,High skill tech staff,Urban,35202.55,347.46,N,Y,4.0,734.91,0,Unpossessed,826,4530.06,4,Semi-Urban,1,43931.16,22881.66
+M,46,2582.24,Low,Working,Managers,Semi-Urban,47376.97,246.82,N,Y,3.0,738.37,0,Inactive,596,2582.24,4,Semi-Urban,1,66167.7,30795.03
+F,51,3209.3,Low,Working,Core staff,Semi-Urban,201087.34,642.51,Y,Y,3.0,819.63,1,Unpossessed,364,3209.3,2,Urban,1,276734.27,140761.14
+F,52,2848.22,Low,Working,Laborers,Semi-Urban,181880.51,688.81,Y,N,4.0,680.0,0,Unpossessed,242,2848.22,4,Semi-Urban,1,238040.11,118222.33
+F,47,1956.47,Low,Working,Cleaning staff,Semi-Urban,85832.38,235.76,N,Y,2.0,692.64,0,Inactive,484,1956.47,1,Semi-Urban,0,162350.43,0.0
+M,27,2633.08,Low,State servant,Core staff,Semi-Urban,82616.14,384.96,N,Y,4.0,708.2,1,Inactive,909,2633.08,4,Rural,1,122158.07,53700.49
+F,56,2661.05,Low,Working,Sales staff,Semi-Urban,113410.84,887.9,N,N,4.0,779.31,0,Unpossessed,361,2661.05,2,Urban,1,151421.78,90728.67
+M,18,3077.07,Low,Working,High skill tech staff,Semi-Urban,68386.64,668.41,Y,Y,4.0,844.4,0,Active,457,3077.07,2,Rural,0,105223.19,0.0
+M,63,2206.08,Low,Working,Core staff,Semi-Urban,117104.1,506.69,N,Y,1.0,796.72,0,Unpossessed,545,2206.08,2,Rural,1,195606.39,81972.87
+F,54,1538.53,Low,Working,Laborers,Semi-Urban,38859.57,202.44,N,Y,1.0,781.93,0,Active,814,1538.53,2,Rural,1,45396.65,27201.7
+F,64,1565.04,Low,Working,Sales staff,Urban,158483.98,611.26,N,Y,2.0,844.23,0,Unpossessed,44,1565.04,1,Urban,1,225166.97,0.0
+F,35,1775.29,Low,Working,Drivers,Semi-Urban,65804.74,404.34,N,Y,1.0,721.82,0,Active,738,1775.29,1,Urban,0,104976.82,0.0
+M,35,2170.67,Low,Working,Drivers,Semi-Urban,36015.97,433.92,Y,N,3.0,637.49,1,Active,143,2170.67,4,Semi-Urban,0,57303.31,0.0
+M,56,2846.24,Low,Working,Security staff,Semi-Urban,59165.27,373.41,N,Y,2.0,820.28,1,Inactive,148,2846.24,1,Urban,1,72064.23,41415.69
+M,23,2617.99,Low,Working,Sales staff,Semi-Urban,56789.73,155.06,N,Y,1.0,813.59,0,Inactive,664,2617.99,4,Semi-Urban,1,73171.09,45431.78
+F,42,904.35,Low,Working,Accountants,Semi-Urban,169730.42,665.68,Y,Y,3.0,733.94,0,Inactive,516,904.35,1,Urban,1,212657.6,118811.29
+M,46,4150.99,Low,Commercial associate,Managers,Urban,186001.65,798.76,N,Y,1.0,667.23,1,Inactive,283,4150.99,4,Urban,1,308263.89,130201.15
+F,38,1037.0,Low,Working,Security staff,Semi-Urban,25715.33,138.98,Y,Y,2.0,683.51,1,Active,623,1037.0,2,Rural,0,31438.99,0.0
+M,18,1578.81,Low,Commercial associate,Sales staff,Semi-Urban,94953.33,381.23,N,Y,2.0,816.54,0,Unpossessed,392,1578.81,1,Semi-Urban,1,157716.68,75962.66
+M,41,6989.49,Low,Working,Cooking staff,Semi-Urban,47448.3,314.9,Y,Y,1.0,667.9,1,Active,302,6989.49,4,Rural,1,54577.18,33213.81
+M,21,2035.56,Low,Commercial associate,Accountants,Semi-Urban,84781.1,490.48,N,N,2.0,677.73,0,Unpossessed,335,2035.56,2,Urban,1,116875.07,59346.77
+F,18,1709.11,Low,Commercial associate,Drivers,Semi-Urban,18832.83,76.88,N,Y,2.0,664.04,0,Active,163,1709.11,3,Semi-Urban,1,23374.19,12241.34
+F,45,1228.89,Low,State servant,High skill tech staff,Semi-Urban,21214.54,95.86,N,Y,2.0,808.18,0,Inactive,920,1228.89,2,Semi-Urban,1,40121.1,16971.63
+M,49,4355.3,Low,State servant,Core staff,Semi-Urban,199370.22,559.64,N,Y,3.0,825.9,0,Active,304,4355.3,3,Rural,0,369969.54,0.0
+F,41,3253.31,Low,Working,Managers,Rural,70079.03,520.66,N,N,4.0,769.09,0,Inactive,520,3253.31,2,Semi-Urban,1,129903.98,52559.27
+F,30,3325.77,Low,Working,Drivers,Semi-Urban,176587.23,501.05,Y,Y,3.0,651.13,0,Inactive,828,3325.77,3,Rural,0,232279.45,0.0
+M,52,921.98,Low,Working,Sales staff,Semi-Urban,55943.92,309.02,N,N,1.0,687.86,0,Inactive,856,921.98,2,Urban,1,75846.03,39160.74
+M,34,2799.68,Low,Working,Security staff,Semi-Urban,16722.58,141.16,Y,Y,3.0,826.65,0,Unpossessed,180,2799.68,2,Rural,1,28013.53,11705.81
+M,29,1718.61,Low,Working,Medicine staff,Rural,79694.75,271.74,N,Y,1.0,744.7,0,Inactive,944,1718.61,3,Rural,1,105754.5,0.0
+M,50,2301.31,Low,Working,High skill tech staff,Semi-Urban,132971.9,441.37,N,Y,2.0,835.5,0,Inactive,870,2301.31,4,Semi-Urban,1,202680.04,106377.52
+F,20,2869.77,Low,Working,Laborers,Semi-Urban,89391.22,374.94,Y,Y,3.0,671.9,0,Unpossessed,580,2869.77,1,Rural,1,108976.66,0.0
+M,37,1312.9,Low,Working,Sales staff,Semi-Urban,23285.16,234.66,N,N,2.0,692.69,0,Active,634,1312.9,2,Rural,1,41975.39,16299.61
+M,18,1400.44,Low,Working,Laborers,Rural,51224.29,505.51,Y,Y,2.0,618.99,0,Unpossessed,761,1400.44,1,Urban,1,70319.76,0.0
+F,64,1576.37,Low,Working,Sales staff,Semi-Urban,19229.78,219.19,N,Y,2.0,711.24,1,Active,899,1576.37,1,Urban,1,28135.71,13460.85
+M,18,1885.6,Low,Working,Managers,Rural,37558.48,195.49,Y,Y,3.0,745.73,1,Active,177,1885.6,2,Rural,1,45796.31,26290.94
+M,20,2729.5,Low,Commercial associate,Laborers,Semi-Urban,57011.37,317.92,Y,Y,3.0,689.62,0,Inactive,162,2729.5,2,Rural,1,99222.45,37057.39
+M,54,1596.0,Low,Working,Sales staff,Semi-Urban,63484.26,452.51,Y,Y,3.0,759.18,0,Unpossessed,990,1596.0,2,Semi-Urban,1,79678.64,50787.41
+F,25,2681.18,Low,Working,Security staff,Rural,59155.81,285.1,Y,Y,2.0,680.36,1,Inactive,744,2681.18,4,Semi-Urban,1,87627.58,0.0
+F,18,1718.12,Low,Commercial associate,Accountants,Semi-Urban,61130.5,269.17,N,Y,1.0,708.42,1,Inactive,104,1718.12,4,Urban,1,102840.78,0.0
+F,18,1734.36,Low,Working,Core staff,Semi-Urban,14405.47,154.76,N,Y,4.0,780.76,1,Active,284,1734.36,3,Semi-Urban,1,18224.95,10804.1
+F,18,1758.23,Low,Commercial associate,Managers,Semi-Urban,37406.0,441.04,Y,N,3.0,816.33,0,Unpossessed,77,1758.23,3,Urban,1,59958.51,26184.2
+F,49,2030.18,Low,Commercial associate,Sales staff,Semi-Urban,36344.4,430.16,N,Y,2.0,700.59,0,Unpossessed,928,2030.18,4,Rural,1,63226.87,25441.08
+M,46,2479.59,Low,Working,Sales staff,Semi-Urban,67472.25,294.06,Y,N,3.0,649.36,0,Unpossessed,173,2479.59,1,Urban,1,80477.3,0.0
+F,60,3098.23,Low,Working,Laborers,Rural,91093.65,450.41,N,Y,2.0,802.34,0,Unpossessed,849,3098.23,2,Semi-Urban,1,119685.18,68320.24
+M,20,2262.63,Low,Working,Laborers,Rural,113388.34,412.97,N,N,2.0,701.88,1,Active,223,2262.63,1,Rural,1,195051.21,79371.84
+M,52,1839.1,Low,Commercial associate,Sales staff,Semi-Urban,109867.05,307.09,N,N,4.0,705.14,0,Active,444,1839.1,1,Rural,1,192255.56,76906.94
+F,18,1967.79,Low,Commercial associate,Drivers,Semi-Urban,68230.5,694.93,Y,Y,2.0,860.32,0,Active,181,1967.79,4,Rural,1,108353.32,47761.35
+M,28,1237.55,Low,Working,Medicine staff,Semi-Urban,88408.08,284.75,N,Y,2.0,773.16,0,Unpossessed,718,1237.55,2,Urban,1,122559.52,66306.06
+F,18,1098.07,Low,Working,Sales staff,Semi-Urban,30701.21,249.84,Y,Y,3.0,707.96,0,Active,369,1098.07,1,Semi-Urban,0,44540.46,0.0
+F,21,2329.57,Low,Working,Sales staff,Semi-Urban,125877.48,336.99,Y,Y,2.0,832.59,1,Unpossessed,960,2329.57,1,Urban,1,186710.97,100701.98
+F,31,783.57,Low,Working,Cleaning staff,Semi-Urban,40313.65,282.5,N,Y,2.0,804.44,1,Inactive,723,783.57,2,Rural,1,75546.65,30235.24
+M,44,2531.44,Low,Working,Security staff,Semi-Urban,25760.11,289.63,N,N,2.0,812.44,0,Active,663,2531.44,1,Urban,0,36901.08,0.0
+F,44,1744.66,Low,Working,Waiters/barmen staff,Semi-Urban,33328.62,179.16,N,Y,1.0,819.24,0,Active,980,1744.66,3,Urban,1,38045.93,23330.03
+M,51,3494.69,Low,Commercial associate,Laborers,Urban,68925.34,313.48,N,N,2.0,866.67,0,Inactive,34,3494.69,1,Semi-Urban,0,97793.42,62032.81
+F,39,1146.39,Low,Working,Core staff,Rural,39236.34,255.37,N,Y,2.0,709.01,0,Unpossessed,927,1146.39,4,Rural,1,51677.95,27465.44
+F,23,6598.94,Low,Commercial associate,Managers,Urban,162366.77,883.26,Y,Y,2.0,783.28,0,Active,742,6598.94,4,Rural,1,234831.44,129893.42
+F,52,2708.25,Low,Working,Sales staff,Semi-Urban,70124.94,522.95,N,Y,3.0,743.53,0,Inactive,724,2708.25,3,Urban,1,92156.12,45581.21
+F,30,2230.72,Low,Working,Sales staff,Semi-Urban,32691.82,374.88,Y,Y,1.0,603.5,1,Inactive,867,2230.72,1,Urban,1,61956.19,0.0
+M,33,5927.52,Low,Commercial associate,Drivers,Urban,22852.98,254.46,Y,N,2.0,856.64,0,Inactive,638,5927.52,4,Rural,1,40562.6,18282.38
+M,25,2462.93,Low,Working,Drivers,Semi-Urban,92416.01,394.21,N,N,1.0,669.62,0,Inactive,757,2462.93,3,Rural,1,144705.25,64691.21
+F,44,1002.29,Low,Working,Cleaning staff,Rural,6846.61,78.35,N,Y,4.0,714.54,0,Unpossessed,922,1002.29,2,Semi-Urban,1,10684.9,4792.63
+F,18,5480.05,Low,Working,Managers,Semi-Urban,113663.3,678.42,Y,Y,1.0,760.63,1,Unpossessed,298,5480.05,1,Semi-Urban,1,153728.27,90930.64
+F,18,2849.55,Low,Working,High skill tech staff,Semi-Urban,53362.34,149.93,N,Y,1.0,860.75,1,Unpossessed,282,2849.55,1,Rural,1,97446.22,53362.34
+M,34,2698.24,Low,Commercial associate,Accountants,Semi-Urban,229300.69,763.2,Y,Y,2.0,786.45,0,Active,518,2698.24,1,Semi-Urban,1,335596.05,183440.55
+M,35,2537.51,Low,Working,Accountants,Semi-Urban,71954.63,386.65,N,Y,2.0,723.56,1,Unpossessed,396,2537.51,2,Semi-Urban,1,103358.75,46770.51
+M,61,3599.2,Low,Commercial associate,Laborers,Semi-Urban,103265.15,373.09,N,Y,2.0,732.15,0,Active,946,3599.2,1,Rural,0,173868.68,0.0
+F,48,2557.38,Low,Working,High skill tech staff,Semi-Urban,19412.72,160.58,Y,N,1.0,682.2,1,Active,345,2557.38,2,Semi-Urban,1,33768.33,12618.27
+M,18,4850.07,Low,Working,Managers,Semi-Urban,283081.95,925.78,N,N,2.0,839.62,0,Active,653,4850.07,1,Urban,1,454947.51,226465.56
+F,28,2608.81,Low,Commercial associate,Core staff,Semi-Urban,124097.65,-999.0,N,Y,2.0,760.41,0,Unpossessed,598,2608.81,2,Semi-Urban,1,177618.7,93073.24
+F,61,1585.67,Low,Commercial associate,Sales staff,Semi-Urban,93900.17,394.33,Y,Y,2.0,785.69,0,Active,729,1585.67,1,Semi-Urban,1,177163.51,70425.13
+M,25,740.82,Low,Working,Sales staff,Semi-Urban,18693.54,141.99,N,Y,3.0,687.8,1,Active,172,740.82,2,Urban,1,22651.7,13085.48
+M,61,1825.88,Low,State servant,Managers,Urban,225327.18,711.64,Y,Y,2.0,781.28,0,Inactive,875,1825.88,2,Semi-Urban,0,425875.15,0.0
+M,54,2154.92,Low,Commercial associate,Sales staff,Semi-Urban,144424.2,673.88,Y,Y,2.0,678.31,0,Unpossessed,837,2154.92,1,Semi-Urban,1,236717.05,101096.94
+M,18,1616.89,Low,Working,Drivers,Semi-Urban,80167.95,429.57,Y,Y,2.0,718.37,0,Active,55,1616.89,1,Rural,1,130623.48,56117.56
+M,18,6928.0,Low,Commercial associate,Drivers,Urban,165769.78,481.94,Y,Y,2.0,855.34,0,Active,195,6928.0,1,Rural,1,278653.72,124327.34
+M,22,1271.57,Low,Working,Sales staff,Semi-Urban,177025.83,587.94,N,N,2.0,667.45,1,Active,59,1271.57,3,Rural,1,282763.9,123918.08
+F,27,2591.75,Low,State servant,Core staff,Semi-Urban,111437.19,692.62,Y,Y,3.0,751.3,0,Active,627,2591.75,4,Semi-Urban,0,150887.39,0.0
+M,48,2470.13,Low,State servant,Core staff,Rural,149124.04,797.62,Y,Y,3.0,604.88,0,Inactive,667,2470.13,1,Urban,1,179917.25,0.0
+M,46,1882.66,Low,Commercial associate,Managers,Semi-Urban,37608.1,257.6,Y,Y,2.0,843.4,0,Active,792,1882.66,4,Rural,0,68514.65,0.0
+F,23,1849.9,Low,Working,Accountants,Semi-Urban,132738.68,564.62,Y,Y,2.0,796.67,0,Unpossessed,980,1849.9,3,Urban,1,197277.83,0.0
+F,62,3288.16,Low,Working,Managers,Semi-Urban,125252.02,353.99,Y,N,2.0,820.75,0,Unpossessed,555,3288.16,2,Urban,1,215978.86,100201.62
+F,18,1274.74,Low,Working,High skill tech staff,Semi-Urban,32582.68,162.52,N,Y,2.0,728.16,0,Active,956,1274.74,2,Semi-Urban,1,61023.74,22807.88
+M,59,3325.19,Low,Working,Medicine staff,Semi-Urban,196234.12,649.34,N,N,2.0,708.88,1,Inactive,422,3325.19,2,Rural,1,344334.59,0.0
+F,31,2730.39,Low,Commercial associate,Security staff,Semi-Urban,39205.11,232.65,Y,N,2.0,757.33,0,Unpossessed,66,2730.39,3,Rural,1,66651.0,31364.09
+M,18,3056.01,Low,Working,Core staff,Semi-Urban,36267.27,173.71,Y,N,1.0,819.33,0,Inactive,8,3056.01,4,Rural,1,46061.64,0.0
+F,20,3525.78,Low,Working,Managers,Semi-Urban,162815.16,845.23,Y,Y,2.0,744.52,0,Active,262,3525.78,4,Urban,1,229942.28,105829.85
+M,25,5660.68,Low,Commercial associate,Core staff,Urban,272965.68,931.86,N,N,3.0,857.08,0,Active,365,5660.68,3,Semi-Urban,1,412563.63,232020.83
+F,31,1777.84,Low,Working,Laborers,Semi-Urban,54616.47,275.83,N,N,2.0,600.9,1,Active,287,1777.84,4,Rural,0,69328.86,0.0
+F,59,2223.2,Low,Commercial associate,Managers,Rural,46994.65,252.43,N,Y,3.0,836.47,1,Active,947,2223.2,4,Urban,1,67064.41,-999.0
+F,60,2534.41,Low,Working,Laborers,Semi-Urban,43159.69,349.29,N,Y,2.0,811.45,1,Unpossessed,358,2534.41,3,Urban,1,56977.2,32369.77
+M,22,6361.96,Low,Working,Laborers,Semi-Urban,104721.69,507.84,Y,Y,4.0,727.05,0,Inactive,759,6361.96,1,Semi-Urban,1,125358.56,73305.18
+F,18,3674.62,Low,State servant,Laborers,Rural,89048.48,418.8,N,N,1.0,783.0,0,Unpossessed,788,3674.62,2,Semi-Urban,1,163936.56,66786.36
+F,53,1386.32,Low,Working,Laborers,Semi-Urban,32750.17,395.36,Y,N,1.0,599.96,0,Unpossessed,459,1386.32,1,Semi-Urban,0,37515.9,0.0
+M,26,1735.26,Low,Working,Laborers,Semi-Urban,54732.28,205.78,N,N,2.0,757.92,0,Inactive,597,1735.26,4,Urban,1,74439.36,41049.21
+M,18,1640.09,Low,Working,Sales staff,Rural,40007.02,-999.0,N,Y,1.0,745.39,0,Active,632,1640.09,3,Urban,1,51311.51,-999.0
+F,42,2844.41,Low,Commercial associate,Low-skill Laborers,Semi-Urban,61848.59,652.18,Y,N,3.0,743.38,0,Active,604,2844.41,1,Semi-Urban,1,86161.31,40201.58
+F,61,3982.13,Low,Working,High skill tech staff,Urban,224357.09,739.45,Y,Y,1.0,690.88,1,Inactive,426,3982.13,1,Urban,1,393598.85,145832.11
+M,34,2235.39,Low,Commercial associate,Cooking staff,Rural,92202.49,650.47,N,Y,1.0,796.63,0,Unpossessed,498,2235.39,2,Semi-Urban,1,143979.23,64541.74
+F,22,2098.07,Low,Working,Sales staff,Semi-Urban,51123.26,296.57,Y,N,1.0,602.35,0,Unpossessed,241,2098.07,4,Rural,0,63748.12,0.0
+M,21,1129.66,Low,State servant,Core staff,Semi-Urban,69207.01,533.99,N,N,2.0,636.62,0,Unpossessed,487,1129.66,2,Semi-Urban,0,80698.85,0.0
+F,45,1888.51,Low,Working,Sales staff,Semi-Urban,91734.3,544.05,N,Y,5.0,729.44,0,Inactive,252,1888.51,1,Urban,1,122724.33,59627.3
+M,64,3638.1,Low,Working,Medicine staff,Semi-Urban,258056.98,948.75,Y,Y,2.0,719.95,0,Unpossessed,124,3638.1,3,Rural,1,340906.96,167737.04
+M,18,4873.44,Low,Working,Managers,Rural,70390.25,870.51,Y,Y,3.0,705.91,0,Active,124,4873.44,3,Rural,0,82490.83,0.0
+M,64,2125.8,Low,Working,Laborers,Semi-Urban,190815.1,548.57,Y,Y,4.0,633.44,0,Unpossessed,260,2125.8,2,Semi-Urban,1,306842.83,0.0
+F,28,2457.89,Low,Commercial associate,Sales staff,Semi-Urban,70032.56,552.93,N,Y,2.0,785.16,0,Unpossessed,563,2457.89,2,Rural,1,121840.35,52524.42
+F,32,1614.42,Low,Working,High skill tech staff,Semi-Urban,24115.77,113.1,N,Y,3.0,760.75,0,Active,933,1614.42,2,Rural,1,32516.68,18086.83
+F,26,2231.8,Low,Working,Accountants,Semi-Urban,142411.28,481.78,N,Y,4.0,650.99,1,Inactive,202,2231.8,4,Urban,1,231377.1,0.0
+F,62,1619.72,Low,Commercial associate,Sales staff,Rural,21434.34,128.14,N,Y,2.0,651.32,1,Inactive,352,1619.72,1,Rural,1,35366.05,15004.04
+M,30,1547.61,Low,State servant,Security staff,Semi-Urban,65692.57,308.72,N,N,1.0,733.67,0,Unpossessed,785,1547.61,1,Urban,1,102870.79,45984.8
+M,55,1841.53,Low,Working,Security staff,Semi-Urban,86732.14,445.69,Y,Y,4.0,815.12,0,Unpossessed,487,1841.53,2,Semi-Urban,1,117047.36,65049.1
+M,39,1237.83,Low,Working,Laborers,Rural,140609.75,459.86,N,Y,3.0,693.36,0,Active,873,1237.83,4,Urban,1,165100.0,0.0
+F,18,2298.24,Low,Commercial associate,Laborers,Semi-Urban,187143.13,521.89,N,Y,2.0,774.87,1,Inactive,743,2298.24,2,Rural,1,259961.89,0.0
+M,60,2463.69,Low,Working,Laborers,Semi-Urban,91207.36,287.51,Y,Y,2.0,782.01,0,Unpossessed,432,2463.69,2,Semi-Urban,1,164001.83,68405.52
+M,18,2121.47,Low,Working,Laborers,Rural,134626.34,444.14,Y,N,1.0,707.14,0,Unpossessed,478,2121.47,1,Rural,1,233499.25,0.0
+F,55,2637.19,Low,Working,Core staff,Semi-Urban,70937.57,352.1,Y,Y,2.0,738.81,0,Inactive,632,2637.19,3,Urban,1,128887.36,46109.42
+M,47,2997.25,Low,Commercial associate,Managers,Urban,66553.06,451.55,N,Y,2.0,781.36,1,Unpossessed,354,2997.25,3,Rural,0,125153.53,0.0
+F,18,1956.66,Low,Working,Sales staff,Semi-Urban,20323.29,169.73,N,Y,2.0,724.68,1,Active,772,1956.66,4,Rural,0,26414.92,0.0
+F,18,1364.85,Low,Commercial associate,Core staff,Semi-Urban,22614.02,193.82,N,Y,2.0,662.53,0,Active,260,1364.85,2,Semi-Urban,1,25354.9,0.0
+F,25,3830.11,Low,Working,Managers,Semi-Urban,133465.03,441.67,N,Y,4.0,754.75,1,Active,898,3830.11,4,Urban,1,209384.6,106772.02
+F,58,591.24,Low,Working,Cooking staff,Semi-Urban,18985.33,193.58,N,Y,2.0,676.62,1,Unpossessed,540,591.24,4,Semi-Urban,1,24263.59,12340.46
+F,18,4791.48,Low,Commercial associate,Managers,Semi-Urban,130042.09,499.66,N,Y,3.0,753.64,0,Unpossessed,393,4791.48,2,Semi-Urban,1,185936.28,91029.46
+F,32,1684.62,Low,Working,Sales staff,Semi-Urban,134202.42,548.87,Y,Y,3.0,754.43,1,Unpossessed,928,1684.62,4,Rural,1,229855.73,100651.82
+F,18,3497.03,Low,Working,Cooking staff,Semi-Urban,57952.38,253.55,Y,Y,2.0,628.9,0,Active,697,3497.03,1,Semi-Urban,0,107601.49,0.0
+M,56,3718.71,Low,Commercial associate,Accountants,Semi-Urban,279864.79,1088.7,Y,Y,2.0,849.77,0,Unpossessed,116,3718.71,3,Semi-Urban,1,424443.43,223891.83
+M,35,1528.25,Low,State servant,Core staff,Semi-Urban,95224.0,302.87,N,Y,3.0,705.87,0,Inactive,519,1528.25,1,Semi-Urban,1,117710.76,66656.8
+F,27,1243.67,Low,Working,Drivers,Semi-Urban,64296.27,286.73,Y,N,1.0,674.09,0,Active,92,1243.67,4,Rural,1,83224.84,45007.39
+M,42,2149.77,Low,Working,Cooking staff,Semi-Urban,54888.19,288.57,N,Y,2.0,717.43,1,Unpossessed,399,2149.77,1,Urban,1,67300.13,35677.32
+M,31,1279.21,Low,Working,Core staff,Semi-Urban,42552.31,234.69,Y,Y,2.0,797.51,1,Active,2,1279.21,3,Urban,1,47804.44,34041.85
+F,44,2118.72,Low,Working,Sales staff,Semi-Urban,8032.99,63.69,Y,N,2.0,785.57,0,Active,774,2118.72,3,Urban,1,12218.53,6024.74
+M,48,3469.72,Low,Working,High skill tech staff,Rural,179781.82,631.78,Y,Y,3.0,735.41,1,Unpossessed,837,3469.72,1,Semi-Urban,1,273435.64,125847.27
+M,53,1003.84,Low,Working,Accountants,Semi-Urban,25645.1,188.35,Y,Y,5.0,631.35,0,Unpossessed,610,1003.84,1,Rural,1,46892.0,0.0
+M,60,3751.59,Low,Working,Core staff,Semi-Urban,112644.68,518.7,Y,Y,4.0,829.2,0,Unpossessed,321,3751.59,2,Rural,1,187353.43,0.0
+F,33,1285.39,Low,Commercial associate,Laborers,Semi-Urban,40969.6,182.79,N,Y,2.0,664.69,0,Active,553,1285.39,1,Semi-Urban,1,46290.75,26630.24
+F,55,2497.93,Low,Working,Medicine staff,Semi-Urban,60356.4,262.87,N,N,4.0,695.44,1,Inactive,635,2497.93,2,Rural,1,89388.75,-999.0
+M,35,3067.63,Low,Working,Drivers,Semi-Urban,141104.6,535.24,N,Y,2.0,682.7,0,Active,931,3067.63,2,Urban,1,215510.1,98773.22
+M,59,1333.77,Low,Working,Cooking staff,Semi-Urban,46685.32,259.95,N,Y,2.0,723.96,0,Active,642,1333.77,2,Rural,1,52279.96,32679.72
+M,54,1519.75,Low,Commercial associate,Sales staff,Semi-Urban,23485.87,181.81,N,Y,2.0,630.91,0,Active,437,1519.75,1,Rural,1,30740.03,0.0
+F,48,1845.61,Low,Working,Laborers,Semi-Urban,78120.85,334.09,N,Y,1.0,792.15,0,Inactive,226,1845.61,2,Urban,1,119933.31,62496.68
+M,18,1357.1,Low,Commercial associate,Drivers,Rural,107127.94,362.86,N,Y,5.0,716.03,0,Unpossessed,964,1357.1,3,Rural,1,118110.56,74989.56
+M,33,4008.04,Low,Working,Drivers,Urban,84642.64,1093.34,Y,Y,2.0,766.72,1,Unpossessed,434,4008.04,3,Rural,1,133532.44,67714.11
+F,62,1596.38,Low,State servant,Medicine staff,Semi-Urban,26016.39,138.13,N,Y,1.0,673.05,0,Inactive,567,1596.38,3,Rural,1,37755.6,18211.47
+F,64,1511.63,Low,Working,Drivers,Semi-Urban,43353.73,231.5,N,N,1.0,611.96,0,Unpossessed,447,1511.63,4,Semi-Urban,1,77758.46,0.0
+F,35,2303.67,Low,Commercial associate,Sales staff,Semi-Urban,84731.1,374.04,Y,Y,3.0,716.02,0,Unpossessed,669,2303.67,4,Rural,1,140906.8,59311.77
+M,45,3152.12,Low,Commercial associate,Sales staff,Semi-Urban,115973.82,729.03,N,Y,2.0,678.02,0,Active,892,3152.12,2,Rural,1,193253.02,75382.98
+F,39,1689.32,Low,Working,Sales staff,Semi-Urban,160865.0,427.2,N,N,2.0,816.66,0,Inactive,293,1689.32,1,Rural,0,236141.85,0.0
+M,60,1359.51,Low,Working,Laborers,Semi-Urban,15828.65,151.84,N,N,3.0,683.16,0,Active,3,1359.51,1,Urban,1,17865.37,11080.05
+M,18,853.79,Low,Working,Laborers,Semi-Urban,28289.99,129.51,N,Y,3.0,697.83,0,Inactive,240,853.79,2,Rural,1,41368.73,0.0
+M,25,11027.01,Low,Working,Laborers,Rural,99661.06,311.02,N,Y,2.0,729.39,0,Inactive,970,11027.01,1,Urban,1,118996.7,0.0
+F,26,2979.95,Low,Commercial associate,High skill tech staff,Rural,144094.76,484.83,Y,Y,2.0,859.82,1,Inactive,553,2979.95,1,Semi-Urban,0,258268.04,115275.81
+M,52,1800.29,Low,Commercial associate,Laborers,Rural,52685.77,323.04,N,Y,1.0,750.55,0,Unpossessed,917,1800.29,4,Urban,1,90704.76,42148.62
+F,56,3066.83,Low,Working,Security staff,Semi-Urban,40425.57,354.57,N,Y,3.0,625.43,1,Active,374,3066.83,4,Rural,1,44791.3,0.0
+F,18,3096.72,Low,State servant,Core staff,Rural,156667.03,461.22,N,N,1.0,857.24,0,Unpossessed,836,3096.72,4,Rural,1,249822.75,109666.92
+M,26,2258.85,Low,Working,Laborers,Rural,136386.44,446.66,N,Y,4.0,732.0,0,Inactive,732,2258.85,1,Semi-Urban,1,201738.35,0.0
+M,26,2801.29,Low,Commercial associate,Laborers,Semi-Urban,115313.84,358.07,N,Y,2.0,691.64,0,Unpossessed,118,2801.29,3,Semi-Urban,1,204470.02,80719.69
+M,18,1357.9,Low,Commercial associate,Cooking staff,Semi-Urban,40667.25,221.88,N,Y,1.0,736.95,0,Unpossessed,149,1357.9,2,Urban,1,67457.76,28467.07
+F,42,2805.59,Low,Commercial associate,Laborers,Semi-Urban,191626.88,813.28,Y,Y,1.0,644.3,0,Inactive,252,2805.59,1,Urban,1,322486.71,0.0
+M,35,1952.52,Low,Commercial associate,Laborers,Urban,71989.32,419.03,N,Y,2.0,841.93,0,Inactive,898,1952.52,4,Urban,1,121581.77,53991.99
+F,18,3314.04,Low,Commercial associate,Security staff,Semi-Urban,88186.61,611.6,N,N,1.0,747.95,0,Unpossessed,681,3314.04,4,Semi-Urban,1,114497.61,61730.63
+F,64,2441.89,Low,Working,Medicine staff,Rural,96440.62,438.66,N,Y,3.0,709.82,0,Active,482,2441.89,4,Rural,1,-999.0,67508.43
+F,30,4777.59,Low,Commercial associate,Medicine staff,Semi-Urban,92456.18,468.36,N,Y,1.0,791.62,1,Inactive,10,4777.59,3,Semi-Urban,1,130618.94,73964.94
+F,39,3626.0,Low,Working,Sales staff,Urban,63829.8,392.3,Y,Y,2.0,689.78,0,Unpossessed,519,3626.0,1,Semi-Urban,1,78390.83,41489.37
+F,60,1254.44,Low,Working,Sales staff,Rural,61207.0,456.4,N,Y,2.0,662.01,0,Active,502,1254.44,3,Rural,1,107171.74,39784.55
+F,63,2012.78,Low,Working,Laborers,Semi-Urban,152259.61,433.7,Y,Y,2.0,717.75,0,Inactive,289,2012.78,3,Rural,0,255426.63,0.0
+F,36,6162.69,Low,Working,Accountants,Urban,137609.27,649.89,Y,Y,2.0,838.64,1,Unpossessed,884,6162.69,1,Urban,1,156224.87,0.0
+M,44,1214.98,Low,Working,Laborers,Semi-Urban,76739.49,349.98,Y,N,2.0,662.92,0,Active,991,1214.98,3,Urban,1,145305.18,0.0
+M,55,3026.08,Low,Working,Sales staff,Rural,21729.97,200.39,Y,Y,4.0,679.79,1,Active,686,3026.08,1,Semi-Urban,1,38186.62,15210.98
+M,46,2013.91,Low,Working,Laborers,Urban,25198.06,137.5,N,Y,2.0,651.71,0,Unpossessed,658,2013.91,3,Rural,1,43378.82,17638.64
+F,41,3172.05,Low,Commercial associate,Core staff,Semi-Urban,116006.59,549.41,N,Y,4.0,742.72,0,Active,352,3172.05,1,Rural,0,133883.67,0.0
+F,18,1353.29,Low,Working,Laborers,Semi-Urban,31320.01,154.14,N,N,3.0,829.03,0,Active,736,1353.29,1,Urban,1,38979.13,25056.01
+M,18,2189.65,Low,Working,Accountants,Semi-Urban,63982.76,340.39,N,N,2.0,823.95,0,Unpossessed,573,2189.65,3,Rural,1,104512.35,51186.21
+M,52,1610.99,Low,Working,Laborers,Semi-Urban,24552.42,203.04,N,Y,2.0,747.19,1,Unpossessed,697,1610.99,1,Semi-Urban,1,29911.61,17186.69
+M,33,2079.2,Low,Working,Accountants,Semi-Urban,126538.75,406.1,N,Y,2.0,854.97,0,Active,824,2079.2,1,Urban,1,142427.69,88577.12
+M,58,3354.92,Low,Commercial associate,Core staff,Urban,74883.28,506.54,N,N,2.0,727.62,0,Unpossessed,923,3354.92,1,Urban,1,104202.65,0.0
+M,40,2057.94,Low,Working,Laborers,Semi-Urban,56715.55,-999.0,Y,Y,3.0,730.3,0,Active,670,2057.94,3,Urban,1,93130.54,39700.88
+M,25,2905.47,Low,Working,Drivers,Semi-Urban,175795.35,481.75,Y,Y,2.0,753.67,0,Active,697,2905.47,1,Semi-Urban,0,258359.46,0.0
+F,58,1003.96,Low,Working,Core staff,Rural,27340.28,146.08,N,Y,4.0,672.44,0,Inactive,677,1003.96,3,Urban,1,32183.58,17771.18
+M,55,1608.78,Low,Commercial associate,Laborers,Semi-Urban,112392.61,447.92,N,Y,3.0,756.4,0,Unpossessed,649,1608.78,2,Semi-Urban,1,147753.73,84294.46
+F,58,2194.03,Low,Commercial associate,Accountants,Semi-Urban,49786.44,251.27,N,N,2.0,718.22,0,Active,509,2194.03,2,Rural,1,84963.79,32361.19
+M,44,2394.59,Low,Working,Core staff,Rural,90822.09,418.95,N,N,1.0,799.92,0,Active,806,2394.59,1,Semi-Urban,1,146095.54,68116.57
+M,38,1347.77,Low,Working,Laborers,Semi-Urban,56838.08,258.37,N,Y,3.0,638.38,0,Active,739,1347.77,4,Semi-Urban,1,90280.98,0.0
+F,18,1818.15,Low,Working,Accountants,Semi-Urban,27369.55,137.83,N,N,3.0,790.22,1,Inactive,238,1818.15,2,Semi-Urban,1,40969.24,21895.64
+M,61,2715.14,Low,Commercial associate,Medicine staff,Semi-Urban,73824.41,281.13,Y,N,3.0,651.32,0,Active,13,2715.14,1,Semi-Urban,1,83440.31,51677.09
+F,24,1678.3,Low,Commercial associate,Sales staff,Rural,170946.99,828.3,Y,Y,5.0,674.25,0,Active,118,1678.3,3,Semi-Urban,1,298561.91,119662.89
+F,19,1556.05,Low,Working,Accountants,Urban,85093.87,389.37,N,Y,1.0,619.82,0,Inactive,335,1556.05,2,Urban,1,125650.57,0.0
+F,38,2670.35,Low,Working,Sales staff,Semi-Urban,97829.21,299.46,N,Y,2.0,753.86,0,Unpossessed,776,2670.35,2,Rural,1,183894.44,68480.45
+M,34,929.32,Low,Working,Laborers,Semi-Urban,27088.29,138.09,N,Y,1.0,704.09,0,Inactive,698,929.32,4,Urban,0,39254.59,0.0
+F,45,1711.04,Low,Commercial associate,High skill tech staff,Semi-Urban,110293.47,355.22,Y,Y,2.0,740.9,0,Unpossessed,879,1711.04,1,Urban,1,131513.51,71690.76
+M,58,3191.0,Low,Working,Managers,Rural,65877.16,331.48,Y,Y,2.0,705.77,0,Inactive,307,3191.0,1,Semi-Urban,0,96819.64,0.0
+M,21,1607.14,Low,Working,Laborers,Semi-Urban,96051.29,486.79,N,Y,2.0,692.93,1,Active,917,1607.14,4,Urban,0,130978.67,0.0
+F,18,1381.82,Low,Working,Laborers,Rural,116748.46,406.76,N,Y,4.0,715.19,0,Inactive,590,1381.82,3,Urban,1,201225.88,75886.5
+M,59,4129.71,Low,Commercial associate,Laborers,Urban,115138.34,528.55,N,Y,4.0,786.78,1,Inactive,800,4129.71,3,Rural,1,174569.06,80596.84
+F,19,3996.38,Low,Commercial associate,High skill tech staff,Semi-Urban,24425.84,114.94,Y,Y,3.0,705.0,0,Active,226,3996.38,2,Urban,0,37377.57,0.0
+F,52,1560.58,Low,Working,Low-skill Laborers,Semi-Urban,80580.13,470.15,N,Y,3.0,785.09,0,Unpossessed,381,1560.58,4,Semi-Urban,1,105824.94,0.0
+F,34,2226.97,Low,Working,High skill tech staff,Semi-Urban,27238.71,129.91,Y,N,1.0,656.14,0,Unpossessed,243,2226.97,4,Rural,1,50551.24,17705.16
+F,56,3131.02,Low,Commercial associate,Managers,Semi-Urban,91285.04,509.67,Y,N,3.0,747.89,0,Inactive,64,3131.02,3,Urban,1,135914.99,0.0
+M,61,1104.36,Low,Working,Waiters/barmen staff,Rural,32536.77,152.26,N,N,3.0,683.18,0,Active,281,1104.36,2,Rural,1,50821.39,21148.9
+M,49,3850.93,Low,Commercial associate,Cleaning staff,Semi-Urban,77444.59,513.06,Y,Y,3.0,803.69,0,Inactive,682,3850.93,3,Rural,1,121826.16,61955.67
+M,44,2274.33,Low,Commercial associate,Realty agents,Rural,141222.2,467.49,N,Y,2.0,756.76,0,Inactive,603,2274.33,2,Rural,0,167987.9,0.0
+M,48,2748.24,Low,Working,Managers,Semi-Urban,122189.86,415.36,Y,N,1.0,826.32,0,Unpossessed,594,2748.24,2,Semi-Urban,1,136476.82,91642.4
+M,50,6122.52,Low,Working,Laborers,Semi-Urban,66208.05,319.92,Y,N,2.0,686.51,0,Unpossessed,30,6122.52,4,Rural,0,122711.99,0.0
+M,58,3673.67,Low,Working,Laborers,Semi-Urban,76340.7,343.12,Y,Y,3.0,687.47,0,Active,163,3673.67,3,Semi-Urban,1,99502.49,53438.49
+M,62,1550.73,Low,Working,High skill tech staff,Urban,13472.91,138.87,N,Y,2.0,820.47,0,Unpossessed,672,1550.73,2,Rural,1,17704.72,10778.33
+M,47,2124.78,Low,Working,Drivers,Semi-Urban,24743.99,293.73,Y,Y,2.0,799.15,0,Unpossessed,568,2124.78,1,Semi-Urban,1,39434.5,17320.79
+M,18,3342.64,Low,Working,Laborers,Rural,63288.05,330.64,N,Y,1.0,641.56,0,Inactive,121,3342.64,3,Rural,1,107631.07,0.0
+F,18,2403.63,Low,Working,High skill tech staff,Semi-Urban,83385.47,374.97,N,Y,2.0,877.64,0,Active,998,2403.63,2,Urban,0,150151.27,62539.1
+F,24,1378.93,Low,Working,Laborers,Rural,30133.41,187.3,N,Y,3.0,698.69,0,Inactive,420,1378.93,1,Semi-Urban,1,44750.08,21093.39
+F,37,3337.33,Low,Commercial associate,Managers,Semi-Urban,64500.31,495.1,N,N,2.0,733.97,0,Unpossessed,414,3337.33,4,Urban,1,90794.06,45150.22
+M,18,2898.11,Low,Working,IT staff,Semi-Urban,58820.3,297.17,N,Y,2.0,777.02,0,Inactive,330,2898.11,1,Rural,1,89969.7,44115.23
+F,47,1817.08,Low,Working,Accountants,Rural,36400.62,377.76,N,N,2.0,752.7,0,Active,840,1817.08,1,Rural,1,66456.3,29120.5
+M,18,3085.17,Low,Commercial associate,Laborers,Semi-Urban,187961.35,649.19,N,Y,2.0,820.17,0,Inactive,214,3085.17,1,Urban,1,311844.0,140971.01
+F,18,1551.5,Low,Commercial associate,Sales staff,Semi-Urban,39528.26,193.24,N,Y,1.0,764.16,0,Inactive,913,1551.5,4,Rural,0,65724.97,0.0
+M,31,1906.97,Low,State servant,Core staff,Semi-Urban,72235.14,366.09,N,N,2.0,775.18,1,Unpossessed,79,1906.97,2,Semi-Urban,1,104096.52,0.0
+M,36,1230.43,Low,Working,Core staff,Semi-Urban,31982.94,200.21,Y,Y,3.0,627.32,0,Inactive,15,1230.43,3,Semi-Urban,1,38935.02,0.0
+M,63,2076.17,Low,Working,Core staff,Semi-Urban,41135.56,208.93,N,N,4.0,690.76,1,Active,79,2076.17,2,Semi-Urban,1,54918.19,26738.11
+F,23,1742.77,Low,Working,Sales staff,Semi-Urban,19083.01,143.7,N,Y,3.0,586.52,0,Inactive,611,1742.77,1,Semi-Urban,1,27415.89,0.0
+M,58,1750.25,Low,Commercial associate,Laborers,Rural,21866.82,138.71,Y,Y,2.0,654.73,0,Unpossessed,695,1750.25,1,Urban,1,37718.25,14213.43
+M,18,2674.36,Low,Commercial associate,Core staff,Semi-Urban,177139.71,622.99,N,N,2.0,668.7,0,Inactive,682,2674.36,3,Rural,1,261872.17,123997.8
+M,47,5812.03,Low,Commercial associate,Sales staff,Urban,123173.41,672.14,Y,N,1.0,858.1,0,Unpossessed,77,5812.03,3,Urban,1,208995.59,86221.39
+F,18,1931.36,Low,Working,Laborers,Rural,82320.41,564.48,N,Y,1.0,648.63,0,Inactive,371,1931.36,1,Rural,0,153728.72,0.0
+F,51,985.45,Low,Working,Medicine staff,Semi-Urban,24291.25,134.04,N,N,1.0,607.61,0,Inactive,80,985.45,1,Semi-Urban,0,31671.04,0.0
+F,44,992.82,Low,Working,Drivers,Semi-Urban,139804.44,385.4,Y,Y,2.0,693.21,0,Inactive,225,992.82,2,Rural,1,173685.74,90872.89
+F,41,1260.8,Low,Working,Sales staff,Semi-Urban,104433.89,535.27,N,Y,2.0,764.82,1,Unpossessed,397,1260.8,1,Urban,1,157277.3,73103.72
+F,23,4501.72,Low,Working,Managers,Rural,90081.76,346.86,Y,N,2.0,744.49,0,Inactive,248,4501.72,4,Semi-Urban,1,133857.55,63057.23
+M,52,2082.05,Low,Commercial associate,Core staff,Semi-Urban,117232.92,370.07,Y,Y,2.0,767.47,0,Unpossessed,665,2082.05,2,Urban,1,189325.76,87924.69
+F,35,2706.91,Low,Working,Cooking staff,Rural,107970.67,449.69,N,Y,2.0,682.3,0,Active,310,2706.91,4,Rural,1,165565.73,0.0
+F,21,5074.84,Low,Commercial associate,Core staff,Urban,38394.26,211.08,N,N,1.0,667.92,0,Inactive,159,5074.84,3,Rural,1,59894.7,0.0
+M,56,2074.07,Low,Working,Sales staff,Semi-Urban,131860.42,373.7,N,Y,3.0,756.37,0,Inactive,272,2074.07,2,Urban,1,165741.99,92302.29
+F,50,2435.38,Low,Working,Core staff,Semi-Urban,16698.33,109.01,N,Y,1.0,736.48,0,Unpossessed,382,2435.38,1,Urban,1,21754.3,11688.83
+M,26,1693.25,Low,Working,Laborers,Semi-Urban,115176.85,450.8,Y,Y,2.0,667.97,0,Active,215,1693.25,4,Rural,0,137963.18,0.0
+F,30,1050.69,Low,Working,Sales staff,Semi-Urban,33073.13,418.78,N,N,2.0,714.48,0,Inactive,566,1050.69,4,Urban,1,45099.61,23151.19
+F,26,2423.65,Low,Working,Managers,Semi-Urban,200253.07,527.3,N,Y,2.0,741.94,0,Inactive,434,2423.65,3,Rural,1,246665.49,130164.5
+F,53,2473.51,Low,Working,Sales staff,Rural,103546.24,359.33,N,Y,2.0,719.86,1,Active,150,2473.51,3,Semi-Urban,1,193729.84,72482.37
+M,43,2408.61,Low,Working,Laborers,Rural,116216.52,721.16,Y,Y,4.0,685.89,0,Active,741,2408.61,2,Urban,1,184226.38,75540.74
+M,28,2173.4,Low,Working,Security staff,Semi-Urban,202481.09,761.28,N,Y,2.0,797.11,0,Active,191,2173.4,2,Semi-Urban,1,364368.08,151860.82
+M,33,1365.37,Low,Working,Sales staff,Semi-Urban,42146.56,259.59,N,Y,1.0,631.33,0,Active,339,1365.37,1,Urban,1,54547.6,0.0
+M,40,3774.91,Low,Working,Laborers,Semi-Urban,195350.54,556.46,N,Y,3.0,806.78,0,Active,587,3774.91,3,Rural,1,228281.18,146512.9
+F,18,2410.39,Low,Commercial associate,Laborers,Semi-Urban,25495.45,274.97,Y,Y,4.0,747.44,0,Inactive,788,2410.39,2,Semi-Urban,1,44857.42,0.0
+M,18,3735.76,Low,Working,Laborers,Rural,87241.17,280.39,N,Y,2.0,768.93,1,Inactive,796,3735.76,1,Rural,1,133412.21,0.0
+M,18,1969.8,Low,Working,Accountants,Urban,99699.63,678.84,Y,Y,3.0,768.53,0,Active,228,1969.8,2,Semi-Urban,1,113070.46,69789.74
+F,18,3132.84,Low,Working,Laborers,Semi-Urban,76683.56,399.83,N,Y,1.0,602.35,0,Inactive,107,3132.84,3,Urban,1,116870.07,0.0
+F,29,1515.29,Low,Working,Laborers,Semi-Urban,37683.89,282.2,Y,N,3.0,700.33,0,Inactive,423,1515.29,3,Urban,1,44241.0,24494.53
+M,18,2948.45,Low,Commercial associate,Sales staff,Semi-Urban,156979.4,539.53,Y,Y,3.0,722.81,0,Inactive,110,2948.45,2,Semi-Urban,1,266984.11,102036.61
+F,50,1231.08,Low,Working,Laborers,Rural,106396.01,524.73,N,Y,4.0,712.53,0,Active,666,1231.08,4,Rural,1,150370.68,69157.41
+M,18,1290.37,Low,Commercial associate,Sales staff,Rural,85074.26,481.55,N,Y,4.0,750.35,0,Active,485,1290.37,2,Urban,1,123309.43,68059.41
+M,28,1307.27,Low,Working,Sales staff,Semi-Urban,25068.21,211.23,N,N,4.0,757.93,1,Unpossessed,93,1307.27,2,Semi-Urban,1,41627.33,18801.16
+M,60,4081.05,Low,Working,High skill tech staff,Rural,98139.61,284.82,N,Y,2.0,755.37,0,Active,704,4081.05,4,Rural,1,157405.74,73604.71
+F,34,4701.27,Low,Working,Laborers,Semi-Urban,63882.67,334.02,N,Y,1.0,616.6,0,Active,514,4701.27,4,Semi-Urban,0,98830.55,0.0
+F,22,2723.57,Low,Commercial associate,Core staff,Semi-Urban,116751.89,443.93,N,N,3.0,755.63,0,Inactive,908,2723.57,3,Semi-Urban,1,185976.75,93401.51
+M,58,1235.98,Low,Working,Drivers,Semi-Urban,95232.38,307.55,N,N,2.0,719.5,1,Inactive,141,1235.98,3,Urban,1,147665.68,61901.05
+M,21,2836.66,Low,Commercial associate,Managers,Semi-Urban,89720.75,509.69,Y,Y,3.0,817.42,1,Active,956,2836.66,2,Semi-Urban,0,100395.36,0.0
+M,63,1029.04,Low,Working,Cleaning staff,Semi-Urban,24674.88,118.95,N,Y,1.0,705.0,0,Inactive,563,1029.04,2,Rural,1,35959.89,16038.67
+M,64,2116.31,Low,Commercial associate,Core staff,Rural,54467.67,270.96,N,Y,2.0,682.83,0,Active,882,2116.31,3,Semi-Urban,1,85451.7,38127.37
+F,54,1216.47,Low,Working,High skill tech staff,Rural,12408.21,107.1,N,N,2.0,731.11,0,Active,686,1216.47,1,Semi-Urban,0,15714.34,0.0
+M,19,2719.68,Low,Working,High skill tech staff,Rural,192208.79,533.44,Y,N,4.0,702.45,1,Inactive,970,2719.68,1,Urban,0,321353.9,0.0
+F,63,6572.7,Low,Commercial associate,Managers,Rural,268340.08,813.8,Y,N,2.0,773.5,0,Unpossessed,595,6572.7,1,Semi-Urban,1,448036.73,0.0
+F,18,1344.83,Low,Commercial associate,Core staff,Semi-Urban,70429.2,419.58,N,N,4.0,592.89,0,Unpossessed,250,1344.83,4,Semi-Urban,1,89542.86,0.0
+M,58,1645.05,Low,Commercial associate,Laborers,Semi-Urban,166091.27,529.48,N,Y,2.0,834.14,0,Active,115,1645.05,3,Urban,0,269855.18,0.0
+F,47,987.64,Low,Working,Laborers,Semi-Urban,73426.43,492.3,N,N,3.0,655.07,0,Inactive,62,987.64,2,Urban,0,86915.02,0.0
+F,50,3485.27,Low,Working,Laborers,Semi-Urban,166227.01,488.67,Y,N,3.0,812.61,0,Active,834,3485.27,3,Urban,1,209197.97,116358.91
+F,46,3145.45,Low,Working,Core staff,Urban,170359.67,752.59,N,Y,1.0,674.57,0,Inactive,624,3145.45,3,Urban,1,206022.28,110733.79
+F,27,1731.84,Low,Commercial associate,Sales staff,Semi-Urban,91741.71,254.87,N,N,3.0,647.35,0,Inactive,340,1731.84,4,Semi-Urban,1,156468.62,0.0
+M,31,3264.51,Low,Working,Medicine staff,Semi-Urban,133395.25,413.2,N,Y,1.0,717.68,0,Unpossessed,538,3264.51,3,Rural,1,235479.89,93376.67
+M,64,2787.8,Low,Working,Sales staff,Rural,71811.64,754.42,Y,Y,2.0,651.83,0,Inactive,514,2787.8,4,Semi-Urban,1,128340.85,0.0
+M,18,985.6,Low,Working,Cooking staff,Rural,28530.15,145.75,N,Y,3.0,782.91,0,Inactive,523,985.6,3,Urban,1,36825.94,22824.12
+F,44,3132.66,Low,Working,Accountants,Semi-Urban,121294.19,484.47,N,N,1.0,759.03,0,Unpossessed,259,3132.66,4,Urban,1,156040.07,90970.64
+F,59,1967.14,Low,Working,Drivers,Semi-Urban,42446.63,231.57,Y,Y,3.0,629.66,0,Unpossessed,213,1967.14,4,Urban,1,52735.88,0.0
+F,29,4786.2,Low,Working,Core staff,Rural,107841.58,482.65,Y,Y,4.0,734.43,0,Inactive,704,4786.2,4,Rural,1,195950.89,70097.03
+M,54,2770.84,Low,Working,High skill tech staff,Semi-Urban,75389.08,387.15,N,Y,3.0,629.35,0,Unpossessed,814,2770.84,2,Rural,1,130440.63,0.0
+M,56,2393.06,Low,Working,Sales staff,Urban,30541.57,411.97,N,N,1.0,768.84,1,Unpossessed,177,2393.06,2,Rural,1,39769.08,24433.26
+M,61,3347.8,Low,Commercial associate,Managers,Semi-Urban,81482.77,-999.0,Y,Y,4.0,667.33,0,Unpossessed,325,3347.8,2,Rural,1,132437.13,57037.94
+F,41,1927.34,Low,Commercial associate,Managers,Urban,154874.42,818.49,N,Y,2.0,855.11,0,Active,877,1927.34,3,Urban,1,251592.79,108412.09
+M,26,1978.48,Low,Working,Security staff,Rural,31783.75,153.23,N,N,1.0,652.34,0,Inactive,236,1978.48,4,Rural,1,49294.32,22248.62
+F,29,3953.82,Low,Commercial associate,Medicine staff,Semi-Urban,106237.51,807.54,Y,Y,2.0,770.93,0,Unpossessed,685,3953.82,3,Urban,1,160241.22,84990.01
+M,18,962.92,Low,Commercial associate,Sales staff,Semi-Urban,8609.27,66.47,N,Y,3.0,592.39,0,Unpossessed,601,962.92,3,Urban,1,12724.19,0.0
+M,55,2703.73,Low,Commercial associate,Security staff,Urban,21738.85,85.3,N,Y,3.0,713.25,0,Unpossessed,19,2703.73,3,Semi-Urban,1,32393.09,14130.25
+M,18,3291.29,Low,Working,Managers,Semi-Urban,84942.57,435.79,N,Y,1.0,812.45,0,Active,290,3291.29,2,Semi-Urban,1,150443.57,63706.93
+M,50,2603.89,Low,Working,Drivers,Semi-Urban,32142.67,257.67,N,N,1.0,612.45,0,Inactive,828,2603.89,3,Rural,1,58305.86,0.0
+F,64,4302.92,Low,Working,Drivers,Semi-Urban,151802.2,755.5,Y,Y,2.0,656.56,0,Active,81,4302.92,2,Rural,1,260284.53,106261.54
+M,22,2027.86,Low,Working,Laborers,Urban,93899.19,458.14,N,N,2.0,675.39,1,Inactive,326,2027.86,3,Urban,1,113674.1,61034.47
+M,55,1645.04,Low,State servant,Cooking staff,Semi-Urban,27654.32,132.29,N,Y,2.0,661.01,0,Active,562,1645.04,3,Semi-Urban,1,31055.49,19358.02
+M,21,1372.97,Low,Working,Sales staff,Semi-Urban,26493.92,139.04,N,N,2.0,672.38,0,Active,507,1372.97,4,Rural,1,35649.33,0.0
+M,56,988.11,Low,Commercial associate,Sales staff,Semi-Urban,37449.42,247.52,N,Y,2.0,669.24,0,Inactive,591,988.11,2,Semi-Urban,1,43507.3,24342.12
+M,64,1717.36,Low,Commercial associate,Core staff,Rural,17315.86,107.91,N,Y,2.0,681.54,0,Active,151,1717.36,3,Urban,1,24256.94,11255.31
+F,42,5014.2,Low,Commercial associate,Core staff,Semi-Urban,309950.54,1021.51,N,Y,2.0,735.63,0,Unpossessed,472,5014.2,3,Rural,0,505271.01,0.0
+M,47,1000.89,Low,Commercial associate,Cooking staff,Semi-Urban,36000.48,306.14,N,Y,3.0,846.59,0,Active,226,1000.89,2,Urban,-999,49229.09,25200.34
+M,18,1648.97,Low,State servant,Core staff,Semi-Urban,20695.39,207.68,N,N,4.0,745.15,0,Inactive,652,1648.97,3,Rural,1,22823.01,14486.77
+F,34,2998.99,Low,Commercial associate,Managers,Semi-Urban,74897.02,402.39,N,Y,2.0,748.69,0,Active,421,2998.99,4,Semi-Urban,1,95010.82,48683.06
+M,20,3053.89,Low,Working,Accountants,Semi-Urban,84257.65,328.87,Y,N,3.0,748.99,0,Unpossessed,511,3053.89,3,Urban,1,97301.92,54767.47
+M,30,2964.94,Low,Commercial associate,Low-skill Laborers,Rural,43117.75,158.9,N,Y,2.0,751.3,0,Inactive,129,2964.94,4,Semi-Urban,0,80762.3,0.0
+M,61,1534.26,Low,State servant,Core staff,Rural,93376.51,357.28,N,Y,2.0,799.84,1,Unpossessed,944,1534.26,3,Rural,1,165774.77,0.0
+M,23,4639.33,Low,Working,Laborers,Rural,44666.26,185.04,Y,Y,4.0,616.33,0,Active,45,4639.33,3,Urban,1,56017.16,0.0
+F,18,3628.7,Low,Working,Laborers,Semi-Urban,113226.49,424.19,Y,Y,2.0,733.32,0,Active,733,3628.7,3,Rural,1,140671.15,73597.22
+F,57,2519.75,Low,Commercial associate,Laborers,Semi-Urban,64336.59,287.8,N,N,1.0,652.04,0,Unpossessed,585,2519.75,1,Urban,1,92549.88,0.0
+M,18,1582.04,Low,Working,Sales staff,Semi-Urban,81987.25,285.18,N,N,2.0,763.06,0,Active,328,1582.04,4,Urban,1,149129.59,57391.08
+M,24,2104.79,Low,Commercial associate,Sales staff,Semi-Urban,46957.73,427.22,N,N,2.0,670.65,0,Inactive,395,2104.79,4,Rural,1,80455.22,30522.52
+F,22,3057.42,Low,State servant,Core staff,Semi-Urban,146472.49,533.19,Y,N,2.0,652.36,0,Unpossessed,435,3057.42,2,Rural,1,204005.25,0.0
+M,23,2241.45,Low,Commercial associate,Security staff,Rural,44590.79,313.71,N,Y,4.0,683.57,0,Inactive,460,2241.45,4,Rural,1,50058.89,28984.01
+M,44,3873.02,Low,Commercial associate,Sales staff,Semi-Urban,100909.63,527.82,Y,N,2.0,713.37,0,Unpossessed,913,3873.02,4,Rural,1,157316.84,70636.74
+M,32,1005.3,Low,Working,Sales staff,Semi-Urban,73526.45,396.87,Y,Y,2.0,760.43,0,Active,618,1005.3,2,Urban,-999,106702.31,55144.84
+M,55,3006.92,Low,Working,Laborers,Semi-Urban,85212.91,506.88,Y,Y,2.0,796.12,0,Inactive,787,3006.92,2,Semi-Urban,1,155260.28,0.0
+F,46,2446.89,Low,Working,Laborers,Semi-Urban,26829.87,140.13,Y,Y,2.0,637.56,0,Inactive,792,2446.89,4,Rural,1,44477.47,0.0
+F,41,4642.99,Low,Commercial associate,Managers,Semi-Urban,124854.55,609.46,Y,Y,2.0,703.75,0,Active,479,4642.99,4,Semi-Urban,1,178034.48,81155.46
+M,18,787.89,Low,Working,Sales staff,Semi-Urban,109970.71,376.01,N,Y,2.0,799.89,0,Inactive,781,787.89,1,Semi-Urban,1,189337.13,-999.0
+F,63,2768.79,Low,Commercial associate,Core staff,Semi-Urban,73280.91,332.88,N,Y,2.0,698.15,0,Unpossessed,493,2768.79,3,Rural,1,99468.19,51296.64
+F,18,2221.99,Low,State servant,Core staff,Semi-Urban,74467.73,736.91,Y,Y,4.0,782.86,1,Active,405,2221.99,4,Rural,1,98089.12,59574.18
+F,28,1098.47,Low,State servant,Core staff,Rural,35271.45,193.95,N,N,4.0,722.53,0,Active,907,1098.47,1,Rural,1,62197.64,24690.01
+F,32,956.32,Low,Commercial associate,Laborers,Rural,38582.08,198.69,N,Y,2.0,738.02,0,Unpossessed,623,956.32,2,Rural,1,51827.52,25078.35
+F,28,1622.32,Low,Working,Laborers,Semi-Urban,38969.12,205.9,Y,Y,2.0,750.85,0,Unpossessed,365,1622.32,3,Semi-Urban,1,59003.47,29226.84
+M,58,1211.67,Low,Working,Cooking staff,Semi-Urban,21549.08,245.63,N,Y,4.0,856.58,0,Inactive,842,1211.67,4,Rural,1,28676.08,19394.17
+F,55,1292.7,Low,Working,Medicine staff,Semi-Urban,33387.1,345.46,Y,N,4.0,772.11,1,Inactive,995,1292.7,1,Semi-Urban,0,50539.23,0.0
+F,57,2418.69,Low,Commercial associate,Laborers,Urban,37449.37,252.96,N,N,2.0,648.94,0,Inactive,145,2418.69,1,Semi-Urban,0,51003.58,0.0
+F,48,2384.71,Low,State servant,Cooking staff,Urban,53733.54,581.82,N,Y,1.0,710.88,0,Unpossessed,543,2384.71,2,Semi-Urban,1,60540.64,37613.48
+F,64,4594.24,Low,Commercial associate,Managers,Semi-Urban,75046.92,415.73,Y,Y,2.0,803.71,0,Inactive,106,4594.24,3,Urban,1,91998.25,52532.84
+M,24,1993.66,Low,Working,Private service staff,Semi-Urban,121521.45,380.27,N,Y,1.0,846.89,1,Unpossessed,878,1993.66,3,Urban,1,-999.0,91141.09
+F,48,2239.22,Low,Working,Core staff,Semi-Urban,64530.68,350.58,Y,N,4.0,716.22,1,Unpossessed,635,2239.22,2,Rural,1,117682.6,41944.94
+M,29,1235.15,Low,State servant,Medicine staff,Rural,132259.9,399.01,N,Y,2.0,659.98,0,Unpossessed,693,1235.15,1,Semi-Urban,1,154625.37,92581.93
+F,32,1319.22,Low,State servant,Core staff,Rural,53338.13,274.65,N,N,2.0,712.6,0,Inactive,840,1319.22,1,Rural,1,93522.14,0.0
+M,52,3356.82,Low,Commercial associate,Waiters/barmen staff,Rural,61497.48,655.06,N,N,2.0,717.45,1,Inactive,231,3356.82,2,Rural,0,82936.69,0.0
+F,62,1369.46,Low,Working,Drivers,Semi-Urban,96173.69,469.56,Y,N,3.0,632.17,0,Inactive,396,1369.46,2,Semi-Urban,1,182450.16,0.0
+M,31,2156.45,Low,Working,Laborers,Semi-Urban,38007.71,191.06,N,Y,1.0,649.58,0,Unpossessed,748,2156.45,4,Semi-Urban,0,70395.24,0.0
+F,34,983.08,Low,Working,Drivers,Rural,90980.28,498.55,Y,Y,4.0,686.92,0,Inactive,653,983.08,1,Urban,1,128580.46,59137.18
+F,18,3190.59,Low,Working,Sales staff,Rural,58926.62,248.49,N,N,3.0,618.21,0,Active,881,3190.59,3,Rural,1,95500.81,0.0
+M,41,3362.56,Low,Working,Laborers,Semi-Urban,187085.32,793.9,Y,Y,2.0,803.95,0,Unpossessed,649,3362.56,2,Semi-Urban,1,249257.0,0.0
+M,42,3370.39,Low,Working,Laborers,Semi-Urban,13127.54,139.45,N,Y,3.0,686.84,0,Inactive,870,3370.39,4,Semi-Urban,1,20316.81,8532.9
+F,58,1589.25,Low,Working,Core staff,Semi-Urban,115554.9,506.26,N,Y,2.0,866.79,0,Inactive,12,1589.25,4,Rural,1,189732.2,92443.92
+M,64,2182.46,Low,Working,Sales staff,Semi-Urban,27834.86,136.32,N,Y,2.0,616.21,0,Active,656,2182.46,2,Rural,1,39116.09,0.0
+M,32,1303.94,Low,Working,Medicine staff,Rural,82129.48,450.42,N,N,2.0,640.18,0,Inactive,390,1303.94,1,Rural,1,141369.39,0.0
+M,18,2415.44,Low,State servant,Drivers,Semi-Urban,70870.86,670.52,Y,N,4.0,678.72,0,Active,870,2415.44,4,Semi-Urban,1,111734.22,49609.6
+F,22,1252.3,Low,Working,High skill tech staff,Semi-Urban,21215.75,107.71,N,Y,4.0,740.43,0,Unpossessed,572,1252.3,1,Urban,1,35867.88,13790.24
+F,32,2528.69,Low,Working,Laborers,Semi-Urban,144472.34,610.59,N,Y,5.0,830.63,0,Unpossessed,356,2528.69,4,Semi-Urban,1,207974.17,108354.26
+F,22,6200.86,Low,State servant,Core staff,Semi-Urban,196493.48,653.06,N,N,2.0,805.68,0,Inactive,878,6200.86,3,Urban,1,259646.28,0.0
+F,35,2272.89,Low,Working,High skill tech staff,Rural,73686.76,361.19,N,Y,1.0,671.8,0,Inactive,148,2272.89,1,Urban,0,92847.89,0.0
+M,39,1661.14,Low,Working,Sales staff,Semi-Urban,39322.2,190.3,N,Y,2.0,807.93,0,Inactive,867,1661.14,1,Urban,1,73044.07,27525.54
+F,41,1858.17,Low,Working,Sales staff,Rural,21747.7,213.22,N,N,3.0,764.66,1,Inactive,202,1858.17,4,Urban,1,29331.56,15223.39
+F,36,3162.98,Low,Working,Core staff,Semi-Urban,84519.49,670.59,Y,Y,3.0,619.64,0,Unpossessed,199,3162.98,2,Rural,1,149738.58,0.0
+M,42,4165.59,Low,Working,Sales staff,Rural,41109.6,192.38,N,Y,2.0,838.75,0,Inactive,500,4165.59,4,Urban,1,76952.71,28776.72
+M,36,1747.63,Low,Working,Sales staff,Rural,35221.56,401.38,N,Y,3.0,708.18,0,Inactive,462,1747.63,3,Semi-Urban,1,44451.57,0.0
+F,18,1448.85,Low,Working,Laborers,Urban,113186.89,405.17,N,Y,2.0,709.32,0,Inactive,311,1448.85,4,Semi-Urban,1,194928.13,73571.48
+M,20,1519.88,Low,State servant,Sales staff,Rural,82182.05,345.15,N,N,1.0,763.98,1,Active,615,1519.88,4,Urban,1,155811.87,57527.44
+M,18,3526.96,Low,Working,Laborers,Semi-Urban,20015.21,155.34,N,Y,1.0,651.04,0,Unpossessed,239,3526.96,4,Rural,1,33131.28,14010.65
+M,34,3557.75,Low,Commercial associate,Security staff,Semi-Urban,113329.31,508.47,Y,N,2.0,825.66,0,Unpossessed,110,3557.75,2,Semi-Urban,1,159883.27,84996.98
+M,38,1646.96,Low,Working,Laborers,Semi-Urban,70427.02,452.52,N,N,1.0,601.65,0,Active,272,1646.96,2,Urban,1,93825.36,0.0
+M,18,3144.52,Low,Working,Laborers,Semi-Urban,27409.0,135.46,Y,N,2.0,619.53,1,Inactive,556,3144.52,1,Urban,1,42345.9,-999.0
+F,32,2535.29,Low,Commercial associate,Private service staff,Urban,113360.38,532.73,N,Y,2.0,689.09,0,Active,83,2535.29,3,Rural,1,149008.94,73684.25
+M,18,4236.56,Low,Working,Managers,Urban,71733.14,607.64,Y,N,2.0,800.74,0,Unpossessed,22,4236.56,1,Rural,1,92991.53,0.0
+F,18,2774.46,Low,Working,Laborers,Rural,63943.51,326.97,Y,Y,5.0,741.37,0,Inactive,932,2774.46,2,Urban,1,118933.27,41563.28
+M,54,3737.66,Low,State servant,Secretaries,Urban,133847.41,695.96,N,Y,2.0,669.35,0,Unpossessed,865,3737.66,1,Semi-Urban,1,244650.47,87000.82
+F,56,1230.35,Low,Commercial associate,Sales staff,Semi-Urban,41990.28,211.11,N,Y,2.0,677.38,0,Inactive,27,1230.35,4,Semi-Urban,1,56727.71,27293.68
+F,33,3154.7,Low,Working,Core staff,Urban,135381.89,394.82,N,Y,1.0,845.91,1,Active,44,3154.7,1,Urban,1,212800.84,94767.32
+M,27,1269.21,Low,Working,Waiters/barmen staff,Semi-Urban,90033.77,282.66,N,Y,1.0,836.79,0,Unpossessed,133,1269.21,2,Semi-Urban,1,110429.87,72027.02
+F,18,4315.3,Low,Working,Laborers,Rural,226718.73,630.93,Y,N,2.0,728.96,0,Inactive,952,4315.3,4,Rural,1,394080.97,0.0
+M,40,1565.3,Low,Working,Core staff,Semi-Urban,37536.69,197.15,N,Y,3.0,760.49,0,Active,111,1565.3,3,Urban,1,45333.72,0.0
+F,39,2066.15,Low,Working,Security staff,Semi-Urban,133581.91,400.73,Y,Y,3.0,612.49,0,Inactive,188,2066.15,3,Semi-Urban,1,231214.82,0.0
+M,24,1776.03,Low,Commercial associate,Laborers,Urban,58444.76,296.46,N,N,2.0,698.36,0,Active,520,1776.03,2,Semi-Urban,1,72962.97,37989.09
+M,30,3336.57,Low,Commercial associate,Managers,Semi-Urban,105379.53,520.11,Y,Y,3.0,667.91,0,Active,378,3336.57,2,Rural,1,168834.25,73765.67
+F,18,4893.94,Low,Commercial associate,Managers,Semi-Urban,104629.46,640.76,N,N,2.0,838.6,0,Active,951,4893.94,1,Semi-Urban,0,149035.45,0.0
+F,39,1733.61,Low,Commercial associate,Sales staff,Semi-Urban,84137.45,370.9,N,Y,2.0,742.86,0,Unpossessed,751,1733.61,3,Urban,0,155734.4,0.0
+M,28,3979.32,Low,Commercial associate,High skill tech staff,Semi-Urban,50042.67,237.25,Y,Y,2.0,832.9,0,Inactive,88,3979.32,1,Semi-Urban,0,72592.99,0.0
+M,57,4023.23,Low,Commercial associate,High skill tech staff,Rural,114672.08,551.66,Y,N,2.0,678.53,0,Unpossessed,844,4023.23,4,Rural,0,176624.52,0.0
+M,25,6533.86,Low,Commercial associate,Managers,Semi-Urban,151633.75,708.3,N,Y,2.0,808.41,0,Unpossessed,396,6533.86,2,Semi-Urban,1,201990.33,113725.31
+F,28,5060.02,Low,Working,Sales staff,Semi-Urban,141831.7,419.27,Y,Y,4.0,630.63,0,Inactive,470,5060.02,3,Rural,1,179195.57,0.0
+F,18,3278.17,Low,Working,Low-skill Laborers,Rural,99084.58,472.13,Y,Y,3.0,589.5,0,Inactive,45,3278.17,3,Urban,0,113603.18,0.0
+M,58,6218.01,Low,Working,Laborers,Semi-Urban,131317.93,631.72,Y,N,2.0,741.22,0,Unpossessed,790,6218.01,3,Rural,1,168901.01,91922.55
+M,18,3021.58,Low,Working,Laborers,Semi-Urban,21568.73,253.05,Y,Y,2.0,696.28,0,Active,336,3021.58,1,Semi-Urban,1,40534.85,14019.67
+F,33,1240.23,Low,Working,Cleaning staff,Semi-Urban,120904.26,532.15,N,Y,2.0,694.82,0,Inactive,819,1240.23,1,Urban,1,167070.45,84632.98
+M,43,1700.15,Low,Working,Accountants,Urban,81520.73,472.41,N,N,2.0,818.8,0,Inactive,743,1700.15,2,Rural,0,151330.32,0.0
+M,49,1179.54,Low,Commercial associate,High skill tech staff,Semi-Urban,113595.1,437.88,N,Y,2.0,810.52,0,Inactive,498,1179.54,2,Semi-Urban,1,161316.72,85196.33
+F,32,1752.44,Low,Commercial associate,Laborers,Semi-Urban,53230.53,288.51,N,N,2.0,643.17,0,Inactive,419,1752.44,2,Semi-Urban,1,77489.23,-999.0
+M,43,2067.35,Low,Working,Laborers,Semi-Urban,102077.66,778.42,N,Y,3.0,660.65,0,Active,116,2067.35,3,Semi-Urban,1,133820.84,66350.48
+M,23,10397.48,Low,Working,Managers,Semi-Urban,162773.95,892.99,Y,N,1.0,772.52,1,Active,84,10397.48,1,Semi-Urban,1,275919.8,130219.16
+M,30,1237.25,Low,Working,Security staff,Semi-Urban,42290.83,331.21,N,N,1.0,623.53,0,Active,602,1237.25,4,Semi-Urban,1,59754.75,0.0
+F,53,2235.94,Low,Commercial associate,Core staff,Urban,185351.13,530.35,N,Y,5.0,760.82,0,Active,964,2235.94,3,Rural,1,352093.63,-999.0
+F,39,6062.92,Low,Commercial associate,Laborers,Semi-Urban,108212.41,530.34,Y,Y,2.0,584.49,1,Unpossessed,761,6062.92,1,Urban,0,152596.79,0.0
+F,64,5239.53,Low,Working,Managers,Urban,62512.88,452.39,Y,N,2.0,629.8,1,Unpossessed,524,5239.53,1,Semi-Urban,1,90380.06,0.0
+F,23,3653.46,Low,Commercial associate,Laborers,Semi-Urban,191380.58,591.78,N,N,4.0,678.87,1,Inactive,290,3653.46,2,Semi-Urban,1,273087.84,0.0
+M,49,3958.87,Low,Working,Managers,Semi-Urban,30363.38,177.5,Y,Y,4.0,722.94,0,Active,876,3958.87,2,Urban,1,37034.44,21254.37
+F,37,5642.26,Low,Working,Laborers,Semi-Urban,174403.64,480.99,Y,Y,2.0,684.77,0,Active,765,5642.26,3,Urban,0,249201.9,0.0
+M,18,2130.72,Low,Working,Laborers,Semi-Urban,45904.65,234.01,Y,N,3.0,718.42,0,Unpossessed,726,2130.72,3,Urban,1,65215.63,29838.02
+F,50,1517.91,Low,Working,Laborers,Semi-Urban,43455.62,236.51,Y,Y,1.0,778.89,0,Active,103,1517.91,4,Semi-Urban,1,63849.95,32591.72
+M,49,2041.66,Low,Working,Drivers,Semi-Urban,58989.99,343.51,Y,Y,2.0,775.13,1,Inactive,288,2041.66,4,Semi-Urban,1,80816.99,41292.99
+M,64,1588.01,Low,Working,Drivers,Semi-Urban,25454.25,124.0,N,Y,3.0,733.17,0,Inactive,620,1588.01,4,Rural,1,35446.09,17817.97
+F,18,3948.27,Low,Working,Managers,Urban,257532.59,665.26,Y,Y,3.0,866.47,0,Active,176,3948.27,3,Rural,1,428407.45,193149.44
+F,58,1950.04,Low,Commercial associate,Sales staff,Semi-Urban,79795.43,250.7,Y,Y,2.0,773.33,0,Inactive,695,1950.04,1,Urban,1,137338.68,63836.34
+F,42,5003.7,Low,Working,Managers,Rural,169619.76,670.86,N,N,1.0,642.54,0,Inactive,133,5003.7,2,Semi-Urban,1,225567.92,-999.0
+M,25,1266.77,Low,Working,Laborers,Semi-Urban,26732.88,314.59,N,N,2.0,687.99,0,Inactive,335,1266.77,2,Urban,1,34298.59,17376.37
+M,62,2687.43,Low,Working,Sales staff,Semi-Urban,97583.15,322.07,N,Y,2.0,648.17,0,Unpossessed,18,2687.43,3,Semi-Urban,1,108728.14,0.0
+F,38,5188.32,Low,Working,Sales staff,Semi-Urban,95616.81,647.7,Y,Y,1.0,747.77,0,Inactive,859,5188.32,3,Rural,1,148697.42,62150.93
+M,52,4677.72,Low,Working,Accountants,Semi-Urban,53063.19,458.64,Y,Y,3.0,803.73,1,Unpossessed,659,4677.72,2,Urban,1,81513.19,37144.23
+F,28,2123.52,Low,Working,Core staff,Semi-Urban,157219.51,643.46,N,Y,5.0,741.78,0,Unpossessed,523,2123.52,3,Urban,0,283112.46,0.0
+F,45,3992.55,Low,State servant,High skill tech staff,Urban,102437.48,524.23,Y,Y,3.0,795.14,1,Active,518,3992.55,1,Semi-Urban,1,180862.23,81949.98
+M,31,2757.74,Low,Working,Drivers,Semi-Urban,43580.71,355.64,Y,Y,1.0,627.16,0,Inactive,921,2757.74,2,Rural,1,74364.36,0.0
+F,44,2461.42,Low,Working,Sales staff,Rural,80948.68,334.57,N,Y,4.0,764.92,1,Active,735,2461.42,2,Semi-Urban,1,114895.84,56664.08
+M,31,1903.93,Low,Working,Laborers,Semi-Urban,12845.17,97.69,N,Y,4.0,754.57,1,Unpossessed,882,1903.93,3,Semi-Urban,0,16254.24,0.0
+M,56,2819.71,Low,Working,Laborers,Rural,81955.97,311.89,Y,Y,2.0,680.41,0,Unpossessed,331,2819.71,2,Urban,1,149134.84,57369.18
+F,18,3241.07,Low,Working,High skill tech staff,Semi-Urban,98463.38,308.07,Y,Y,2.0,832.87,0,Inactive,606,3241.07,3,Urban,0,112522.84,0.0
+M,55,2520.08,Low,Working,Drivers,Semi-Urban,79939.04,599.82,Y,Y,2.0,734.85,0,Unpossessed,930,2520.08,3,Semi-Urban,1,97243.3,51960.38
+M,18,4329.62,Low,Working,Medicine staff,Semi-Urban,160974.49,590.98,Y,Y,2.0,805.96,1,Active,59,4329.62,3,Rural,1,226781.23,128779.59
+F,52,3045.44,Low,Commercial associate,Cooking staff,Semi-Urban,154526.66,542.65,N,Y,2.0,646.83,0,Unpossessed,957,3045.44,2,Rural,1,199441.01,0.0
+M,37,1867.19,Low,State servant,Medicine staff,Semi-Urban,77045.21,442.4,Y,Y,2.0,617.96,0,Active,299,1867.19,2,Semi-Urban,1,115739.15,0.0
+F,40,3252.04,Low,Commercial associate,Core staff,Semi-Urban,152887.83,848.01,N,Y,2.0,797.47,0,Unpossessed,317,3252.04,1,Rural,1,254529.33,114665.87
+F,63,3356.41,Low,Commercial associate,Managers,Semi-Urban,147945.77,471.4,Y,Y,2.0,843.89,0,Unpossessed,727,3356.41,1,Semi-Urban,1,189222.59,0.0
+F,25,1868.88,Low,Working,Low-skill Laborers,Semi-Urban,128682.09,467.89,N,Y,3.0,674.32,0,Active,915,1868.88,2,Rural,1,150714.94,83643.36
+M,27,2326.24,Low,Commercial associate,Core staff,Semi-Urban,51614.54,268.29,Y,Y,3.0,684.68,0,Active,460,2326.24,4,Rural,1,87717.92,33549.45
+F,55,3346.91,Low,Commercial associate,Laborers,Urban,36577.88,203.35,Y,N,2.0,762.71,0,Unpossessed,825,3346.91,2,Semi-Urban,1,61594.63,0.0
+M,51,938.91,Low,Working,Sales staff,Semi-Urban,8599.83,74.31,N,Y,2.0,734.7,0,Inactive,902,938.91,1,Semi-Urban,1,15835.62,5589.89
+F,50,1036.34,Low,Commercial associate,Laborers,Rural,64265.48,302.62,Y,N,2.0,709.99,1,Active,941,1036.34,1,Rural,1,85470.76,44985.84
+F,42,11308.31,Low,Working,Managers,Rural,256916.01,1417.54,Y,Y,1.0,865.02,0,Unpossessed,110,11308.31,2,Semi-Urban,0,366310.12,205532.81
+F,47,3969.21,Low,Working,Sales staff,Semi-Urban,107943.59,778.74,Y,Y,2.0,788.36,0,Inactive,318,3969.21,4,Semi-Urban,1,145855.21,75560.51
+M,23,1572.65,Low,Working,Laborers,Semi-Urban,45178.92,217.72,Y,Y,2.0,680.58,1,Unpossessed,842,1572.65,4,Rural,1,78751.79,29366.3
+F,24,1737.03,Low,Working,Sales staff,Semi-Urban,189808.56,607.47,N,Y,3.0,641.22,0,Unpossessed,754,1737.03,4,Semi-Urban,1,318594.89,0.0
+F,50,1496.41,Low,Working,Laborers,Rural,78534.4,357.3,N,Y,4.0,626.33,0,Unpossessed,384,1496.41,4,Urban,0,117704.42,0.0
+M,20,1592.12,Low,Working,Laborers,Semi-Urban,70173.52,336.15,N,Y,1.0,811.22,0,Unpossessed,197,1592.12,3,Semi-Urban,1,90158.96,56138.82
+F,18,2258.26,Low,Commercial associate,Sales staff,Semi-Urban,79737.84,619.52,N,Y,2.0,728.44,0,Unpossessed,875,2258.26,2,Semi-Urban,1,121626.42,51829.6
+M,33,3102.67,Low,State servant,Laborers,Semi-Urban,33160.1,345.85,N,Y,2.0,805.91,0,Active,929,3102.67,1,Urban,1,54309.7,24870.07
+F,24,1393.39,Low,Commercial associate,Core staff,Semi-Urban,74565.43,271.47,Y,N,2.0,789.24,1,Unpossessed,611,1393.39,1,Semi-Urban,0,139128.47,0.0
+M,22,2340.59,Low,Working,Accountants,Semi-Urban,77001.35,402.29,N,N,2.0,717.82,0,Unpossessed,759,2340.59,1,Semi-Urban,1,116340.69,53900.94
+F,53,1044.04,Low,Working,Laborers,Semi-Urban,88164.78,467.67,N,N,4.0,699.1,0,Active,897,1044.04,1,Semi-Urban,1,115022.48,61715.35
+F,34,979.35,Low,Working,Sales staff,Rural,33214.32,278.65,Y,Y,4.0,688.74,0,Active,956,979.35,2,Semi-Urban,1,57439.61,21589.31
+M,18,1734.75,Low,Working,Laborers,Semi-Urban,58881.62,286.66,N,Y,2.0,732.74,0,Active,282,1734.75,1,Rural,1,98101.32,38273.05
+F,35,2046.7,Low,Commercial associate,Laborers,Semi-Urban,70465.91,740.82,N,N,2.0,805.54,0,Inactive,59,2046.7,3,Rural,1,88446.17,49326.14
+M,37,1224.88,Low,Working,Laborers,Semi-Urban,20141.39,105.72,N,Y,4.0,657.08,0,Unpossessed,527,1224.88,2,Semi-Urban,0,28623.65,0.0
+F,37,2111.81,Low,Commercial associate,Core staff,Semi-Urban,16809.17,185.84,N,N,4.0,673.74,0,Unpossessed,401,2111.81,1,Urban,0,26718.95,0.0
+F,60,1691.38,Low,Working,Laborers,Rural,65658.49,338.65,N,Y,1.0,608.38,1,Inactive,290,1691.38,2,Semi-Urban,1,82148.76,0.0
+M,18,3107.98,Low,Working,Security staff,Semi-Urban,30617.67,264.71,Y,N,1.0,801.78,1,Inactive,130,3107.98,3,Urban,1,57716.92,24494.14
+F,52,1647.82,Low,Working,Medicine staff,Semi-Urban,27812.64,153.12,N,Y,3.0,759.22,0,Unpossessed,987,1647.82,2,Semi-Urban,0,49874.04,0.0
+F,19,3685.67,Low,Commercial associate,Drivers,Semi-Urban,121730.53,697.17,N,N,4.0,744.79,1,Inactive,101,3685.67,1,Urban,1,168253.09,85211.37
+M,28,4346.03,Low,Commercial associate,Accountants,Semi-Urban,191350.82,959.9,N,Y,2.0,843.0,0,Inactive,235,4346.03,3,Rural,1,290879.65,0.0
+M,36,2873.86,Low,State servant,Core staff,Rural,98085.39,469.23,Y,N,4.0,645.57,0,Unpossessed,269,2873.86,2,Urban,0,112057.59,0.0
+M,35,2940.58,Low,Working,Security staff,Semi-Urban,117250.65,395.07,Y,N,2.0,836.67,0,Inactive,23,2940.58,1,Semi-Urban,1,148355.8,0.0
+M,34,3879.18,Low,Commercial associate,Core staff,Semi-Urban,85300.77,490.52,Y,Y,3.0,817.37,0,Active,479,3879.18,4,Semi-Urban,1,109811.79,0.0
+F,50,3308.77,Low,Working,Laborers,Rural,71810.93,371.06,N,Y,4.0,683.66,0,Unpossessed,657,3308.77,3,Semi-Urban,1,110378.45,50267.65
+M,18,3038.22,Low,Commercial associate,High skill tech staff,Urban,229552.9,681.02,N,Y,2.0,849.88,0,Unpossessed,384,3038.22,4,Urban,1,406429.27,172164.68
+F,42,4845.17,Low,Working,Managers,Semi-Urban,96917.08,475.09,N,Y,3.0,815.93,0,Active,650,4845.17,2,Semi-Urban,1,163703.49,77533.66
+M,27,2763.64,Low,Working,Drivers,Rural,129358.89,681.02,N,N,2.0,653.9,0,Unpossessed,464,2763.64,3,Urban,0,156055.91,0.0
+M,28,1379.92,Low,Commercial associate,Sales staff,Rural,92265.65,287.15,N,N,2.0,855.76,0,Inactive,487,1379.92,2,Semi-Urban,1,150213.42,73812.52
+F,42,3379.36,Low,State servant,Core staff,Semi-Urban,241490.71,735.65,N,Y,2.0,739.09,0,Active,315,3379.36,3,Rural,1,267776.94,156968.96
+M,18,1740.74,Low,State servant,Medicine staff,Semi-Urban,121403.17,391.08,N,N,3.0,747.24,0,Inactive,696,1740.74,4,Urban,1,153989.82,78912.06
+M,55,3670.36,Low,Working,Managers,Semi-Urban,199228.33,571.75,Y,N,4.0,794.79,0,Unpossessed,646,3670.36,4,Semi-Urban,1,278914.48,0.0
+M,29,1827.06,Low,Commercial associate,Core staff,Semi-Urban,34038.64,255.91,Y,Y,2.0,639.67,1,Unpossessed,876,1827.06,2,Urban,0,59481.52,0.0
+F,46,2898.62,Low,State servant,Medicine staff,Rural,141926.85,741.07,N,Y,3.0,630.58,0,Unpossessed,403,2898.62,3,Semi-Urban,0,268353.8,0.0
+F,19,2240.9,Low,Working,Laborers,Semi-Urban,145378.63,437.24,N,Y,2.0,646.61,1,Unpossessed,976,2240.9,4,Rural,1,256683.71,0.0
+M,45,5776.81,Low,Commercial associate,Managers,Rural,133252.84,1404.31,Y,N,2.0,748.65,0,Unpossessed,239,5776.81,4,Rural,1,182025.97,86614.35
+F,58,3086.58,Low,State servant,High skill tech staff,Semi-Urban,24793.22,194.68,N,N,4.0,770.18,0,Active,773,3086.58,3,Urban,0,36678.46,0.0
+F,43,1245.3,Low,Commercial associate,Cooking staff,Rural,31775.09,-999.0,N,Y,3.0,734.1,0,Unpossessed,653,1245.3,1,Urban,1,36337.01,22242.56
+M,18,1865.07,Low,Working,Sales staff,Semi-Urban,34399.34,186.05,Y,Y,1.0,830.01,0,Inactive,159,1865.07,3,Rural,1,52825.2,24079.54
+F,24,2298.57,Low,Working,Sales staff,Semi-Urban,31296.73,307.51,Y,Y,2.0,695.96,0,Unpossessed,521,2298.57,1,Semi-Urban,1,36478.68,21907.71
+F,56,5263.55,Low,Working,Laborers,Rural,125835.75,676.57,N,Y,2.0,799.74,0,Inactive,177,5263.55,2,Rural,1,164032.32,0.0
+M,20,961.88,Low,Working,Cleaning staff,Semi-Urban,37867.02,250.42,Y,N,2.0,672.69,0,Unpossessed,516,961.88,1,Urban,1,61933.25,26506.91
+F,35,2456.2,Low,Working,Sales staff,Semi-Urban,24641.02,300.19,N,Y,2.0,661.52,0,Unpossessed,566,2456.2,4,Urban,1,29367.85,16016.66
+M,18,1577.44,Low,Working,Cooking staff,Semi-Urban,121290.95,362.05,N,N,2.0,846.32,0,Active,310,1577.44,4,Rural,1,219122.61,97032.76
+M,61,3188.13,Low,Commercial associate,Private service staff,Semi-Urban,226297.83,698.44,Y,Y,3.0,671.53,0,Unpossessed,175,3188.13,3,Urban,1,394947.02,147093.59
+F,52,685.51,Low,Working,Security staff,Semi-Urban,199590.53,491.65,N,Y,3.0,770.08,0,Unpossessed,942,685.51,1,Rural,1,336871.7,159672.42
+F,43,3341.49,Low,State servant,Core staff,Urban,94799.13,289.05,N,Y,4.0,828.58,0,Active,172,3341.49,2,Urban,0,135865.49,0.0
+F,25,1727.65,Low,Working,Accountants,Semi-Urban,68554.59,512.62,N,Y,2.0,656.14,0,Unpossessed,671,1727.65,2,Rural,1,104461.83,44560.48
+F,46,1304.78,Low,Working,Laborers,Semi-Urban,89545.11,273.41,N,Y,1.0,739.02,0,Active,392,1304.78,1,Semi-Urban,1,116012.56,58204.32
+M,19,2395.39,Low,Working,Laborers,Urban,79964.45,582.41,N,Y,2.0,796.98,0,Unpossessed,156,2395.39,1,Rural,0,98257.44,0.0
+M,59,2326.25,Low,Working,Sales staff,Semi-Urban,74541.8,407.53,N,Y,4.0,648.23,0,Unpossessed,422,2326.25,2,Rural,1,97009.22,0.0
+M,32,3244.08,Low,Commercial associate,Managers,Semi-Urban,37942.02,411.12,Y,Y,4.0,669.39,1,Unpossessed,935,3244.08,3,Rural,1,52136.8,24662.31
+M,50,2807.99,Low,Commercial associate,Laborers,Rural,157910.47,466.28,Y,Y,3.0,677.34,0,Unpossessed,133,2807.99,2,Semi-Urban,0,240476.41,0.0
+F,18,1569.16,Low,Commercial associate,Managers,Semi-Urban,109612.31,418.85,N,Y,3.0,705.88,0,Unpossessed,536,1569.16,4,Semi-Urban,1,167303.48,76728.62
+M,32,1605.28,Low,Working,Accountants,Semi-Urban,48424.86,243.27,N,Y,1.0,808.95,0,Active,267,1605.28,2,Rural,1,72169.17,0.0
+F,56,761.01,Low,Working,Cooking staff,Semi-Urban,38594.28,332.38,N,N,2.0,600.37,0,Inactive,412,761.01,3,Urban,0,51081.6,0.0
+F,59,1832.53,Low,Working,Drivers,Semi-Urban,43854.22,286.51,N,Y,1.0,645.67,1,Active,670,1832.53,3,Urban,1,80620.54,0.0
+F,27,3788.99,Low,Working,Laborers,Semi-Urban,155701.98,412.25,Y,Y,4.0,800.8,0,Active,990,3788.99,2,Semi-Urban,1,275209.35,116776.49
+M,45,3195.8,Low,Working,Sales staff,Semi-Urban,100535.5,463.83,N,Y,2.0,753.36,0,Unpossessed,369,3195.8,1,Semi-Urban,1,161029.28,80428.4
+F,47,1474.94,Low,Working,Accountants,Semi-Urban,61561.27,229.97,Y,Y,4.0,771.35,0,Inactive,210,1474.94,4,Rural,1,82387.26,46170.95
+M,62,2127.8,Low,Working,Sales staff,Semi-Urban,39225.98,262.1,Y,Y,2.0,671.93,1,Unpossessed,156,2127.8,1,Rural,1,72006.19,25496.89
+F,53,1887.51,Low,Commercial associate,Medicine staff,Semi-Urban,28057.11,123.19,Y,Y,4.0,667.34,0,Active,682,1887.51,3,Rural,1,43486.86,18237.12
+M,18,2008.79,Low,Working,Laborers,Urban,70634.2,484.64,N,Y,3.0,711.72,0,Inactive,919,2008.79,3,Semi-Urban,1,104290.14,49443.94
+M,61,4444.41,Low,Working,Laborers,Semi-Urban,176286.21,475.17,Y,Y,3.0,693.76,0,Active,651,4444.41,1,Semi-Urban,1,290453.15,0.0
+M,47,2898.53,Low,State servant,Accountants,Semi-Urban,37650.79,230.72,Y,Y,5.0,784.91,0,Active,93,2898.53,2,Semi-Urban,1,42259.04,26355.55
+M,26,2259.26,Low,Working,Core staff,Urban,116856.85,337.11,Y,N,2.0,831.12,0,Unpossessed,669,2259.26,4,Rural,1,172519.37,87642.64
+F,29,3787.45,Low,Working,Laborers,Semi-Urban,119890.17,488.57,Y,Y,3.0,663.5,1,Inactive,940,3787.45,2,Rural,0,177924.92,0.0
+M,54,1138.57,Low,State servant,Medicine staff,Rural,12819.06,161.5,N,Y,2.0,658.63,0,Unpossessed,917,1138.57,4,Urban,1,15693.02,8973.34
+M,29,2521.95,Low,Working,Managers,Semi-Urban,33757.86,168.15,N,Y,2.0,762.47,0,Unpossessed,899,2521.95,1,Urban,1,55514.07,23630.5
+F,49,1175.41,Low,Commercial associate,Sales staff,Semi-Urban,32639.24,182.21,Y,N,2.0,754.82,0,Active,753,1175.41,3,Rural,1,48827.77,24479.43
+F,59,2373.63,Low,Working,Core staff,Semi-Urban,180505.05,718.45,N,Y,2.0,862.86,0,Unpossessed,749,2373.63,4,Rural,1,219572.61,126353.53
+F,29,1791.84,Low,Commercial associate,Laborers,Semi-Urban,41600.21,203.05,N,Y,1.0,665.6,0,Unpossessed,949,1791.84,2,Urban,1,-999.0,29120.15
+M,52,3036.78,Low,Working,Laborers,Semi-Urban,38848.76,221.25,Y,Y,3.0,631.56,0,Inactive,594,3036.78,2,Semi-Urban,1,44260.5,0.0
+M,45,1384.58,Low,Working,Core staff,Semi-Urban,73170.2,274.43,Y,Y,4.0,787.42,0,Active,651,1384.58,1,Semi-Urban,1,127486.51,54877.65
+F,45,3327.43,Low,State servant,Core staff,Semi-Urban,160307.12,424.18,Y,Y,1.0,655.47,0,Unpossessed,782,3327.43,3,Semi-Urban,1,228277.48,112214.98
+M,19,7012.65,Low,State servant,Laborers,Semi-Urban,169022.56,783.46,Y,Y,2.0,666.08,0,Active,562,7012.65,3,Semi-Urban,1,244082.01,109864.66
+F,53,3889.09,Low,Commercial associate,Sales staff,Urban,287414.98,807.54,Y,N,1.0,666.1,0,Unpossessed,188,3889.09,3,Semi-Urban,0,456083.98,0.0
+M,46,2467.4,Low,Working,Sales staff,Semi-Urban,39795.55,211.28,Y,Y,2.0,769.92,0,Unpossessed,557,2467.4,2,Semi-Urban,0,53989.97,0.0
+M,21,1309.75,Low,Working,Laborers,Semi-Urban,45753.23,238.13,Y,N,1.0,676.96,0,Unpossessed,819,1309.75,1,Urban,1,80768.24,32027.26
+M,49,1972.97,Low,Working,Sales staff,Semi-Urban,34925.55,159.15,N,N,3.0,602.7,0,Unpossessed,392,1972.97,1,Semi-Urban,1,53691.72,0.0
+F,27,1540.58,Low,State servant,Laborers,Semi-Urban,38135.94,304.02,N,Y,4.0,695.96,1,Active,140,1540.58,1,Rural,1,61335.35,24788.36
+M,22,3797.97,Low,Working,Cooking staff,Semi-Urban,118155.32,635.95,N,N,2.0,738.81,0,Active,903,3797.97,4,Semi-Urban,1,193535.39,76800.96
+F,18,1359.22,Low,Working,Sales staff,Semi-Urban,137479.78,397.6,N,N,2.0,830.13,0,Inactive,783,1359.22,2,Semi-Urban,0,190936.47,0.0
+F,28,1902.53,Low,Working,Sales staff,Rural,36749.61,180.92,Y,N,2.0,725.66,0,Inactive,359,1902.53,3,Rural,1,51771.99,25724.73
+F,26,2134.12,Low,Working,Core staff,Semi-Urban,99871.22,471.43,N,N,2.0,722.31,0,Active,172,2134.12,2,Urban,1,170291.25,69909.85
+F,25,1208.78,Low,Working,Core staff,Semi-Urban,81507.17,396.75,Y,Y,2.0,646.94,1,Unpossessed,335,1208.78,2,Urban,1,134526.34,0.0
+M,45,2964.29,Low,Working,Laborers,Semi-Urban,18605.03,127.02,Y,Y,2.0,713.84,0,Inactive,210,2964.29,4,Rural,1,33479.76,13023.52
+M,23,3076.13,Low,Commercial associate,Accountants,Urban,82096.95,420.95,Y,Y,3.0,848.74,0,Unpossessed,609,3076.13,1,Urban,1,132251.22,65677.56
+F,21,2431.34,Low,Working,Sales staff,Semi-Urban,41550.61,259.83,Y,Y,3.0,659.36,0,Inactive,588,2431.34,1,Rural,1,49855.05,29085.43
+M,18,3986.16,Low,Commercial associate,Core staff,Semi-Urban,174658.91,545.58,N,Y,1.0,712.91,0,Active,941,3986.16,1,Rural,1,330469.09,113528.29
+M,52,1815.12,Low,Working,Sales staff,Semi-Urban,206262.4,523.32,N,Y,3.0,754.01,0,Inactive,211,1815.12,1,Semi-Urban,1,242282.96,165009.92
+F,18,2562.97,Low,State servant,Core staff,Semi-Urban,40151.71,418.63,N,Y,2.0,845.5,0,Active,646,2562.97,4,Semi-Urban,1,47608.18,28106.2
+F,36,3815.41,Low,State servant,Laborers,Semi-Urban,123422.25,452.64,N,N,1.0,688.89,0,Unpossessed,473,3815.41,3,Urban,1,205975.86,80224.46
+F,27,4473.5,Low,Working,High skill tech staff,Urban,101367.11,519.62,N,N,4.0,766.74,0,Unpossessed,995,4473.5,1,Semi-Urban,1,189901.46,76025.33
+M,21,1398.04,Low,Working,Core staff,Semi-Urban,26822.29,250.14,N,N,1.0,774.81,0,Inactive,690,1398.04,2,Semi-Urban,1,31917.45,0.0
+M,26,3902.06,Low,Working,Drivers,Urban,111913.18,713.61,Y,Y,1.0,683.52,0,Unpossessed,63,3902.06,1,Semi-Urban,0,176650.18,0.0
+M,18,2302.96,Low,Commercial associate,Laborers,Urban,48430.22,240.62,N,Y,2.0,680.06,0,Unpossessed,18,2302.96,3,Semi-Urban,0,64366.87,0.0
+F,42,1335.38,Low,State servant,Laborers,Semi-Urban,91749.99,951.34,N,N,3.0,743.78,0,Active,662,1335.38,4,Semi-Urban,1,160022.93,59637.49
+F,63,1275.47,Low,Commercial associate,Sales staff,Rural,38363.06,303.98,N,N,3.0,682.39,0,Active,173,1275.47,1,Urban,1,50345.07,0.0
+F,59,1409.84,Low,Working,Laborers,Rural,107192.23,421.85,Y,Y,3.0,645.2,1,Active,545,1409.84,2,Rural,1,138580.77,0.0
+F,56,2094.79,Low,Commercial associate,Laborers,Semi-Urban,122919.96,398.33,N,N,1.0,686.53,1,Inactive,95,2094.79,2,Rural,1,211529.34,79897.97
+F,38,2058.74,Low,Commercial associate,Sales staff,Semi-Urban,111219.04,564.34,N,Y,3.0,753.22,0,Inactive,678,2058.74,1,Semi-Urban,1,175829.44,0.0
+M,18,3160.99,Low,Working,Laborers,Semi-Urban,60628.3,317.48,N,N,3.0,762.77,0,Unpossessed,112,3160.99,1,Rural,1,97154.28,42439.81
+M,37,4042.35,Low,State servant,Medicine staff,Semi-Urban,71431.97,395.54,N,N,2.0,677.61,1,Inactive,616,4042.35,1,Semi-Urban,1,93182.46,46430.78
+F,23,1942.52,Low,Working,Low-skill Laborers,Rural,144955.6,817.0,N,N,1.0,641.13,0,Inactive,216,1942.52,3,Urban,0,175649.44,0.0
+M,43,2014.87,Low,State servant,Managers,Semi-Urban,6310.26,61.33,Y,Y,2.0,726.5,0,Inactive,22,2014.87,1,Rural,1,8012.24,4417.18
+M,18,4042.02,Low,Commercial associate,Accountants,Urban,97786.37,482.65,Y,Y,4.0,760.74,0,Inactive,188,4042.02,3,Semi-Urban,0,173569.1,0.0
+F,18,5350.94,Low,Commercial associate,Managers,Semi-Urban,99492.44,516.71,Y,Y,2.0,733.68,0,Inactive,344,5350.94,3,Rural,0,188950.33,0.0
+F,24,858.65,Low,Working,Laborers,Semi-Urban,27325.95,131.6,N,Y,4.0,682.37,0,Unpossessed,497,858.65,1,Semi-Urban,0,40212.7,0.0
+M,40,1701.85,Low,Commercial associate,Sales staff,Semi-Urban,189227.2,496.37,N,Y,1.0,704.31,0,Active,162,1701.85,2,Rural,1,329850.28,132459.04
+M,63,5669.34,Low,Working,Laborers,Semi-Urban,209221.8,557.94,N,Y,4.0,669.87,0,Unpossessed,69,5669.34,2,Rural,1,364868.58,146455.26
+M,26,1597.77,Low,Commercial associate,Accountants,Semi-Urban,75331.35,360.03,Y,Y,3.0,693.03,1,Unpossessed,367,1597.77,2,Semi-Urban,1,109541.18,52731.94
+F,35,2678.15,Low,Working,Accountants,Semi-Urban,98620.93,296.46,N,Y,1.0,848.94,0,Active,943,2678.15,1,Semi-Urban,1,133273.58,0.0
+F,30,2447.24,Low,Working,Sales staff,Semi-Urban,109278.69,425.17,Y,N,1.0,657.47,0,Unpossessed,461,2447.24,4,Rural,0,152716.96,0.0
+M,21,1589.0,Low,Commercial associate,Sales staff,Semi-Urban,101083.06,475.62,N,N,2.0,741.9,1,Inactive,214,1589.0,1,Urban,1,179901.84,70758.14
+M,54,1798.08,Low,Working,High skill tech staff,Semi-Urban,27824.02,157.85,N,Y,4.0,671.46,0,Inactive,298,1798.08,1,Semi-Urban,1,48058.2,-999.0
+M,36,1141.55,Low,Working,Laborers,Rural,76381.92,540.2,Y,Y,3.0,755.07,0,Active,83,1141.55,3,Rural,1,135168.55,0.0
+F,40,3810.58,Low,Working,Core staff,Rural,190182.39,647.71,N,N,1.0,815.03,1,Inactive,597,3810.58,4,Urban,1,308727.6,0.0
+F,55,1261.47,Low,Commercial associate,Core staff,Semi-Urban,53511.75,262.29,N,N,2.0,779.09,0,Active,525,1261.47,1,Rural,1,83056.92,40133.81
+F,18,914.65,Low,Commercial associate,Cleaning staff,Semi-Urban,53690.58,293.53,N,Y,2.0,697.36,0,Active,228,914.65,2,Semi-Urban,1,81424.76,0.0
+F,43,2745.81,Low,Commercial associate,Drivers,Semi-Urban,25720.28,127.16,Y,Y,2.0,652.41,1,Inactive,338,2745.81,3,Rural,1,36905.21,16718.18
+M,61,5224.72,Low,Working,Sales staff,Rural,36390.7,204.71,Y,Y,4.0,765.81,0,Inactive,394,5224.72,2,Urban,0,42925.49,0.0
+M,19,1717.83,Low,Working,Laborers,Semi-Urban,21414.89,247.09,N,N,1.0,665.26,0,Active,666,1717.83,4,Rural,0,32299.91,0.0
+M,20,1558.95,Low,Working,Laborers,Rural,164124.9,559.83,N,N,4.0,706.89,0,Unpossessed,930,1558.95,3,Semi-Urban,1,202827.34,106681.18
+M,35,1614.48,Low,Commercial associate,Security staff,Semi-Urban,34896.51,231.02,N,Y,1.0,625.79,0,Unpossessed,905,1614.48,2,Semi-Urban,1,53687.47,0.0
+F,18,3142.57,Low,Working,Sales staff,Rural,123235.98,434.47,N,N,3.0,830.67,0,Active,77,3142.57,3,Urban,1,219077.94,92426.98
+M,47,2371.56,Low,State servant,Managers,Rural,45729.88,241.11,N,Y,6.0,829.1,0,Unpossessed,658,2371.56,3,Rural,1,72426.64,32010.92
+M,20,2805.88,Low,Commercial associate,Security staff,Semi-Urban,136039.09,604.09,Y,Y,2.0,793.03,0,Active,321,2805.88,2,Rural,0,156713.43,0.0
+M,18,1032.91,Low,Working,Laborers,Semi-Urban,25341.33,141.03,N,N,1.0,672.71,0,Inactive,522,1032.91,3,Semi-Urban,1,39931.52,16471.86
+M,47,4623.68,Low,Working,Drivers,Semi-Urban,45388.51,436.88,Y,N,4.0,688.53,0,Active,99,4623.68,1,Urban,1,59875.19,0.0
+M,54,1723.95,Low,Working,Drivers,Semi-Urban,132398.35,445.77,Y,Y,3.0,587.42,0,Unpossessed,360,1723.95,3,Rural,1,234140.15,0.0
+M,28,2700.65,Low,Commercial associate,Security staff,Semi-Urban,173051.91,651.16,N,N,2.0,796.37,0,Inactive,114,2700.65,3,Urban,1,229171.81,129788.93
+M,59,3171.26,Low,Commercial associate,Managers,Semi-Urban,79083.91,871.43,Y,Y,3.0,805.1,0,Unpossessed,447,3171.26,4,Semi-Urban,1,145421.08,55358.74
+M,18,1300.83,Low,Working,Accountants,Rural,35809.4,245.1,Y,N,1.0,649.47,0,Inactive,574,1300.83,3,Urban,1,46056.3,0.0
+M,49,1592.11,Low,Commercial associate,Cooking staff,Rural,148087.34,417.04,N,Y,2.0,769.77,0,Unpossessed,287,1592.11,4,Rural,1,262596.97,111065.5
+F,45,1068.23,Low,Working,Security staff,Rural,33074.85,358.13,Y,Y,2.0,716.76,0,Inactive,819,1068.23,1,Urban,1,49381.26,21498.65
+F,44,1491.55,Low,State servant,Managers,Rural,63533.78,334.44,N,N,1.0,743.94,1,Unpossessed,238,1491.55,2,Semi-Urban,1,116612.7,44473.65
+F,34,5005.17,Low,Working,Sales staff,Semi-Urban,45683.67,311.92,N,Y,2.0,762.44,0,Unpossessed,11,5005.17,3,Semi-Urban,1,86701.58,31978.57
+M,56,5047.01,Low,Working,Security staff,Urban,129979.22,392.72,Y,N,3.0,843.7,0,Inactive,302,5047.01,4,Rural,0,155453.35,0.0
+F,38,4367.93,Low,Working,Laborers,Semi-Urban,189921.27,523.87,N,Y,4.0,833.93,0,Unpossessed,513,4367.93,4,Urban,1,356672.99,0.0
+F,59,1974.63,Low,Working,Laborers,Semi-Urban,144345.93,588.55,Y,Y,2.0,777.01,0,Inactive,390,1974.63,1,Rural,1,226935.57,108259.45
+F,19,1764.0,Low,Working,Medicine staff,Semi-Urban,28515.07,144.86,N,Y,2.0,837.3,0,Inactive,904,1764.0,1,Rural,1,41176.56,19960.55
+M,30,2064.93,Low,Commercial associate,Sales staff,Semi-Urban,99951.6,528.75,N,Y,3.0,654.02,0,Active,593,2064.93,4,Semi-Urban,1,181697.01,64968.54
+F,50,2025.6,Low,Working,Laborers,Semi-Urban,109682.66,432.38,Y,Y,3.0,833.45,0,Active,406,2025.6,2,Rural,1,182010.2,76777.86
+M,55,2376.39,Low,Working,Sales staff,Semi-Urban,50792.16,226.16,N,N,2.0,648.79,0,Unpossessed,449,2376.39,2,Semi-Urban,1,88265.94,0.0
+M,18,2045.74,Low,Commercial associate,Laborers,Semi-Urban,55851.62,280.36,N,Y,2.0,718.88,0,Inactive,728,2045.74,3,Urban,1,102477.47,39096.13
+F,18,2830.14,Low,Working,Managers,Semi-Urban,42389.91,269.35,N,Y,1.0,681.47,0,Active,417,2830.14,3,Rural,0,66377.46,0.0
+F,49,3331.82,Low,Working,Laborers,Semi-Urban,92655.64,412.41,N,Y,1.0,774.05,0,Inactive,548,3331.82,1,Urban,1,136282.91,64858.95
+M,18,2545.79,Low,Working,High skill tech staff,Semi-Urban,62989.96,692.97,N,N,2.0,668.01,0,Unpossessed,711,2545.79,3,Urban,1,84071.46,44092.97
+M,38,19768.89,Low,Working,Managers,Rural,42627.4,232.53,N,N,2.0,804.16,0,Active,576,19768.89,3,Rural,1,67078.93,31970.55
+F,31,2685.44,Low,Working,Laborers,Rural,38792.21,200.72,Y,Y,3.0,702.61,0,Inactive,645,2685.44,2,Rural,1,56913.13,25214.94
+M,44,2408.55,Low,Working,Core staff,Semi-Urban,38953.22,159.9,Y,N,3.0,774.32,0,Unpossessed,765,2408.55,3,Urban,1,64081.17,27267.25
+M,47,4231.84,Low,Working,Laborers,Rural,34880.11,285.75,N,Y,2.0,682.34,1,Unpossessed,315,4231.84,3,Rural,1,40555.92,24416.08
+M,54,5622.97,Low,Working,Laborers,Semi-Urban,126478.62,578.59,Y,Y,2.0,849.14,0,Inactive,289,5622.97,3,Rural,1,146610.48,101182.9
+F,45,6782.1,Low,Working,Drivers,Semi-Urban,89677.22,524.62,Y,N,3.0,652.77,1,Inactive,260,6782.1,2,Semi-Urban,1,126444.08,62774.05
+M,37,2691.13,Low,Working,Core staff,Semi-Urban,76368.76,380.48,N,Y,2.0,634.33,0,Unpossessed,890,2691.13,2,Semi-Urban,1,128919.81,0.0
+M,29,2480.8,Low,Working,Laborers,Semi-Urban,77208.08,647.27,Y,Y,3.0,719.18,0,Active,540,2480.8,4,Semi-Urban,1,103516.7,54045.66
+F,37,1254.52,Low,Working,Laborers,Rural,20268.02,179.64,N,Y,2.0,624.5,1,Unpossessed,308,1254.52,4,Semi-Urban,0,22966.03,0.0
+M,46,3502.87,Low,State servant,Core staff,Urban,41472.26,274.43,Y,Y,4.0,775.02,1,Unpossessed,389,3502.87,2,Urban,1,49109.17,31104.2
+M,46,2833.58,Low,State servant,Core staff,Rural,113909.46,360.78,N,Y,4.0,745.91,1,Inactive,229,2833.58,3,Rural,1,162743.87,79736.62
+M,50,1323.72,Low,Working,Cooking staff,Semi-Urban,20948.8,127.36,N,N,4.0,749.56,0,Active,610,1323.72,1,Rural,1,27631.11,13616.72
+F,37,1193.79,Low,Working,Sales staff,Semi-Urban,52238.75,240.84,N,N,2.0,747.84,0,Active,490,1193.79,4,Rural,0,83486.46,0.0
+M,25,1684.3,Low,Working,Laborers,Semi-Urban,88061.75,488.83,N,Y,2.0,666.27,1,Inactive,257,1684.3,4,Urban,1,157852.63,57240.14
+F,41,994.76,Low,Commercial associate,Medicine staff,Rural,105667.33,407.42,N,N,2.0,645.12,0,Active,545,994.76,2,Rural,1,155083.56,0.0
+M,18,1675.77,Low,Commercial associate,Laborers,Semi-Urban,140232.31,543.18,Y,Y,2.0,846.66,0,Active,825,1675.77,2,Semi-Urban,1,219442.44,98162.62
+F,18,3385.27,Low,Commercial associate,Accountants,Semi-Urban,182700.44,534.24,Y,Y,2.0,874.38,1,Active,787,3385.27,2,Semi-Urban,1,209515.9,137025.33
+F,63,2398.16,Low,Working,Managers,Semi-Urban,38996.5,223.17,N,Y,1.0,787.77,0,Inactive,768,2398.16,2,Semi-Urban,1,66253.19,31197.2
+M,38,1673.82,Low,Commercial associate,Managers,Semi-Urban,55777.86,295.82,N,N,2.0,760.57,0,Unpossessed,951,1673.82,1,Semi-Urban,1,100290.11,44622.29
+F,19,851.97,Low,Working,Sales staff,Semi-Urban,19287.58,143.39,N,Y,3.0,799.09,0,Active,503,851.97,3,Rural,1,31983.63,0.0
+M,25,4538.29,Low,Commercial associate,Managers,Semi-Urban,80944.22,245.44,N,N,2.0,813.17,0,Unpossessed,593,4538.29,4,Semi-Urban,1,153733.07,64755.38
+F,38,1835.59,Low,Commercial associate,Core staff,Semi-Urban,75127.54,231.06,N,Y,4.0,721.97,0,Unpossessed,441,1835.59,4,Rural,1,117539.23,52589.28
+F,34,1982.44,Low,Working,Managers,Semi-Urban,126177.87,532.83,N,Y,2.0,706.2,0,Active,466,1982.44,2,Rural,1,232891.18,88324.51
+M,26,1886.26,Low,Working,Laborers,Semi-Urban,25343.24,125.37,Y,Y,1.0,732.53,0,Unpossessed,23,1886.26,1,Semi-Urban,1,32917.89,16473.11
+F,21,1359.33,Low,Working,Laborers,Semi-Urban,82689.81,451.45,N,Y,3.0,785.68,0,Unpossessed,43,1359.33,3,Semi-Urban,1,133602.44,57882.87
+F,57,2749.42,Low,Commercial associate,Managers,Semi-Urban,40718.53,322.47,N,Y,3.0,808.69,1,Active,310,2749.42,4,Rural,1,70059.99,30538.9
+F,39,2706.78,Low,Commercial associate,Sales staff,Semi-Urban,18287.62,180.13,N,Y,1.0,736.78,0,Inactive,856,2706.78,2,Urban,1,24366.53,11886.95
+F,18,2029.34,Low,Working,Laborers,Semi-Urban,70848.59,348.99,N,Y,2.0,678.94,0,Inactive,879,2029.34,1,Urban,1,80518.33,46051.58
+M,59,3500.62,Low,Working,Managers,Semi-Urban,77184.36,438.46,N,Y,2.0,852.71,0,Active,306,3500.62,1,Semi-Urban,1,110711.85,57888.27
+F,18,1357.58,Low,Working,Core staff,Semi-Urban,37854.51,422.85,N,Y,4.0,659.38,0,Unpossessed,781,1357.58,1,Semi-Urban,1,67868.03,24605.43
+M,46,3102.92,Low,Working,Drivers,Semi-Urban,106542.28,590.35,N,N,2.0,617.53,0,Unpossessed,509,3102.92,2,Rural,1,137700.8,0.0
+F,18,1718.03,Low,Working,Sales staff,Semi-Urban,60101.05,433.08,N,N,4.0,740.33,0,Active,25,1718.03,3,Urban,1,96168.1,42070.74
+F,50,2504.11,Low,Commercial associate,Sales staff,Semi-Urban,171495.39,469.81,Y,Y,3.0,801.89,0,Unpossessed,47,2504.11,2,Urban,1,219546.21,137196.31
+F,43,1767.13,Low,Working,Laborers,Semi-Urban,54823.7,309.78,N,Y,2.0,714.22,0,Active,780,1767.13,2,Rural,0,102983.6,0.0
+M,36,3116.11,Low,Working,Low-skill Laborers,Semi-Urban,152699.51,751.78,N,Y,3.0,659.84,1,Unpossessed,558,3116.11,2,Rural,0,199880.41,0.0
+F,27,4317.84,Low,Working,Managers,Semi-Urban,159108.01,872.65,N,N,1.0,714.46,0,Inactive,733,4317.84,3,Rural,0,295214.74,0.0
+F,30,4372.07,Low,Commercial associate,Accountants,Semi-Urban,141175.48,687.78,Y,N,2.0,843.14,0,Inactive,788,4372.07,2,Semi-Urban,1,213884.32,112940.38
+M,18,1717.69,Low,Working,Cooking staff,Rural,80456.84,403.18,N,N,3.0,697.73,0,Active,599,1717.69,1,Rural,1,111191.58,56319.79
+M,62,3685.22,Low,Commercial associate,Laborers,Urban,268960.1,728.79,N,Y,3.0,775.14,0,Active,688,3685.22,1,Rural,1,412897.31,0.0
+M,18,2326.77,Low,Working,Cleaning staff,Semi-Urban,86019.55,459.01,N,Y,4.0,733.9,0,Active,324,2326.77,1,Rural,1,109368.23,60213.68
+M,33,6118.14,Low,Commercial associate,Managers,Semi-Urban,80157.47,363.51,Y,Y,5.0,689.74,0,Inactive,370,6118.14,1,Semi-Urban,1,93143.44,0.0
+M,29,2422.69,Low,Working,Laborers,Semi-Urban,119822.19,518.91,Y,Y,4.0,683.4,0,Active,263,2422.69,2,Semi-Urban,1,167631.6,83875.53
+F,57,3080.95,Low,Working,Sales staff,Semi-Urban,129355.92,664.13,N,Y,2.0,702.5,0,Active,620,3080.95,4,Rural,1,174516.76,84081.35
+M,18,1488.67,Low,Working,Laborers,Semi-Urban,118549.07,327.48,Y,N,4.0,704.74,0,Inactive,962,1488.67,4,Semi-Urban,1,206482.16,77056.9
+M,62,2656.87,Low,Working,Security staff,Semi-Urban,93387.55,318.14,N,N,2.0,677.04,0,Active,481,2656.87,2,Rural,1,153169.66,60701.91
+M,37,3808.82,Low,Working,Drivers,Semi-Urban,57483.61,351.99,Y,Y,3.0,672.45,0,Active,163,3808.82,3,Semi-Urban,1,79842.38,37364.35
+M,38,3762.85,Low,Commercial associate,Managers,Semi-Urban,247277.45,768.28,N,Y,2.0,813.71,1,Active,146,3762.85,2,Semi-Urban,1,431947.43,185458.09
+M,41,3416.1,Low,Commercial associate,Accountants,Semi-Urban,154459.33,1117.02,N,Y,4.0,779.29,0,Inactive,162,3416.1,2,Rural,1,264372.99,115844.5
+M,41,2104.1,Low,Working,Managers,Semi-Urban,20632.39,101.97,N,N,4.0,736.93,1,Unpossessed,418,2104.1,1,Rural,1,26240.86,13411.05
+M,18,2546.84,Low,Working,Laborers,Semi-Urban,162786.81,424.55,Y,Y,3.0,809.9,0,Inactive,930,2546.84,3,Semi-Urban,1,248829.64,122090.11
+M,54,3051.52,Low,State servant,Drivers,Semi-Urban,29233.1,361.07,N,N,2.0,679.03,0,Inactive,403,3051.52,3,Semi-Urban,1,37607.56,19001.52
+M,42,1747.16,Low,Working,Sales staff,Rural,188351.14,499.16,N,N,5.0,675.85,0,Unpossessed,32,1747.16,1,Rural,1,282250.29,131845.8
+M,42,2077.75,Low,Working,Sales staff,Rural,45177.73,333.74,N,Y,2.0,677.23,0,Inactive,947,2077.75,4,Urban,1,58848.75,29365.52
+F,26,2328.69,Low,Working,Accountants,Semi-Urban,52488.3,359.32,Y,Y,2.0,770.35,0,Inactive,892,2328.69,2,Rural,-999,75284.06,36741.81
+M,62,1887.33,Low,Working,Managers,Semi-Urban,58755.13,287.99,Y,Y,2.0,835.2,0,Active,599,1887.33,1,Rural,1,74356.35,0.0
+F,37,2679.32,Low,Working,Core staff,Semi-Urban,148048.14,349.13,N,N,1.0,682.36,0,Inactive,134,2679.32,3,Rural,1,186753.18,96231.29
+F,40,1708.29,Low,Working,Sales staff,Semi-Urban,56557.8,316.51,Y,Y,1.0,748.56,0,Unpossessed,384,1708.29,4,Urban,1,65106.23,36762.57
+M,60,4306.51,Low,Commercial associate,Core staff,Semi-Urban,132351.68,469.97,N,N,3.0,740.1,0,Active,284,4306.51,3,Semi-Urban,1,161948.84,0.0
+M,46,2978.15,Low,Working,Core staff,Semi-Urban,65695.62,658.34,N,N,1.0,677.19,0,Unpossessed,416,2978.15,3,Urban,1,113820.69,45986.93
+M,18,1348.33,Low,Working,Accountants,Semi-Urban,81496.87,259.73,N,N,1.0,621.17,0,Active,164,1348.33,1,Rural,1,126765.38,0.0
+M,32,7017.84,Low,Commercial associate,Sales staff,Semi-Urban,208976.63,616.56,Y,Y,6.0,697.4,1,Inactive,606,7017.84,3,Urban,1,246147.91,146283.64
+F,47,2180.55,Low,Working,Laborers,Semi-Urban,45132.48,258.25,N,Y,2.0,664.9,0,Active,893,2180.55,3,Semi-Urban,1,74881.46,0.0
+M,43,5963.63,Low,Commercial associate,Managers,Urban,251259.52,1601.17,N,Y,2.0,822.4,0,Unpossessed,260,5963.63,2,Semi-Urban,1,314527.79,175881.66
+M,54,5902.13,Low,Commercial associate,Accountants,Urban,88802.84,558.73,Y,Y,2.0,840.65,0,Unpossessed,608,5902.13,2,Rural,1,168378.79,0.0
+F,18,1705.62,Low,Working,Cooking staff,Semi-Urban,12578.49,153.97,N,N,4.0,801.46,0,Unpossessed,937,1705.62,4,Semi-Urban,1,14507.8,0.0
+F,18,5372.29,Low,Commercial associate,Sales staff,Semi-Urban,131257.86,699.54,N,Y,3.0,784.04,1,Inactive,823,5372.29,3,Rural,1,212828.94,91880.5
+F,40,816.81,Low,Working,Cooking staff,Semi-Urban,35757.29,344.83,N,Y,2.0,777.72,0,Inactive,105,816.81,4,Semi-Urban,1,45706.08,28605.83
+M,61,2771.8,Low,Working,High skill tech staff,Semi-Urban,34031.7,-999.0,Y,N,3.0,733.83,0,Unpossessed,627,2771.8,4,Semi-Urban,1,-999.0,23822.19
+M,18,1944.32,Low,Working,Sales staff,Semi-Urban,79710.2,254.21,N,Y,2.0,717.98,0,Unpossessed,915,1944.32,2,Rural,1,143687.43,55797.14
+M,50,1307.11,Low,Working,Sales staff,Semi-Urban,24759.05,122.14,N,Y,3.0,655.99,0,Inactive,329,1307.11,2,Semi-Urban,1,38175.01,16093.38
+M,64,2369.03,Low,Working,Laborers,Semi-Urban,29459.78,146.26,N,Y,2.0,669.05,0,Inactive,779,2369.03,3,Urban,1,47615.85,19148.86
+F,61,2001.97,Low,Working,Laborers,Rural,79292.31,414.36,Y,Y,2.0,763.15,1,Inactive,659,2001.97,2,Urban,1,143170.63,59469.23
+M,19,2808.41,Low,Working,Drivers,Semi-Urban,73028.98,429.33,N,N,1.0,645.11,0,Inactive,712,2808.41,3,Semi-Urban,1,97965.01,0.0
+F,25,609.17,Low,Working,High skill tech staff,Semi-Urban,19024.18,105.91,N,N,2.0,699.79,0,Inactive,781,609.17,1,Semi-Urban,1,35816.25,13316.93
+M,18,1655.35,Low,Working,Core staff,Semi-Urban,83924.36,327.21,Y,N,4.0,673.06,0,Unpossessed,850,1655.35,1,Rural,1,107881.59,0.0
+M,48,2519.25,Low,Commercial associate,Security staff,Semi-Urban,164581.79,672.93,Y,Y,1.0,769.8,0,Unpossessed,547,2519.25,3,Urban,1,201566.22,123436.34
+M,64,1511.38,Low,Commercial associate,Sales staff,Rural,58215.07,341.29,N,N,3.0,710.5,0,Inactive,347,1511.38,1,Urban,1,84346.45,37839.8
+F,18,2408.05,Low,Working,Laborers,Semi-Urban,36804.31,282.01,N,Y,2.0,684.16,0,Unpossessed,794,2408.05,1,Rural,1,41752.98,0.0
+F,53,2246.34,Low,Working,Drivers,Semi-Urban,147121.92,655.04,Y,Y,2.0,808.15,0,Inactive,995,2246.34,1,Semi-Urban,1,267589.68,0.0
+M,57,1313.87,Low,State servant,Security staff,Semi-Urban,35282.41,353.32,Y,N,3.0,738.51,0,Active,404,1313.87,2,Urban,1,59026.51,24697.69
+F,38,3403.31,Low,Commercial associate,Laborers,Rural,148085.1,567.06,Y,Y,1.0,644.65,0,Active,340,3403.31,4,Semi-Urban,0,211070.03,0.0
+F,18,2839.41,Low,Working,Sales staff,Rural,102667.62,421.05,N,Y,2.0,635.7,1,Inactive,518,2839.41,1,Semi-Urban,1,153338.75,0.0
+M,19,6154.83,Low,Commercial associate,Managers,Semi-Urban,107013.21,479.95,Y,Y,2.0,716.72,0,Active,24,6154.83,1,Semi-Urban,1,127673.56,0.0
+F,41,2112.58,Low,Working,Cleaning staff,Semi-Urban,50864.17,227.81,N,Y,3.0,759.03,0,Unpossessed,541,2112.58,4,Urban,1,88457.65,-999.0
+F,35,2327.8,Low,State servant,High skill tech staff,Semi-Urban,40624.02,204.34,Y,Y,3.0,662.28,1,Inactive,386,2327.8,3,Semi-Urban,1,51634.4,28436.81
+M,18,1282.57,Low,Working,Medicine staff,Semi-Urban,80456.09,411.49,Y,N,2.0,685.74,0,Unpossessed,256,1282.57,2,Semi-Urban,1,95050.38,52296.46
+F,18,3157.41,Low,Working,Laborers,Urban,265750.77,714.03,Y,N,2.0,780.62,0,Active,888,3157.41,1,Urban,1,453458.45,186025.54
+M,18,3976.8,Low,Working,Laborers,Urban,87303.66,338.84,Y,Y,1.0,827.29,0,Inactive,988,3976.8,4,Rural,1,113808.56,61112.56
+M,23,1771.15,Low,Working,Sales staff,Semi-Urban,76945.28,359.78,N,Y,2.0,729.24,0,Unpossessed,35,1771.15,3,Urban,1,93901.79,50014.43
+F,18,2311.39,Low,Working,Laborers,Semi-Urban,53097.46,344.14,N,N,3.0,658.62,0,Inactive,10,2311.39,3,Semi-Urban,1,73683.29,37168.22
+M,18,2611.0,Low,Commercial associate,Sales staff,Semi-Urban,54108.47,264.6,N,Y,1.0,690.61,1,Inactive,674,2611.0,1,Semi-Urban,1,78208.86,35170.51
+M,18,3236.22,Low,Commercial associate,Laborers,Semi-Urban,76423.21,423.45,N,Y,2.0,674.13,0,Inactive,21,3236.22,3,Urban,1,132867.88,49675.09
+M,37,3242.08,Low,Working,Laborers,Rural,78118.48,391.99,N,N,3.0,682.35,1,Inactive,996,3242.08,1,Urban,0,86233.98,0.0
+F,32,1889.6,Low,Working,Core staff,Semi-Urban,64030.07,267.18,N,Y,1.0,867.84,0,Unpossessed,897,1889.6,1,Semi-Urban,0,107346.0,51224.06
+M,25,3337.75,Low,Commercial associate,Sales staff,Urban,51182.95,367.08,Y,Y,2.0,766.86,0,Inactive,217,3337.75,2,Rural,1,83148.31,35828.06
+M,18,3136.76,Low,State servant,Medicine staff,Semi-Urban,171174.44,494.96,Y,Y,2.0,837.34,0,Unpossessed,401,3136.76,1,Urban,0,286833.62,0.0
+M,47,3745.12,Low,Working,Laborers,Semi-Urban,118265.89,361.91,Y,N,1.0,855.04,0,Unpossessed,888,3745.12,1,Urban,1,159238.94,82786.12
+M,18,1219.3,Low,Commercial associate,Laborers,Semi-Urban,67349.95,331.27,Y,Y,3.0,706.89,0,Inactive,362,1219.3,4,Rural,1,109885.12,0.0
+M,40,2282.62,Low,Working,Medicine staff,Rural,60916.72,311.38,N,Y,3.0,736.48,0,Active,677,2282.62,3,Urban,1,85169.18,0.0
+M,23,3221.72,Low,Working,Core staff,Urban,154927.64,615.57,N,N,2.0,663.47,0,Active,235,3221.72,3,Rural,1,190616.07,100702.97
+M,53,3390.07,Low,Commercial associate,Sales staff,Semi-Urban,87716.68,322.71,N,N,2.0,634.35,0,Inactive,675,3390.07,2,Urban,1,162525.09,0.0
+M,64,1079.24,Low,Working,Accountants,Semi-Urban,23026.41,162.05,N,Y,1.0,730.08,0,Inactive,756,1079.24,3,Rural,1,-999.0,14967.17
+F,64,2629.56,Low,Working,Core staff,Rural,80706.79,263.53,N,N,6.0,701.88,0,Unpossessed,788,2629.56,2,Semi-Urban,1,137259.63,52459.41
+F,18,1324.48,Low,Working,Sales staff,Semi-Urban,63316.06,422.47,Y,Y,5.0,741.06,1,Active,442,1324.48,2,Rural,0,105737.53,0.0
+M,42,4223.34,Low,Working,Laborers,Semi-Urban,69905.45,532.06,N,Y,1.0,604.63,0,Inactive,891,4223.34,3,Semi-Urban,1,132375.99,0.0
+F,54,2309.95,Low,Working,Laborers,Semi-Urban,63747.16,302.68,N,Y,2.0,638.26,0,Unpossessed,458,2309.95,1,Urban,0,90888.29,0.0
+F,42,2039.57,Low,Commercial associate,Core staff,Semi-Urban,208930.82,672.89,N,N,2.0,719.84,1,Active,751,2039.57,3,Urban,1,368129.21,135805.03
+F,59,2794.26,Low,Working,Sales staff,Semi-Urban,69495.19,305.16,N,N,4.0,796.34,0,Active,849,2794.26,2,Semi-Urban,1,82813.2,52121.39
+M,42,2391.86,Low,Working,Laborers,Semi-Urban,152625.54,409.44,N,Y,3.0,769.59,0,Inactive,195,2391.86,1,Rural,1,210073.26,106837.88
+M,61,3082.83,Low,Commercial associate,Sales staff,Semi-Urban,97815.5,437.01,N,Y,4.0,659.38,1,Inactive,791,3082.83,1,Rural,1,120342.57,68470.85
+M,47,3101.19,Low,Working,Laborers,Semi-Urban,263100.45,745.34,N,Y,2.0,646.2,0,Unpossessed,402,3101.19,4,Semi-Urban,0,403835.13,0.0
+M,26,2373.56,Low,Commercial associate,Laborers,Semi-Urban,76580.45,714.39,N,Y,1.0,683.64,0,Active,664,2373.56,4,Semi-Urban,1,123629.64,0.0
+M,64,2478.3,Low,Working,Core staff,Semi-Urban,171270.39,560.47,N,N,3.0,733.67,0,Unpossessed,530,2478.3,1,Urban,1,300043.91,111325.75
+F,47,3418.16,Low,Working,Sales staff,Semi-Urban,113373.23,615.94,N,N,3.0,717.95,0,Unpossessed,795,3418.16,4,Semi-Urban,1,135257.65,79361.26
+F,42,2134.23,Low,Working,Core staff,Semi-Urban,77398.05,396.93,N,N,1.0,644.0,0,Inactive,216,2134.23,3,Urban,0,121084.23,0.0
+M,52,3677.19,Low,Commercial associate,High skill tech staff,Semi-Urban,126560.35,525.42,Y,Y,2.0,723.16,0,Inactive,403,3677.19,3,Semi-Urban,1,211029.43,82264.23
+M,57,8348.84,Low,Commercial associate,Core staff,Urban,6693.92,79.21,N,Y,1.0,702.19,0,Inactive,42,8348.84,1,Urban,1,10840.32,4685.74
+F,61,1147.39,Low,Working,Security staff,Semi-Urban,40982.31,230.76,N,N,3.0,694.13,0,Unpossessed,433,1147.39,4,Urban,1,49241.31,26638.5
+M,21,2945.25,Low,Commercial associate,Laborers,Semi-Urban,98134.68,471.8,N,Y,2.0,726.93,1,Inactive,501,2945.25,4,Semi-Urban,1,126419.6,63787.54
+F,59,2134.72,Low,Working,Security staff,Rural,66052.53,229.21,N,N,1.0,842.34,0,Unpossessed,797,2134.72,2,Semi-Urban,1,82914.54,0.0
+F,62,2096.79,Low,State servant,Core staff,Semi-Urban,65274.67,294.79,N,N,2.0,838.9,0,Active,231,2096.79,2,Rural,0,123588.32,0.0
+F,42,1815.02,Low,Working,Core staff,Rural,197254.01,657.87,N,Y,3.0,796.09,1,Unpossessed,192,1815.02,1,Urban,1,344989.74,138077.81
+F,30,4983.51,Low,Working,Managers,Rural,83520.11,423.02,Y,Y,3.0,728.51,1,Unpossessed,257,4983.51,4,Urban,1,123978.49,54288.07
+F,22,2091.78,Low,State servant,Core staff,Semi-Urban,178282.17,486.88,Y,N,2.0,777.09,0,Unpossessed,363,2091.78,2,Urban,1,247524.38,133711.63
+F,21,2460.36,Low,Working,Laborers,Semi-Urban,44694.11,387.41,N,Y,2.0,743.33,0,Inactive,944,2460.36,3,Rural,1,63315.72,31285.88
+M,36,1156.64,Low,Working,Core staff,Rural,118501.76,587.6,N,N,5.0,805.92,0,Inactive,508,1156.64,4,Semi-Urban,1,196838.8,94801.41
+M,19,1628.4,Low,Working,Secretaries,Semi-Urban,18277.56,153.52,N,Y,2.0,670.28,0,Inactive,880,1628.4,4,Semi-Urban,1,33905.33,12794.29
+M,39,3114.48,Low,Working,Accountants,Urban,180417.49,738.29,N,N,2.0,838.0,0,Active,940,3114.48,2,Rural,1,246676.79,144333.99
+M,19,4120.13,Low,Commercial associate,Drivers,Urban,162379.08,509.64,Y,Y,2.0,817.33,0,Active,342,4120.13,1,Urban,1,241620.42,113665.36
+F,61,4023.49,Low,Commercial associate,Core staff,Rural,73598.34,612.85,Y,Y,2.0,746.35,0,Active,907,4023.49,1,Rural,1,101011.2,51518.84
+M,32,2516.64,Low,Working,Security staff,Rural,24446.57,176.95,N,N,1.0,745.89,1,Inactive,900,2516.64,1,Semi-Urban,1,-999.0,15890.27
+M,18,2126.74,Low,Working,Drivers,Semi-Urban,41158.21,346.7,Y,N,5.0,688.04,1,Active,393,2126.74,2,Semi-Urban,1,53043.18,26752.84
+M,45,2586.45,Low,Working,Laborers,Semi-Urban,46949.28,242.39,Y,Y,2.0,647.43,1,Inactive,80,2586.45,1,Semi-Urban,1,62195.28,0.0
+F,18,1075.53,Low,State servant,Laborers,Semi-Urban,102563.86,551.18,Y,Y,2.0,713.74,0,Unpossessed,108,1075.53,3,Semi-Urban,1,118982.55,71794.7
+M,31,5294.56,Low,Commercial associate,Laborers,Rural,153284.24,512.18,Y,Y,2.0,652.49,0,Inactive,292,5294.56,2,Rural,1,219191.81,107298.97
+F,60,1826.11,Low,Working,Core staff,Semi-Urban,39789.38,421.51,N,Y,3.0,629.92,0,Inactive,599,1826.11,1,Rural,1,49133.3,0.0
+M,39,1177.71,Low,Working,Managers,Semi-Urban,76599.27,500.76,N,Y,4.0,826.51,1,Active,695,1177.71,1,Urban,1,103319.75,53619.49
+M,40,2210.54,Low,Working,Sales staff,Semi-Urban,56097.99,332.06,Y,Y,1.0,627.31,0,Active,411,2210.54,2,Rural,1,70090.31,0.0
+F,19,1843.19,Low,Working,Security staff,Semi-Urban,151318.04,704.35,N,Y,2.0,664.31,0,Unpossessed,185,1843.19,1,Urban,1,217839.94,98356.73
+M,60,2615.83,Low,Working,Private service staff,Urban,163570.21,961.76,N,N,2.0,790.04,1,Active,640,2615.83,1,Rural,1,253726.93,122677.66
+M,58,1340.91,Low,Working,Laborers,Semi-Urban,31412.37,170.36,N,N,2.0,660.17,0,Active,972,1340.91,3,Rural,1,50906.19,21988.66
+M,38,4323.76,Low,Working,Laborers,Semi-Urban,79259.99,550.75,N,Y,2.0,687.81,1,Active,237,4323.76,2,Semi-Urban,1,110561.93,51518.99
+F,33,5364.07,Low,Working,Core staff,Semi-Urban,38299.03,186.96,Y,Y,1.0,607.0,0,Inactive,591,5364.07,2,Semi-Urban,0,45205.3,0.0
+M,18,2150.07,Low,Working,Medicine staff,Semi-Urban,41853.0,181.75,Y,Y,2.0,763.8,0,Inactive,846,2150.07,1,Rural,1,76817.72,31389.75
+F,48,3914.7,Low,Commercial associate,Accountants,Urban,178867.86,518.33,N,Y,2.0,663.84,0,Unpossessed,392,3914.7,1,Semi-Urban,1,313049.99,116264.11
+F,18,4287.82,Low,State servant,Medicine staff,Semi-Urban,79810.22,558.21,Y,Y,2.0,721.43,0,Inactive,755,4287.82,3,Semi-Urban,1,142050.28,51876.64
+F,18,1897.21,Low,State servant,Medicine staff,Semi-Urban,24157.64,120.75,Y,Y,2.0,844.42,0,Active,145,1897.21,1,Semi-Urban,1,28708.02,16910.35
+M,21,1543.07,Low,State servant,Managers,Semi-Urban,77255.91,419.96,N,N,1.0,702.07,0,Unpossessed,345,1543.07,2,Semi-Urban,1,105394.83,50216.34
+M,57,5520.89,Low,Commercial associate,Managers,Semi-Urban,99466.15,525.17,Y,Y,4.0,785.67,0,Unpossessed,750,5520.89,2,Urban,1,153212.18,74599.61
+F,48,1241.1,Low,Working,Drivers,Semi-Urban,46932.88,383.97,Y,Y,2.0,744.6,1,Inactive,432,1241.1,2,Semi-Urban,0,51696.94,0.0
+M,57,1396.9,Low,State servant,Core staff,Semi-Urban,94512.36,293.65,Y,N,2.0,848.38,0,Unpossessed,314,1396.9,2,Urban,1,162525.73,70884.27
+F,18,1927.24,Low,Commercial associate,Laborers,Semi-Urban,43384.6,341.6,N,Y,2.0,676.7,1,Unpossessed,205,1927.24,3,Semi-Urban,1,50606.92,30369.22
+F,31,1967.25,Low,State servant,Core staff,Semi-Urban,62443.63,456.51,Y,Y,2.0,765.62,0,Unpossessed,704,1967.25,4,Rural,1,102711.0,46832.72
+M,18,2389.85,Low,Working,High skill tech staff,Semi-Urban,61018.57,334.91,Y,Y,3.0,696.32,0,Unpossessed,526,2389.85,4,Rural,1,67145.9,42713.0
+F,26,3088.56,Low,Commercial associate,Managers,Semi-Urban,69740.95,291.59,Y,Y,1.0,863.93,0,Inactive,427,3088.56,4,Semi-Urban,1,95131.05,59279.81
+M,50,3021.55,Low,State servant,Drivers,Semi-Urban,124409.47,671.36,Y,Y,3.0,631.5,1,Active,19,3021.55,3,Semi-Urban,0,139417.97,0.0
+M,18,3751.05,Low,State servant,High skill tech staff,Semi-Urban,224189.89,716.7,Y,Y,3.0,849.95,0,Active,634,3751.05,2,Rural,1,258306.22,168142.42
+F,38,2416.8,Low,Working,Core staff,Rural,109292.27,583.44,N,Y,3.0,635.73,1,Active,916,2416.8,4,Semi-Urban,1,126471.32,0.0
+M,18,1876.23,Low,Commercial associate,Laborers,Semi-Urban,50550.76,237.95,Y,Y,1.0,692.55,0,Unpossessed,777,1876.23,1,Semi-Urban,1,76124.06,35385.53
+M,35,6389.14,Low,Commercial associate,Core staff,Semi-Urban,119750.79,640.94,Y,Y,3.0,673.64,0,Active,437,6389.14,1,Rural,1,192412.27,77838.01
+F,56,3032.66,Low,Working,Laborers,Semi-Urban,39986.83,392.98,N,N,2.0,795.6,0,Unpossessed,853,3032.66,2,Urban,1,50146.72,29990.12
+F,45,1447.74,Low,Working,Accountants,Rural,43377.84,229.47,Y,Y,2.0,818.33,0,Inactive,859,1447.74,3,Rural,1,58668.15,30364.49
+M,62,2718.59,Low,Working,Sales staff,Rural,182187.92,522.7,N,Y,4.0,770.16,1,Inactive,63,2718.59,1,Semi-Urban,1,328778.33,145750.34
+M,64,1886.96,Low,Commercial associate,Laborers,Semi-Urban,138495.4,421.03,Y,Y,4.0,655.25,0,Active,528,1886.96,3,Urban,1,184403.31,96946.78
+F,53,1632.36,Low,Working,Laborers,Semi-Urban,58074.89,332.7,Y,Y,2.0,639.13,0,Inactive,884,1632.36,1,Urban,0,66869.31,0.0
+F,61,1173.09,Low,Commercial associate,Sales staff,Semi-Urban,31670.08,161.43,N,N,3.0,628.73,1,Active,98,1173.09,3,Urban,0,47325.56,0.0
+M,44,2432.62,Low,Working,Drivers,Semi-Urban,75286.99,341.92,Y,N,3.0,761.3,0,Inactive,779,2432.62,3,Urban,0,106103.07,0.0
+M,48,929.15,Low,Working,Cooking staff,Semi-Urban,76111.65,319.88,N,Y,2.0,849.0,0,Active,755,929.15,3,Semi-Urban,1,103827.93,57083.74
+F,33,2060.29,Low,Working,Managers,Rural,65861.53,539.67,Y,N,5.0,616.97,0,Inactive,707,2060.29,3,Semi-Urban,1,124832.78,0.0
+F,26,1405.55,Low,Commercial associate,Laborers,Rural,20281.18,208.54,Y,Y,4.0,712.17,0,Inactive,577,1405.55,3,Semi-Urban,1,27912.88,14196.83
+F,21,1779.5,Low,Working,Core staff,Semi-Urban,56095.34,262.38,N,N,2.0,822.82,0,Active,307,1779.5,1,Semi-Urban,1,92612.15,42071.5
+F,25,2624.62,Low,Commercial associate,Managers,Semi-Urban,40065.09,345.21,Y,Y,3.0,778.97,1,Unpossessed,587,2624.62,3,Rural,1,73252.86,28045.56
+F,18,1667.41,Low,Working,Core staff,Semi-Urban,79703.05,358.28,N,Y,2.0,715.27,0,Active,741,1667.41,2,Urban,1,88804.13,51806.98
+F,21,1598.73,Low,Commercial associate,Sales staff,Semi-Urban,60723.19,230.83,N,N,2.0,691.82,0,Active,444,1598.73,1,Rural,1,79410.6,42506.23
+F,36,1510.51,Low,Working,Sales staff,Rural,57759.21,414.54,Y,Y,3.0,769.47,1,Unpossessed,775,1510.51,2,Urban,1,80154.53,43319.41
+F,52,2681.08,Low,Working,Laborers,Rural,102364.4,291.78,Y,Y,3.0,695.84,0,Unpossessed,35,2681.08,3,Urban,1,124169.16,71655.08
+F,55,1409.1,Low,Working,Drivers,Semi-Urban,134165.1,342.68,N,N,1.0,721.71,1,Inactive,408,1409.1,1,Urban,1,147906.44,93915.57
+M,42,1555.81,Low,State servant,Sales staff,Semi-Urban,24798.23,147.97,N,Y,3.0,752.11,0,Inactive,921,1555.81,2,Rural,1,35222.83,17358.76
+M,31,2622.39,Low,Working,Laborers,Semi-Urban,39036.31,370.75,Y,N,2.0,697.64,0,Active,290,2622.39,2,Semi-Urban,0,60195.29,0.0
+F,49,1891.05,Low,State servant,Core staff,Semi-Urban,38905.86,187.59,N,N,2.0,719.15,1,Unpossessed,687,1891.05,4,Semi-Urban,1,71135.56,0.0
+F,62,1825.37,Low,Commercial associate,Laborers,Semi-Urban,46551.46,327.35,Y,Y,2.0,631.53,0,Unpossessed,81,1825.37,2,Rural,0,82711.5,0.0
+F,23,3507.71,Low,Working,Managers,Semi-Urban,101583.05,622.47,Y,Y,3.0,690.79,0,Unpossessed,843,3507.71,2,Urban,1,160718.08,71108.13
+F,27,1912.18,Low,Commercial associate,Laborers,Semi-Urban,40154.86,402.05,N,Y,4.0,761.35,1,Inactive,790,1912.18,3,Rural,1,56747.26,32123.89
+M,62,2729.32,Low,Working,Drivers,Semi-Urban,23846.79,218.55,Y,Y,3.0,650.63,0,Inactive,248,2729.32,4,Semi-Urban,1,26622.13,15500.41
+M,18,1727.79,Low,Working,Sales staff,Semi-Urban,42581.41,211.44,N,N,2.0,657.42,0,Inactive,388,1727.79,3,Rural,1,80209.46,29806.99
+M,21,1943.12,Low,Working,Sales staff,Urban,92537.26,504.05,Y,Y,2.0,694.34,1,Active,488,1943.12,4,Urban,1,125904.94,0.0
+F,60,1318.47,Low,Working,Sales staff,Semi-Urban,30191.08,114.06,N,Y,2.0,766.81,0,Active,459,1318.47,1,Semi-Urban,1,36230.17,0.0
+F,57,2797.29,Low,Working,Laborers,Semi-Urban,71589.11,283.25,N,Y,2.0,683.45,1,Unpossessed,500,2797.29,4,Urban,1,80220.25,46532.92
+F,31,1018.08,Low,Working,Laborers,Semi-Urban,47931.08,232.99,N,Y,4.0,587.42,0,Unpossessed,532,1018.08,3,Rural,1,85920.33,0.0
+M,26,2382.22,Low,Working,Accountants,Semi-Urban,223194.24,686.57,Y,Y,4.0,737.7,0,Unpossessed,622,2382.22,3,Semi-Urban,1,405950.19,145076.26
+F,64,1972.37,Low,Commercial associate,Sales staff,Semi-Urban,52530.57,258.3,N,Y,1.0,691.09,0,Unpossessed,428,1972.37,3,Urban,1,67836.88,0.0
+M,60,2833.26,Low,Working,Laborers,Rural,24384.1,172.15,Y,N,2.0,681.23,0,Active,73,2833.26,2,Semi-Urban,1,43184.79,17068.87
+M,48,1269.32,Low,Commercial associate,Sales staff,Semi-Urban,150800.08,418.78,N,Y,2.0,733.62,0,Inactive,924,1269.32,4,Rural,1,189283.18,98020.05
+F,23,3635.8,Low,Working,High skill tech staff,Semi-Urban,88460.31,408.14,N,N,4.0,832.31,1,Inactive,497,3635.8,1,Semi-Urban,1,104569.47,66345.23
+F,20,2611.38,Low,Commercial associate,Waiters/barmen staff,Semi-Urban,64207.24,193.23,N,Y,2.0,753.5,0,Inactive,133,2611.38,2,Semi-Urban,1,88115.04,44945.07
+M,23,1191.67,Low,Commercial associate,Sales staff,Semi-Urban,75532.31,538.88,Y,Y,2.0,847.72,0,Inactive,363,1191.67,2,Urban,1,99786.33,52872.62
+F,31,2022.57,Low,Working,Laborers,Semi-Urban,66151.15,398.62,Y,N,1.0,619.18,0,Active,601,2022.57,3,Urban,1,98420.33,0.0
+F,46,1987.28,Low,Working,Core staff,Rural,34775.7,210.26,N,Y,4.0,791.28,0,Unpossessed,553,1987.28,1,Semi-Urban,1,56174.36,24342.99
+M,18,3160.54,Low,Working,Laborers,Rural,12333.98,128.91,N,Y,2.0,721.94,0,Active,379,3160.54,1,Rural,1,14864.46,8017.09
+M,38,6053.64,Low,Commercial associate,Core staff,Semi-Urban,108106.44,476.85,N,Y,2.0,673.34,0,Inactive,259,6053.64,4,Urban,1,137296.14,70269.19
+M,63,4022.74,Low,Working,Drivers,Rural,67043.12,340.02,Y,Y,1.0,667.28,0,Inactive,178,4022.74,1,Semi-Urban,1,124655.39,46930.18
+M,18,5095.56,Low,Commercial associate,Drivers,Urban,186161.93,557.4,Y,N,2.0,693.93,0,Inactive,568,5095.56,1,Semi-Urban,1,304765.91,121005.25
+M,18,5023.71,Low,State servant,Managers,Rural,128434.52,840.25,Y,N,5.0,725.69,0,Active,403,5023.71,3,Semi-Urban,1,148502.95,89904.16
+F,18,2604.68,Low,Commercial associate,Drivers,Semi-Urban,26473.1,218.44,N,Y,1.0,609.07,0,Inactive,234,2604.68,3,Urban,0,43267.79,0.0
+M,51,3778.53,Low,Commercial associate,Managers,Semi-Urban,118105.6,637.05,Y,Y,2.0,724.45,0,Active,493,3778.53,3,Rural,1,146404.51,76768.64
+M,18,1698.37,Low,Working,Medicine staff,Rural,42823.96,287.57,N,N,1.0,675.99,1,Unpossessed,216,1698.37,3,Urban,1,70881.37,27835.57
+M,18,2613.65,Low,State servant,Drivers,Semi-Urban,55772.3,285.74,Y,N,4.0,618.98,0,Inactive,867,2613.65,1,Urban,1,63681.37,0.0
+F,22,1267.06,Low,Working,High skill tech staff,Semi-Urban,27527.98,129.19,Y,Y,2.0,644.15,0,Unpossessed,609,1267.06,1,Urban,1,45732.25,0.0
+F,28,1952.6,Low,Commercial associate,Laborers,Semi-Urban,120404.77,388.44,N,Y,1.0,849.37,0,Unpossessed,673,1952.6,2,Rural,1,215505.73,84283.34
+F,23,2913.59,Low,Working,Sales staff,Semi-Urban,154294.54,456.12,Y,N,3.0,848.79,0,Unpossessed,560,2913.59,1,Rural,1,260531.25,123435.63
+F,24,2710.28,Low,Working,Laborers,Semi-Urban,158048.27,425.27,N,N,2.0,673.53,0,Unpossessed,781,2710.28,1,Semi-Urban,1,284717.74,110633.79
+F,56,3077.68,Low,Commercial associate,Sales staff,Semi-Urban,87729.93,354.96,Y,Y,2.0,777.67,0,Active,182,3077.68,2,Semi-Urban,1,161492.47,61410.95
+F,52,5551.44,Low,Working,Drivers,Urban,75650.25,517.27,Y,N,3.0,797.51,0,Inactive,592,5551.44,4,Rural,1,84677.6,60520.2
+F,64,2798.63,Low,Working,Medicine staff,Rural,267597.38,750.45,N,Y,3.0,796.25,1,Unpossessed,552,2798.63,3,Urban,1,298498.45,214077.9
+M,56,1842.42,Low,Working,Cleaning staff,Semi-Urban,65330.08,342.55,N,Y,2.0,751.41,0,Inactive,233,1842.42,2,Urban,1,112920.76,52264.06
+M,36,2925.03,Low,Working,Laborers,Semi-Urban,18397.43,165.24,N,N,2.0,785.01,0,Unpossessed,888,2925.03,1,Urban,1,26458.92,14717.94
+F,37,1951.67,Low,Working,Laborers,Semi-Urban,46020.92,237.66,Y,Y,4.0,768.7,0,Inactive,348,1951.67,4,Urban,1,57718.12,32214.64
+F,33,1534.96,Low,Commercial associate,Accountants,Rural,213066.0,679.94,N,Y,4.0,707.36,0,Inactive,516,1534.96,1,Urban,0,255468.05,0.0
+M,25,3884.79,Low,Commercial associate,Laborers,Urban,30822.22,258.71,N,N,3.0,583.54,0,Active,350,3884.79,1,Semi-Urban,1,42984.63,0.0
+M,27,2389.24,Low,State servant,Core staff,Semi-Urban,15241.67,150.31,Y,Y,4.0,773.35,1,Unpossessed,106,2389.24,3,Urban,0,18623.02,0.0
+M,22,1638.02,Low,Working,Accountants,Semi-Urban,17055.02,172.82,Y,N,4.0,747.59,0,Unpossessed,714,1638.02,3,Urban,1,28628.26,11085.76
+F,51,3518.61,Low,Commercial associate,Sales staff,Semi-Urban,42193.39,421.38,N,Y,2.0,752.75,0,Active,878,3518.61,3,Urban,1,63902.64,29535.37
+M,46,2284.01,Low,Commercial associate,Accountants,Semi-Urban,67578.27,341.03,Y,N,2.0,751.37,0,Active,339,2284.01,1,Urban,1,120233.59,50683.7
+F,57,1700.17,Low,Working,Laborers,Rural,27590.74,202.56,Y,N,1.0,658.47,0,Unpossessed,660,1700.17,4,Semi-Urban,1,43022.07,17933.98
+F,37,4521.63,Low,State servant,Managers,Rural,69997.49,501.28,N,Y,3.0,660.3,1,Inactive,769,4521.63,2,Urban,1,106752.67,45498.37
+F,53,2259.89,Low,Working,Core staff,Semi-Urban,66790.89,654.63,N,Y,3.0,754.64,0,Unpossessed,679,2259.89,3,Urban,1,121356.1,53432.71
