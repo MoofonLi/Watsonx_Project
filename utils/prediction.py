@@ -10,11 +10,19 @@ class LoanPredictor:
 
         load_dotenv()
         
+        
+        try:
+            self.api_key = st.secrets["WATSONX_API_KEY"]
+            self.url = st.secrets("WATSONX_URL", "https://us-south.ml.cloud.ibm.com")
+            self.deployment_id = st.secrets("WATSONX_DEPLOYMENT_ID")
+            self.space_id = st.secrets("WATSONX_SPACE_ID")
+        except:
+            # local
+            self.api_key = os.getenv("WATSONX_API_KEY")
+            self.url = os.getenv("WATSONX_URL", "https://us-south.ml.cloud.ibm.com")
+            self.deployment_id = os.getenv("WATSONX_DEPLOYMENT_ID")
+            self.space_id = os.getenv("WATSONX_SPACE_ID")
 
-        self.api_key = os.getenv("WATSONX_API_KEY")
-        self.url = os.getenv("WATSONX_URL", "https://us-south.ml.cloud.ibm.com")
-        self.deployment_id = os.getenv("WATSONX_DEPLOYMENT_ID")
-        self.space_id = os.getenv("WATSONX_SPACE_ID")
         self.token_manager = token_manager
         
 

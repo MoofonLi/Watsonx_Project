@@ -11,7 +11,10 @@ dotenv.load_dotenv()
 class TokenManager:
     def __init__(self):
         # initialize token manager
-        self.api_key = os.getenv("WATSONX_API_KEY")
+        try:
+            self.api_key = st.secrets["WATSONX_API_KEY"]
+        except:
+            self.api_key = os.getenv("WATSONX_API_KEY")
         self.token = None
         self.token_expiry = None
         self.token_lock = threading.Lock()
