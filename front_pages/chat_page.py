@@ -1,5 +1,5 @@
 import streamlit as st
-from utils.watsonx import WatsonX, Document
+from utils.agent_setting import Agent, Document
 from utils.document_store import DocumentStore
 
 def chat_page():
@@ -11,7 +11,7 @@ def chat_page():
     
     # Initialize WatsonX
     if 'watsonx' not in st.session_state:
-        st.session_state.watsonx = WatsonX(st.session_state.token_manager)
+        st.session_state.watsonx = Agent(st.session_state.token_manager)
         
     # Initialize document store
     if 'document_store' not in st.session_state:
