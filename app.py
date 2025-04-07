@@ -110,7 +110,7 @@ def main():
     with st.sidebar:
         st.markdown('<p class="sidebar-title">XX銀行</p>', unsafe_allow_html=True)
         
-        # 使用 container 來包裹按鈕
+        # Pages
         button_container = st.container()
         with button_container:
             if st.button('預測頁面', use_container_width=True):
